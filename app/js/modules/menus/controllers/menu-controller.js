@@ -2,11 +2,8 @@
 
 MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
 
-  // View cache
-  var _viewCache = {},
-
   // Element cache
-  $els = {
+  var $els = {
     body: $('body'),
     content: $('#content'),
     actions: $('#home-actions'),
@@ -74,18 +71,10 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     // Set menu tab.
     _activateTab(section);
 
-    // Create the view if it doesn't exist in the cache.
-    if(!_viewCache[section]) {
-      _viewCache[section] = new App.Views.Menu.CollectionView({
-        collection: new App.Models.Menu.Collection(App.Data.Menu.Data[section])
-      });
-    } else {
-      // Delegate events since we are reusing views.
-      _viewCache[section].delegateEvents();
-    }
-
     // Append the views to the content region.
-    App.Content.show(_viewCache[section]);
+    App.Content.show(new App.Views.Menu.CollectionView({
+      collection: new App.Models.Menu.Collection(App.Data.Menu.Data[section])
+    }));
 
   },
 
