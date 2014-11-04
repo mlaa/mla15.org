@@ -22,7 +22,7 @@ MLA14.module('Views.Error', function(Error, App, Backbone, Marionette, $, _, Tem
 
   Error.CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Error.ItemView,
+    childView: Error.ItemView,
     tagName: 'ul',
     className: 'error list',
 

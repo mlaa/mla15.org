@@ -50,7 +50,7 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
   Filter.CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Filter.ItemView,
+    childView: Filter.ItemView,
     tagName: 'ul',
     className: 'list filters',
 
@@ -59,7 +59,7 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
     },
 
     initialize: function() {
-      this.listenTo(this, 'itemview:setFilters', this.setFilters);
+      this.listenTo(this, 'childview:setFilters', this.setFilters);
       this.describeFilters();
     },
 
@@ -87,13 +87,13 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
     },
 
-    setFilters: function(itemView) {
+    setFilters: function(childView) {
 
       // Loop through all the filters.
       this.collection.each(function(model) {
 
         // Check if the filter is in the current group.
-        if(model !== itemView.model && model.get('type') === itemView.model.get('type')) {
+        if(model !== childView.model && model.get('type') === childView.model.get('type')) {
           model.set('active', '');
         }
 

@@ -22,7 +22,7 @@ MLA14.module('Views.Person', function(Person, App, Backbone, Marionette, $, _, T
 
   Person.CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Person.ItemView,
+    childView: Person.ItemView,
     tagName: 'ul',
     className: 'list people',
 

@@ -29,7 +29,7 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
 
   Session.CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Session.ItemView,
+    childView: Session.ItemView,
     tagName: 'ul',
     className: 'program list',
 

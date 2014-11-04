@@ -1,7 +1,7 @@
 /* Main */
 
 // Start the history listener.
-MLA14.on('initialize:after', function() {
+MLA14.on('start', function() {
   Backbone.history.start({pushState: true});
 });
 

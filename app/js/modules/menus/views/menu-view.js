@@ -35,7 +35,7 @@ MLA14.module('Views.Menu', function(Menu, App, Backbone, Marionette, $, _, Templ
 
   Menu.CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Menu.ItemView,
+    childView: Menu.ItemView,
     tagName: 'ul',
     className: 'list',
 
@@ -52,7 +52,7 @@ MLA14.module('Views.Menu', function(Menu, App, Backbone, Marionette, $, _, Templ
 
   Menu.MapCollectionView = Backbone.Marionette.CollectionView.extend({
 
-    itemView: Menu.ItemView,
+    childView: Menu.ItemView,
     tagName: 'ul',
     className: 'list',
 
