@@ -23,10 +23,7 @@ module.exports = {
   app: {
     options: {
       browser: true,
-      node: true,
-      globals: {
-        'JST': true
-      }
+      node: true
     },
     files: {
       src: [

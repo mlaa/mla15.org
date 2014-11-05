@@ -13,7 +13,6 @@ module.exports = {
     },
     files: {
       'app/build/src/app.min.js': [
-        'app/build/src/compiled-templates.js',
         'app/build/src/app.bundle.js'
       ]
     }

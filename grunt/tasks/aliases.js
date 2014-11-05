@@ -5,10 +5,10 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     [
-      'jst',
-      'browserify',
       'concat',
       'jshint',
+      'template-module',
+      'browserify',
       'uglify',
       'clean',
       'string-replace:fix',
