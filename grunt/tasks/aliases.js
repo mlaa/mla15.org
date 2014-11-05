@@ -13,7 +13,6 @@ module.exports = function(grunt) {
       'browserify',
       'uglify',
       'clean',
-      'string-replace:fix',
       'imageEmbed',
       'cssmin',
       'staticinline',
