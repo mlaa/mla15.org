@@ -1,9 +1,13 @@
 {
-  "name": "mla14.org",
+  "name": "mla15.org",
   "version": "0.1.0",
   "description": "",
   "author": "Chris Zarate",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlaa/mla15.org"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-aws": "^0.2.8",

@@ -1,7 +1,7 @@
-# MLA14.org
+# MLA15.org
 
-This is the Mobile Program for the 2014 MLA Convention in Chicago. A hosted
-version can be found at [mla14.org][mla14].
+This is the Mobile Program for the 2015 MLA Convention in Vancouver. A hosted
+version can be found at [mla15.org][mla15].
 
 ## Program data
 
@@ -10,15 +10,11 @@ be found in the `app/data` folder.
 
 ## Build
 
-This project uses [Bower][bower] and [Grunt][grunt]:
+This project uses [Grunt][grunt]:
 
 ```bash
-npm install
-cd app && bower install
-grunt components
-grunt
+npm install && grunt
 ```
 
-[mla14]: http://mla14.org
-[bower]: http://bower.io
+[mla15]: http://mla15.org
 [grunt]: http://gruntjs.org
