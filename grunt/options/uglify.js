@@ -14,8 +14,7 @@ module.exports = {
     files: {
       'app/build/src/app.min.js': [
         'app/build/src/compiled-templates.js',
-        'app/js/*/**/*.js',
-        'app/js/main.js'
+        'app/build/src/app.bundle.js'
       ]
     }
   }

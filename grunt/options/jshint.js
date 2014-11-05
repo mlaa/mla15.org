@@ -23,17 +23,14 @@ module.exports = {
   app: {
     options: {
       browser: true,
+      node: true,
       globals: {
-        '_': true,
-        'Backbone': true,
-        'Marionette': true,
         'JST': true
-      },
-      jquery: true
+      }
     },
     files: {
       src: [
-        'app/build/app.js'
+        'app/build/src/app.js'
       ]
     }
   }
