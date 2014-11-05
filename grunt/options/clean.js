@@ -3,7 +3,6 @@
 module.exports = {
   app: [
     'app/build/src/app.js',
-    'app/build/src/app.bundle.js',
     'app/build/src/compiled-templates.js'
   ]
 };
