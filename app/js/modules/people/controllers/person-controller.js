@@ -1,11 +1,13 @@
 /* Person controller */
 
-MLA14.module('Controllers.Person', function(Person, App, Backbone, Marionette) {
+module.exports = function (Module, App, Backbone) {
 
-  Person.Controller = Marionette.Controller.extend({
+  var _ = Backbone._;
+
+  return Backbone.Marionette.Controller.extend({
 
     // Generate section-level view.
-    showMenu: function(category) {
+    showMenu: function (category) {
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'people');
@@ -23,11 +25,11 @@ MLA14.module('Controllers.Person', function(Person, App, Backbone, Marionette) {
           title: category
         });
 
-        if(filteredPeople.length > 1) {
+        if (filteredPeople.length > 1) {
           // Add views to content pane.
           App.Content.show(
-            new App.Views.Person.CollectionView({
-              collection: new App.Models.Person.Collection(filteredPeople)
+            new Module.Views.Person.CollectionView({
+              collection: new Module.Models.Person.Collection(filteredPeople)
             })
           );
         } else {
@@ -39,20 +41,20 @@ MLA14.module('Controllers.Person', function(Person, App, Backbone, Marionette) {
     },
 
     // Generate person-level view.
-    showPerson: function(id) {
+    showPerson: function (id) {
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'people');
 
       // Append the views to the main region.
-      App.Data.Promises.people.done(function(people) {
+      App.Data.Promises.people.done(function (people) {
 
         // Find the person that matches the passed ID.
-        var thePerson = _.find(people, function(person) {
+        var thePerson = _.find(people, function (person) {
           return person.id === id;
         });
 
-        if(thePerson) {
+        if (thePerson) {
           // Pass the rest of the work on the program module.
           App.vent.trigger('program:showGroup', thePerson);
         } else {
@@ -65,4 +67,4 @@ MLA14.module('Controllers.Person', function(Person, App, Backbone, Marionette) {
 
   });
 
-});
+};

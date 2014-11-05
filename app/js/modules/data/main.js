@@ -1,27 +1,29 @@
 /* Data module */
 
-MLA14.module('Data', function(Data, App, Backbone, Marionette, $, _) {
+module.exports = function (Module, App, Backbone) {
 
-  var $html = $('html'),
+  var $ = Backbone.$;
+  var _ = Backbone._;
+  var $html = $('html');
 
   // Return a promise for the data via jQuery.
-  _getData = function(url) {
+  var _getData = function (url) {
     return $.getJSON(url).done(_checkPromises).fail(_handleFetchError);
-  },
+  };
 
-  _handleFetchError = function() {
+  var _handleFetchError = function () {
     App.vent.trigger('error:unknown');
-  },
+  };
 
   // Lift loading indicator when data has loaded.
-  _checkPromises = function() {
+  var _checkPromises = function () {
 
     // Check if we are still waiting on a promise to be resolved.
-    var waiting = _.reduce(Data.Promises, function(memo, promise) {
+    var waiting = _.reduce(Module.Promises, function (memo, promise) {
       return (promise.state() === 'resolved') ? memo : 1;
     }, 0);
 
-    if(!waiting) {
+    if (!waiting) {
       $html.removeClass('loading');
     }
 
@@ -31,11 +33,11 @@ MLA14.module('Data', function(Data, App, Backbone, Marionette, $, _) {
   $html.addClass('loading');
 
   // Create promises for the site data.
-  Data.Promises = {
+  Module.Promises = {
     program: _getData('/data/program.json'),
     people: _getData('/data/people.json'),
     info: _getData('/data/info.json'),
     updated: _getData('/data/updated.json')
   };
 
-});
+};

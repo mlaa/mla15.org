@@ -1,28 +1,28 @@
 /* Error view */
 
-MLA14.module('Views.Error', function(Error, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Error.ItemView = Backbone.Marionette.ItemView.extend({
+  var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
-    template: Templates['app/js/modules/error/templates/error.tmpl'],
+    template: App.Templates['app/js/modules/error/templates/error.tmpl'],
 
-    className: function() {
+    className: function () {
       return this.model.attributes.type || this.model.attributes.style || null;
     },
 
-    initialize: function() {
+    initialize: function () {
       // Swap in alternate template when needed.
-      if(this.model.attributes.type) {
-        this.template = Templates['app/js/modules/error/templates/error-head.tmpl'];
+      if (this.model.attributes.type) {
+        this.template = App.Templates['app/js/modules/error/templates/error-head.tmpl'];
       }
     }
 
   });
 
-  Error.CollectionView = Backbone.Marionette.CollectionView.extend({
+  var CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Error.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'error list',
 
@@ -30,7 +30,7 @@ MLA14.module('Views.Error', function(Error, App, Backbone, Marionette, $, _, Tem
       'click .filter-head': 'editFilters'
     },
 
-    editFilters: function(e) {
+    editFilters: function (e) {
       e.preventDefault();
       Backbone.history.navigate('filter', true);
     }
@@ -38,4 +38,10 @@ MLA14.module('Views.Error', function(Error, App, Backbone, Marionette, $, _, Tem
 
   });
 
-}, JST);
+  Module.Views = Module.Views || {};
+  Module.Views.Error = {
+    ItemView: ItemView,
+    CollectionView: CollectionView
+  };
+
+};

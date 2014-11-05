@@ -1,18 +1,21 @@
 /* Filter */
 
-MLA14.module('Models.Filter', function(Filter, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  Filter.Model = Backbone.Model.extend({
-
-    // Set defaults.
+  var Model = Backbone.Model.extend({
     defaults: {
       active: ''
     }
-
   });
 
-  Filter.Collection = Backbone.Collection.extend({
-    model: Filter.Model
+  var Collection = Backbone.Collection.extend({
+    model: Model
   });
 
-});
+  Module.Models = Module.Models || {};
+  Module.Models.Filter = {
+    Model: Model,
+    Collection: Collection
+  };
+
+};

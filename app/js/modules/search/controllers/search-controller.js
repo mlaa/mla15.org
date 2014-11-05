@@ -1,6 +1,9 @@
 /* Search controller */
 
-MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
+module.exports = function (Module, App, Backbone) {
+
+  var $ = Backbone.$;
+  var _ = Backbone._;
 
   // Element cache
   var $els = {
@@ -8,22 +11,22 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
     body: $('body'),
     search: $('#search'),
     terms:  $('#terms')
-  },
+  };
 
   // Clean search terms.
-  _cleanTerms = function(str) {
+  var _cleanTerms = function (str) {
     return str.replace(/\+/g, ' ')
               .replace(/\s+/g, ' ')
               .replace(/^\s/, '')
               .replace(/\s$/, '');
-  },
+  };
 
   // Send search in response to user request.
-  _handler = function(e) {
+  var _handler = function (e) {
 
     // Get search terms.
-    var terms = _cleanTerms($els.terms.val()),
-        termsURIFragment = encodeURIComponent(terms).replace(/%20/g, '+');
+    var terms = _cleanTerms($els.terms.val());
+    var termsURIFragment = encodeURIComponent(terms).replace(/%20/g, '+');
 
     // Blur search field.
     $els.terms.trigger('blur');
@@ -38,21 +41,21 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
     e.preventDefault();
     return false;
 
-  },
+  };
 
   // Add class to body to prevent iOS keyboard yank on fixed position header.
-  _onFocus = function() {
+  var _onFocus = function () {
     $els.body.addClass('searchFocus');
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-  },
+  };
 
   // Remove class from body.
-  _onBlur = function() {
+  var _onBlur = function () {
     $els.body.removeClass('searchFocus');
-  },
+  };
 
   // Retrieve search results via a spit 'n' glue API.
-  _fetchResults = function(termsURIFragment) {
+  var _fetchResults = function (termsURIFragment) {
 
     // Fetch search results from MLA Program (via JSON module).
     // Check for a fruitful search. Get the sequence number of
@@ -60,8 +63,8 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
     // occurred, show an error message.
 
     // Load search terms.
-    var searchTerms = termsURIFragment.replace(/\+/g, '%20'),
-        cleanTerms = _cleanTerms(decodeURIComponent(termsURIFragment));
+    var searchTerms = termsURIFragment.replace(/\+/g, '%20');
+    var cleanTerms = _cleanTerms(decodeURIComponent(termsURIFragment));
 
     // Activate menu tab.
     App.vent.trigger('menu:tab', 'program');
@@ -76,25 +79,25 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
     // Fetch results.
     $.getJSON('/program/program_search?output=json&keyword=' + searchTerms)
 
-      .done(function(data) {
+      .done(function (data) {
 
         var ok = data.hasOwnProperty('results');
 
         // Hide loading indicator.
         $els.html.removeClass('loading');
 
-        if(ok) {
+        if (ok) {
 
-          if(data.results.length) {
+          if (data.results.length) {
 
             // Extract sequence numbers from search results.
-            var searchResults = _.map(data.results, function(result) {
+            var searchResults = _.map(data.results, function (result) {
               /* jshint camelcase: false */
               return result.sequence_number;
-            }),
+            });
 
             // Create a header for the search results.
-            searchHeader = {
+            var searchHeader = {
               name: 'Search: ' + cleanTerms,
               sessions: searchResults
             };
@@ -111,7 +114,7 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
         }
 
       })
-      .error(function() {
+      .error(function () {
         $els.html.removeClass('loading');
         App.vent.trigger('error:unknown');
       });
@@ -123,8 +126,8 @@ MLA14.module('Controllers.Search', function(Search, App, Backbone, Marionette) {
   $els.terms.on('focus', _onFocus);
   $els.terms.on('blur', _onBlur);
 
-  Search.Controller = Marionette.Controller.extend({
+  return Backbone.Marionette.Controller.extend({
     fetchResults: _fetchResults
   });
 
-});
+};

@@ -1,9 +1,11 @@
 /* Menu data */
 
-MLA14.module('Data.Menu', function(Menu) {
+module.exports = function (Module) {
+
+  Module.Data = Module.Data || {};
 
   // Section-level menus
-  Menu.Data = {
+  Module.Data.Menu = {
     program: [
       {
         id: 'program/th',
@@ -427,7 +429,7 @@ MLA14.module('Data.Menu', function(Menu) {
     ]
   };
 
-  Menu.Maps = {
+  Module.Data.Maps = {
     sheraton: [
       {
         type: 'head',
@@ -496,4 +498,4 @@ MLA14.module('Data.Menu', function(Menu) {
     ]
   };
 
-});
+};

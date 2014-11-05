@@ -1,23 +1,23 @@
 /* Info controller */
 
-MLA14.module('Controllers.Info', function(Info, App, Backbone, Marionette) {
+module.exports = function (Module, App, Backbone) {
 
-  Info.Controller = Marionette.Controller.extend({
+  return Backbone.Marionette.Controller.extend({
 
     // Generate section-level view.
-    showInfo: function(resource) {
+    showInfo: function (resource) {
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'info');
 
       // Append the view to the main region.
-      App.Data.Promises.info.done(function(info) {
+      App.Data.Promises.info.done(function (info) {
 
-        if(info[resource]) {
+        if (info[resource]) {
           // Add view to content pane.
           App.Content.show(
-            new App.Views.Info.ItemView({
-              model: new App.Models.Info.Model(info[resource])
+            new Module.Views.Info({
+              model: new Module.Models.Info(info[resource])
             })
           );
         } else {
@@ -30,4 +30,4 @@ MLA14.module('Controllers.Info', function(Info, App, Backbone, Marionette) {
 
   });
 
-});
+};

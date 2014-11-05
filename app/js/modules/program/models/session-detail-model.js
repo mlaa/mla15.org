@@ -1,13 +1,15 @@
 /* Session detail model */
 
-MLA14.module('Models.SessionDetail', function(SessionDetail, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  SessionDetail.Model = Backbone.Model.extend({
+  Module.Models = Module.Models || {};
 
-    getSessionProperties: function() {
+  Module.Models.SessionDetail = Backbone.Model.extend({
 
-      var sequence = this.get('id'),
-          isRegular = /^\d+A?$/.test(sequence);
+    getSessionProperties: function () {
+
+      var sequence = this.get('id');
+      var isRegular = /^\d+A?$/.test(sequence);
 
       return {
         header: (isRegular) ? 'Session ' + sequence : '',
@@ -18,4 +20,4 @@ MLA14.module('Models.SessionDetail', function(SessionDetail, App, Backbone) {
 
   });
 
-});
+};

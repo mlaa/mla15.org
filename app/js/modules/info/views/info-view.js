@@ -1,12 +1,14 @@
 /* Info view */
 
-MLA14.module('Views.Info', function(Info, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Info.ItemView = Backbone.Marionette.ItemView.extend({
+  Module.Views = Module.Views || {};
+
+  Module.Views.Info = Backbone.Marionette.ItemView.extend({
 
     tagName: 'div',
     className: 'info',
-    template: Templates['app/js/modules/info/templates/info.tmpl'],
+    template: App.Templates['app/js/modules/info/templates/info.tmpl'],
 
     events: {
       'click .text-head': 'loadParentMenu'
@@ -18,4 +20,4 @@ MLA14.module('Views.Info', function(Info, App, Backbone, Marionette, $, _, Templ
 
   });
 
-}, JST);
+};

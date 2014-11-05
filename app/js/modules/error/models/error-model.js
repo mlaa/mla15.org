@@ -1,11 +1,16 @@
 /* Error */
 
-MLA14.module('Models.Error', function(Error, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  Error.Model = Backbone.Model.extend({});
-
-  Error.Collection = Backbone.Collection.extend({
-    model: Error.Model
+  var Model = Backbone.Model.extend({});
+  var Collection = Backbone.Collection.extend({
+    model: Model
   });
 
-});
+  Module.Models = Module.Models || {};
+  Module.Models.Error = {
+    Model: Model,
+    Collection: Collection
+  };
+
+};

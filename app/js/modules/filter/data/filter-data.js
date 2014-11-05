@@ -1,9 +1,10 @@
 /* Filter data */
 
-MLA14.module('Data.Filter', function(Filter) {
+module.exports = function (Module, App, Backbone) {
 
-  // Filter data
-  Filter.Data = [
+  var _ = Backbone._;
+
+  var filters = [
     {
       style: 'filter-head',
       title: 'Filters'
@@ -110,8 +111,7 @@ MLA14.module('Data.Filter', function(Filter) {
     }
   ];
 
-  // Categories
-  Filter.Categories = {
+  var categories = {
     'th':  'Thursday',
     'fr':  'Friday',
     'sa':  'Saturday',
@@ -130,4 +130,31 @@ MLA14.module('Data.Filter', function(Filter) {
     'pre': 'Presidential Theme'
   };
 
-});
+  // Get description of the current filters.
+  Module.GetFilterDescription = function (currentFilters) {
+
+    var filterDescription = 'Filters';
+
+    if (currentFilters.length) {
+      filterDescription += ': ' + _.map(currentFilters, function (filter) {
+        return categories[filter];
+      }).join(', ');
+    }
+
+    return filterDescription;
+
+  };
+
+  // Loop through data and "activate" selected filters
+  Module.GetActiveFilters = function (selectedFilters) {
+    return _.map(filters, function (filter) {
+      if (selectedFilters.indexOf(filter.href) !== -1) {
+        filter.active = 'active';
+      } else {
+        filter.active = '';
+      }
+      return filter;
+    });
+  };
+
+};

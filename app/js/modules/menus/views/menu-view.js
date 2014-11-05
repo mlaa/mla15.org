@@ -1,41 +1,43 @@
 /* Menu views */
 
-MLA14.module('Views.Menu', function(Menu, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Menu.ItemView = Backbone.Marionette.ItemView.extend({
+  var $ = Backbone.$;
+
+  var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
-    template: Templates['app/js/modules/menus/templates/menu-item.tmpl'],
+    template: App.Templates['app/js/modules/menus/templates/menu-item.tmpl'],
 
-    className: function() {
+    className: function () {
       return this.model.attributes.type || this.model.attributes.style || null;
     },
 
-    serializeData: function() {
+    serializeData: function () {
       return $.extend(
         this.model.toJSON(),
         this.model.getLinkAttributes()
       );
     },
 
-    initialize: function() {
+    initialize: function () {
 
       // Swap in alternate template when needed.
-      if(this.model.attributes.type) {
-        this.template = Templates['app/js/modules/menus/templates/menu-head.tmpl'];
+      if (this.model.attributes.type) {
+        this.template = App.Templates['app/js/modules/menus/templates/menu-head.tmpl'];
       }
 
-      if(this.model.attributes.href) {
-        this.template = Templates['app/js/modules/menus/templates/menu-item-external.tmpl'];
+      if (this.model.attributes.href) {
+        this.template = App.Templates['app/js/modules/menus/templates/menu-item-external.tmpl'];
       }
 
     }
 
   });
 
-  Menu.CollectionView = Backbone.Marionette.CollectionView.extend({
+  var CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Menu.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'list',
 
@@ -44,15 +46,15 @@ MLA14.module('Views.Menu', function(Menu, App, Backbone, Marionette, $, _, Templ
     },
 
     // When user leaves, save scroll position.
-    saveMenuState: function() {
+    saveMenuState: function () {
       App.vent.trigger('menu:saveMenuState');
     }
 
   });
 
-  Menu.MapCollectionView = Backbone.Marionette.CollectionView.extend({
+  var MapCollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Menu.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'list',
 
@@ -60,11 +62,18 @@ MLA14.module('Views.Menu', function(Menu, App, Backbone, Marionette, $, _, Templ
       'click .head': 'loadParentMenu'
     },
 
-    loadParentMenu: function(e) {
+    loadParentMenu: function (e) {
       e.preventDefault();
       App.vent.trigger('menu:showParent', 'maps');
     }
 
   });
 
-}, JST);
+  Module.Views = Module.Views || {};
+  Module.Views.Menu = {
+    ItemView: ItemView,
+    CollectionView: CollectionView,
+    MapCollectionView: MapCollectionView
+  };
+
+};

@@ -1,11 +1,17 @@
 /* Person */
 
-MLA14.module('Models.Person', function(Person, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  Person.Model = Backbone.Model.extend({});
+  var Model = Backbone.Model.extend({});
 
-  Person.Collection = Backbone.Collection.extend({
-    model: Person.Model
+  var Collection = Backbone.Collection.extend({
+    model: Model
   });
 
-});
+  Module.Models = Module.Models || {};
+  Module.Models.Person = {
+    Model: Model,
+    Collection: Collection
+  };
+
+};

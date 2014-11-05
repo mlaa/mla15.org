@@ -1,8 +1,8 @@
 /* Menu */
 
-MLA14.module('Models.Menu', function(Menu, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  Menu.Model = Backbone.Model.extend({
+  var Model = Backbone.Model.extend({
 
     // Set defaults.
     defaults: {
@@ -10,13 +10,13 @@ MLA14.module('Models.Menu', function(Menu, App, Backbone) {
       title: ''
     },
 
-    getLinkAttributes: function() {
+    getLinkAttributes: function () {
 
-      var href = this.get('href'),
-          target = '';
+      var href = this.get('href');
+      var target = '';
 
       // Determine link type by examining path/protocol.
-      if(href.substring(0, 4) === 'http' || href.substring(0, 1) === '/') {
+      if (href.substring(0, 4) === 'http' || href.substring(0, 1) === '/') {
         target = ' target="_blank"';
       } else {
         href = '#' + href;
@@ -29,11 +29,11 @@ MLA14.module('Models.Menu', function(Menu, App, Backbone) {
 
     },
 
-    formatTitle: function() {
+    formatTitle: function () {
 
-      var title = this.get('title'),
-          sequence = this.get('seq'),
-          isRegular = /^\d+$/.test(sequence);
+      var title = this.get('title');
+      var sequence = this.get('seq');
+      var isRegular = /^\d+$/.test(sequence);
 
       return {
         title: (isRegular) ? sequence + '. ' + title : title
@@ -43,8 +43,14 @@ MLA14.module('Models.Menu', function(Menu, App, Backbone) {
 
   });
 
-  Menu.Collection = Backbone.Collection.extend({
-    model: Menu.Model
+  var Collection = Backbone.Collection.extend({
+    model: Model
   });
 
-});
+  Module.Models = Module.Models || {};
+  Module.Models.Menu = {
+    Model: Model,
+    Collection: Collection
+  };
+
+};

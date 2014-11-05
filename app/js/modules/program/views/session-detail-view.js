@@ -1,14 +1,18 @@
 /* Session detail view */
 
-MLA14.module('Views.SessionDetail', function(SessionDetail, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  SessionDetail.ItemView = Backbone.Marionette.ItemView.extend({
+  var $ = Backbone.$;
+
+  Module.Views = Module.Views || {};
+
+  Module.Views.SessionDetail = Backbone.Marionette.ItemView.extend({
 
     tagName: 'div',
     className: 'session',
-    template: Templates['app/js/modules/program/templates/session-detail.tmpl'],
+    template: App.Templates['app/js/modules/program/templates/session-detail.tmpl'],
 
-    serializeData: function() {
+    serializeData: function () {
       return $.extend(
         this.model.toJSON(),
         this.model.getSessionProperties()
@@ -19,11 +23,11 @@ MLA14.module('Views.SessionDetail', function(SessionDetail, App, Backbone, Mario
       'click .text-head': 'loadParentMenu'
     },
 
-    loadParentMenu: function(e) {
+    loadParentMenu: function (e) {
       e.preventDefault();
       App.vent.trigger('menu:showParent', '');
     }
 
   });
 
-}, JST);
+};

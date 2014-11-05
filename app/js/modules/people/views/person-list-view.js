@@ -1,28 +1,28 @@
 /* Person views */
 
-MLA14.module('Views.Person', function(Person, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Person.ItemView = Backbone.Marionette.ItemView.extend({
+  var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
-    template: Templates['app/js/modules/people/templates/person.tmpl'],
+    template: App.Templates['app/js/modules/people/templates/person.tmpl'],
 
-    className: function() {
+    className: function () {
       return this.model.attributes.type || null;
     },
 
-    initialize: function() {
+    initialize: function () {
       // Swap in alternate template when needed.
-      if(this.model.attributes.type) {
-        this.template = Templates['app/js/modules/people/templates/person-head.tmpl'];
+      if (this.model.attributes.type) {
+        this.template = App.Templates['app/js/modules/people/templates/person-head.tmpl'];
       }
     }
 
   });
 
-  Person.CollectionView = Backbone.Marionette.CollectionView.extend({
+  var CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Person.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'list people',
 
@@ -31,16 +31,22 @@ MLA14.module('Views.Person', function(Person, App, Backbone, Marionette, $, _, T
       'click a': 'saveScrollPosition'
     },
 
-    loadParentMenu: function(e) {
+    loadParentMenu: function (e) {
       e.preventDefault();
       App.vent.trigger('menu:showParent', 'people');
     },
 
     // When user leaves, save scroll position.
-    saveScrollPosition: function() {
+    saveScrollPosition: function () {
       App.vent.trigger('menu:saveMenuState');
     }
 
   });
 
-}, JST);
+  Module.Views = Module.Views || {};
+  Module.Views.Person = {
+    ItemView: ItemView,
+    CollectionView: CollectionView
+  };
+
+};

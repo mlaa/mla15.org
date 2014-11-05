@@ -1,20 +1,21 @@
 /* Session model */
 
-MLA14.module('Models.Session', function(Session, App, Backbone) {
+module.exports = function (Module, App, Backbone) {
 
-  Session.Model = Backbone.Model.extend({
+  Module.Models = Module.Models || {};
 
-    // Set defaults.
+  var Model = Backbone.Model.extend({
+
     defaults: {
       href: '',
       title: ''
     },
 
-    formatTitle: function() {
+    formatTitle: function () {
 
-      var title = this.get('title'),
-          sequence = this.get('id'),
-          isRegular = /^\d+A?$/.test(sequence);
+      var title = this.get('title');
+      var sequence = this.get('id');
+      var isRegular = /^\d+A?$/.test(sequence);
 
       return {
         title: (isRegular) ? sequence + '. ' + title : title
@@ -24,8 +25,13 @@ MLA14.module('Models.Session', function(Session, App, Backbone) {
 
   });
 
-  Session.Collection = Backbone.Collection.extend({
-    model: Session.Model
+  var Collection = Backbone.Collection.extend({
+    model: Model
   });
 
-});
+  Module.Models.Session = {
+    Model: Model,
+    Collection: Collection
+  };
+
+};

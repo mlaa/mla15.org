@@ -7,7 +7,6 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     [
-      'concat',
       'jshint',
       'template-module',
       'browserify',

@@ -1,6 +1,8 @@
 /* Menu controller */
 
-MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
+module.exports = function (Module, App, Backbone) {
+
+  var $ = Backbone.$;
 
   // Element cache
   var $els = {
@@ -15,10 +17,10 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
       maps: $('#maps-tab'),
       info: $('#info-tab')
     }
-  },
+  };
 
   // Active navigation tab.
-  _activateTab = function(section) {
+  var _activateTab = function (section) {
 
     // Test for home page.
     var isHome = (Backbone.history.fragment === '');
@@ -39,21 +41,21 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     $els.tabs.all.removeClass('here');
     $els.tabs[section].addClass('here');
 
-  },
+  };
 
   // Save menu state.
-  _saveMenuState = function() {
-    Menu.stateCache.push({
+  var _saveMenuState = function () {
+    Module.stateCache.push({
       fragment: Backbone.history.fragment,
       scrollPos: document.body.scrollTop || document.documentElement.scrollTop || 0
     });
-  },
+  };
 
   // Create the appearance of restoring the parent menu.
-  _showParent = function(section) {
+  var _showParent = function (section) {
 
     // Get previous state.
-    var state = Menu.stateCache.pop() || Menu.fallbackState;
+    var state = Module.stateCache.pop() || Module.fallbackState;
 
     // Change URL.
     Backbone.history.navigate(state.fragment || section || '', true);
@@ -61,10 +63,10 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     // Set scroll position.
     document.body.scrollTop = document.documentElement.scrollTop = state.scrollPos;
 
-  },
+  };
 
   // Generate section-level view.
-  _showMenu = function(section) {
+  var _showMenu = function (section) {
 
     section = section || 'program';
 
@@ -72,53 +74,28 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     _activateTab(section);
 
     // Append the views to the content region.
-    App.Content.show(new App.Views.Menu.CollectionView({
-      collection: new App.Models.Menu.Collection(App.Data.Menu.Data[section])
+    App.Content.show(new Module.Views.Menu.CollectionView({
+      collection: new Module.Models.Menu.Collection(Module.Data.Menu[section])
     }));
 
-  },
+  };
 
-  _updateInformation = function() {
+  var _updateInformation = function () {
     // Append the views to the main region.
     App.Data.Promises.updated.done(function(update) {
       App.Updated.show(
-        new App.Views.Updated.ItemView({
+        new Module.Views.Updated({
           model: new Backbone.Model(update)
         })
       );
     });
   };
 
-  Menu.Controller = Marionette.Controller.extend({
-
-    showMenu: _showMenu,
-
-    // Maps are just a big menu.
-    showMaps: function(map) {
-
-      // Set menu tab.
-      _activateTab('maps');
-
-      if(App.Data.Menu.Maps[map]) {
-        // Append the views to the content region.
-        App.Content.show(
-          new App.Views.Menu.MapCollectionView({
-            collection: new App.Models.Menu.Collection(App.Data.Menu.Maps[map])
-          })
-        );
-      } else {
-        App.vent.trigger('error:notfound');
-      }
-
-    }
-
-  });
-
   // Menu state cache
-  Menu.stateCache = [];
+  Module.stateCache = [];
 
   // Fallback menu state
-  Menu.fallbackState = {
+  Module.fallbackState = {
     fragment: '',
     scrollPos: 0
   };
@@ -131,4 +108,29 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
   // Show last-updated date.
   _updateInformation();
 
-});
+  return Backbone.Marionette.Controller.extend({
+
+    showMenu: _showMenu,
+
+    // Maps are just a big menu.
+    showMaps: function (map) {
+
+      // Set menu tab.
+      _activateTab('maps');
+
+      if (Module.Data.Maps[map]) {
+        // Append the views to the content region.
+        App.Content.show(
+          new Module.Views.Menu.MapCollectionView({
+            collection: new Module.Models.Menu.Collection(Module.Data.Maps[map])
+          })
+        );
+      } else {
+        App.vent.trigger('error:notfound');
+      }
+
+    }
+
+  });
+
+};

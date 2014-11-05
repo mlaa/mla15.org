@@ -1,24 +1,24 @@
 /* Filter views */
 
-MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Filter.ItemView = Backbone.Marionette.ItemView.extend({
+  var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
-    template: Templates['app/js/modules/filter/templates/filter.tmpl'],
+    template: App.Templates['app/js/modules/filter/templates/filter.tmpl'],
 
-    className: function() {
+    className: function () {
       return this.model.attributes.style || null;
     },
 
-    initialize: function() {
+    initialize: function () {
 
       // Rerender the model when it changes.
       this.listenTo(this.model, 'change', this.render);
 
       // Swap in alternate template when needed.
       if(this.model.attributes.style) {
-        this.template = Templates['app/js/modules/filter/templates/filter-head.tmpl'];
+        this.template = App.Templates['app/js/modules/filter/templates/filter-head.tmpl'];
       }
 
     },
@@ -28,12 +28,12 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
     },
 
     // Set filters on click.
-    setFilter: function(e) {
+    setFilter: function (e) {
 
       // Disable link.
       e.preventDefault();
 
-      if(this.model.get('href')) {
+      if (this.model.get('href')) {
 
         // Toggle the active attribute.
         var active = (this.model.get('active')) ? '' : 'active';
@@ -48,9 +48,9 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
   });
 
-  Filter.CollectionView = Backbone.Marionette.CollectionView.extend({
+  var CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Filter.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'list filters',
 
@@ -58,17 +58,17 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
       'click .button, .filter-head': 'applyFilters'
     },
 
-    initialize: function() {
+    initialize: function () {
       this.listenTo(this, 'childview:setFilters', this.setFilters);
       this.describeFilters();
     },
 
-    getFilters: function() {
+    getFilters: function () {
 
       var currentFilters = [];
 
       // Find the currently active filters.
-      this.collection.each(function(model) {
+      this.collection.each(function (model) {
         if(model.get('active')) {
           currentFilters.push(model.get('href'));
         }
@@ -80,8 +80,8 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
     describeFilters: function() {
 
-      var currentFilters = this.getFilters(),
-          filterDescription = App.Filter.GetFilterDescription(currentFilters);
+      var currentFilters = this.getFilters();
+      var filterDescription = Module.GetFilterDescription(currentFilters);
 
       this.collection.models[0].set('title', filterDescription);
 
@@ -90,7 +90,7 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
     setFilters: function(childView) {
 
       // Loop through all the filters.
-      this.collection.each(function(model) {
+      this.collection.each(function (model) {
 
         // Check if the filter is in the current group.
         if(model !== childView.model && model.get('type') === childView.model.get('type')) {
@@ -104,14 +104,14 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
     },
 
-    applyFilters: function(e) {
+    applyFilters: function (e) {
 
       // Prevent default action.
       e.preventDefault();
 
       // Get currently selected filters.
-      var currentFilters = this.getFilters().join(','),
-          filterRoute = (currentFilters) ? '/program/' + currentFilters : '';
+      var currentFilters = this.getFilters().join(',');
+      var filterRoute = (currentFilters) ? '/program/' + currentFilters : '';
 
       // Navigate to selected filters, if any.
       Backbone.history.navigate(filterRoute, true);
@@ -120,4 +120,10 @@ MLA14.module('Views.Filter', function(Filter, App, Backbone, Marionette, $, _, T
 
   });
 
-}, JST);
+  Module.Views = Module.Views || {};
+  Module.Views.Filter = {
+    ItemView: ItemView,
+    CollectionView: CollectionView
+  };
+
+};

@@ -1,11 +1,9 @@
 /* Error router */
 
-MLA14.module('Routers.Error', function(Error, App, Backbone, Marionette) {
-
-  Error.Router = Marionette.AppRouter.extend({
+module.exports = function (Module, App, Backbone) {
+  return Backbone.Marionette.AppRouter.extend({
     appRoutes: {
       '*error': 'handleError'
     }
   });
-
-});
+};

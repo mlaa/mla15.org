@@ -1,5 +1,6 @@
 /* Info model */
 
-MLA14.module('Models.Info', function(Info, App, Backbone) {
-  Info.Model = Backbone.Model.extend({});
-});
+module.exports = function (Module, App, Backbone) {
+  Module.Models = Module.Model || {};
+  Module.Models.Info = Backbone.Model.extend({});
+};

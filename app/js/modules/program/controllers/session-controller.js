@@ -1,29 +1,31 @@
 /* Session controller */
 
-MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette) {
+module.exports = function (Module, App, Backbone) {
+
+  var _ = Backbone._;
 
   // Generate view for a session group (person or search).
-  var _showSessionsByGroup = function(group) {
+  var _showSessionsByGroup = function (group) {
 
     // Chain off promise from data module.
-    App.Data.Promises.program.done(function(sessions) {
+    App.Data.Promises.program.done(function (sessions) {
 
       // Placeholders, including head for person's name.
-      var lastSubhead,
-          filteredSessions = [{type: 'head', title: group.name}];
+      var lastSubhead;
+      var filteredSessions = [{type: 'head', title: group.name}];
 
       // Filter data to find sessions that match passed IDs.
-      _.each(sessions, function(session) {
+      _.each(sessions, function (session) {
 
         // Keep track of last-seen subhead.
-        if(session.type && session.type === 'subhead') {
+        if (session.type && session.type === 'subhead') {
           lastSubhead = session;
         }
 
-        if(_.contains(group.sessions, session.id)) {
+        if (_.contains(group.sessions, session.id)) {
 
           // Add last-seen subhead if it hasn't already been added.
-          if(lastSubhead) {
+          if (lastSubhead) {
             filteredSessions.push(lastSubhead);
             lastSubhead = false;
           }
@@ -35,11 +37,11 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
       });
 
       // Check for results.
-      if(filteredSessions.length > 1) {
+      if (filteredSessions.length > 1) {
         // Create the session listing view.
         App.Content.show(
-          new App.Views.Session.CollectionView({
-            collection: new App.Models.Session.Collection(filteredSessions)
+          new Module.Views.Session.CollectionView({
+            collection: new Module.Models.Session.Collection(filteredSessions)
           })
         );
       } else {
@@ -48,16 +50,20 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
 
     });
 
-  },
+  };
 
-  _showFilters = function(filters) {
+  var _showFilters = function (filters) {
     Backbone.history.navigate('filter/' + filters, true);
   };
 
-  Session.Controller = Marionette.Controller.extend({
+  // Bind to custom events.
+  App.vent.bind('program:showGroup', _showSessionsByGroup);
+  App.vent.bind('program:editFilters', _showFilters);
+
+  return Backbone.Marionette.Controller.extend({
 
     // Generate session category view.
-    showSessionsByCategory: function(categories) {
+    showSessionsByCategory: function (categories) {
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'program');
@@ -66,29 +72,35 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
       categories = categories.split(',');
 
       // Chain off promise from data module.
-      App.Data.Promises.program.done(function(sessions) {
+      App.Data.Promises.program.done(function (sessions) {
 
         // Placeholders, including head for category description.
-        var lastSubhead,
-            filteredSessions = [{type: 'filter-head', title: App.Filter.GetFilterDescription(categories), cat: categories.join(',')}];
+        var lastSubhead;
+        var filteredSessions = [
+          {
+            type: 'filter-head',
+            title: App.Filter.GetFilterDescription(categories),
+            cat: categories.join(',')
+          }
+        ];
 
         // Filter data to find sessions that match passed categories.
-        _.each(sessions, function(session) {
+        _.each(sessions, function (session) {
 
           // Keep track of last-seen subhead.
-          if(session.type && session.type === 'subhead') {
+          if (session.type && session.type === 'subhead') {
             lastSubhead = session;
           } else {
 
             // Determine the number of missing categories (1 is enough).
-            var nonMatch = _.reduce(categories, function(memo, category) {
+            var nonMatch = _.reduce(categories, function (memo, category) {
               return (_.contains(session.cat, category)) ? memo : 1;
             }, 0);
 
-            if(!nonMatch) {
+            if (!nonMatch) {
 
               // Add last-seen subhead if it hasn't already been added.
-              if(lastSubhead) {
+              if (lastSubhead) {
                 filteredSessions.push(lastSubhead);
                 lastSubhead = false;
               }
@@ -101,11 +113,11 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
 
         });
 
-        if(filteredSessions.length > 1) {
+        if (filteredSessions.length > 1) {
           // Create the session listing view.
           App.Content.show(
-            new App.Views.Session.CollectionView({
-              collection: new App.Models.Session.Collection(filteredSessions)
+            new Module.Views.Session.CollectionView({
+              collection: new Module.Models.Session.Collection(filteredSessions)
             })
           );
         } else {
@@ -117,23 +129,23 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
     },
 
     // Generate session view.
-    showSessionByID: function(id) {
+    showSessionByID: function (id) {
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'program');
 
       // Chain off promise from data module.
-      App.Data.Promises.program.done(function(sessions) {
+      App.Data.Promises.program.done(function (sessions) {
 
         // Filter data to find the session that matches the passed ID.
         var sessionIndex;
 
-        var theSession = _.find(sessions, function(session, index) {
+        var theSession = _.find(sessions, function (session, index) {
           sessionIndex = index;
           return session.id === id;
         });
 
-        if(theSession) {
+        if (theSession) {
 
           // Get previous and next session.
           var sessionThread = {
@@ -141,15 +153,15 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
             nextSessionId: ''
           };
 
-          for(var prev = sessionIndex - 1; prev >= 0; prev = prev - 1) {
-            if(sessions[prev].id) {
+          for (var prev = sessionIndex - 1; prev >= 0; prev = prev - 1) {
+            if (sessions[prev].id) {
               sessionThread.previousSessionId = sessions[prev].id;
               break;
             }
           }
 
-          for(var next = sessionIndex + 1; next < sessions.length; next = next + 1) {
-            if(sessions[next].id) {
+          for (var next = sessionIndex + 1; next < sessions.length; next = next + 1) {
+            if (sessions[next].id) {
               sessionThread.nextSessionId = sessions[next].id;
               break;
             }
@@ -157,8 +169,8 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
 
           // Create the session listing view.
           App.Content.show(
-            new App.Views.SessionDetail.ItemView({
-              model: new App.Models.SessionDetail.Model(_.extend(theSession, sessionThread))
+            new Module.Views.SessionDetail({
+              model: new Module.Models.SessionDetail(_.extend(theSession, sessionThread))
             })
           );
 
@@ -172,8 +184,4 @@ MLA14.module('Controllers.Session', function(Session, App, Backbone, Marionette)
 
   });
 
-  // Bind to custom events.
-  App.vent.bind('program:showGroup', _showSessionsByGroup);
-  App.vent.bind('program:editFilters', _showFilters);
-
-});
+};

@@ -1,10 +1,12 @@
 /* Update information view */
 
-MLA14.module('Views.Updated', function(Updated, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Updated.ItemView = Backbone.Marionette.ItemView.extend({
+  Module.Views = Module.Views || {};
+
+  Module.Views.Updated = Backbone.Marionette.ItemView.extend({
     tagName: 'span',
-    template: Templates['app/js/modules/menus/templates/updated.tmpl']
+    template: App.Templates['app/js/modules/menus/templates/updated.tmpl']
   });
 
-}, JST);
+};

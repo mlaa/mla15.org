@@ -1,35 +1,37 @@
 /* Session views */
 
-MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _, Templates) {
+module.exports = function (Module, App, Backbone) {
 
-  Session.ItemView = Backbone.Marionette.ItemView.extend({
+  var $ = Backbone.$;
+
+  var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
-    template: Templates['app/js/modules/program/templates/session.tmpl'],
+    template: App.Templates['app/js/modules/program/templates/session.tmpl'],
 
-    className: function() {
+    className: function () {
       return this.model.attributes.type || null;
     },
 
-    serializeData: function() {
+    serializeData: function () {
       return $.extend(
         this.model.toJSON(),
         this.model.formatTitle()
       );
     },
 
-    initialize: function() {
+    initialize: function () {
       // Swap in alternate template when needed.
-      if(this.model.attributes.type) {
-        this.template = Templates['app/js/modules/program/templates/session-head.tmpl'];
+      if (this.model.attributes.type) {
+        this.template = App.Templates['app/js/modules/program/templates/session-head.tmpl'];
       }
     }
 
   });
 
-  Session.CollectionView = Backbone.Marionette.CollectionView.extend({
+  var CollectionView = Backbone.Marionette.CollectionView.extend({
 
-    childView: Session.ItemView,
+    childView: ItemView,
     tagName: 'ul',
     className: 'program list',
 
@@ -40,27 +42,27 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
       'click a': 'saveMenuState'
     },
 
-    loadParentMenu: function(e) {
+    loadParentMenu: function (e) {
       e.preventDefault();
       App.vent.trigger('menu:showParent', '');
     },
 
-    editFilters: function(e) {
+    editFilters: function (e) {
       e.preventDefault();
       App.vent.trigger('program:editFilters', this.collection.models[0].get('cat'));
     },
 
-    toggleSessions: function(e) {
+    toggleSessions: function (e) {
 
       // Prevent default link action (select-y).
       e.preventDefault();
 
       // Toggle sessions.
-      if(App.Content.$el.hasClass('collapsed')) {
+      if (App.Content.$el.hasClass('collapsed')) {
 
         // Get current scroll position.
-        var offsetHeight = document.body.scrollTop || document.documentElement.scrollTop || 0,
-            headerHeight, targetOffset;
+        var offsetHeight = document.body.scrollTop || document.documentElement.scrollTop || 0;
+        var headerHeight, targetOffset;
 
         App.Content.$el.removeClass('collapsed');
 
@@ -81,10 +83,17 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
     },
 
     // When user leaves, save scroll position.
-    saveMenuState: function() {
+    saveMenuState: function () {
       App.vent.trigger('menu:saveMenuState');
     }
 
   });
 
-}, JST);
+  Module.Views = Module.Views || {};
+
+  Module.Views.Session = {
+    ItemView: ItemView,
+    CollectionView: CollectionView
+  };
+
+};

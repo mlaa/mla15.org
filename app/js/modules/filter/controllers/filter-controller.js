@@ -1,35 +1,26 @@
 /* Filter controller */
 
-MLA14.module('Controllers.Filter', function(Filter, App, Backbone, Marionette, $, _) {
+module.exports = function (Module, App, Backbone) {
 
-  Filter.Controller = {
+  return Backbone.Marionette.Controller.extend({
 
-    showFilters: function(filters) {
+    showFilters: function (filters) {
 
-      var selectedFilters = (filters) ? filters.split(',') : [],
-
-      // Loop through data and "activate" selected filters
-      myFilterData = _.map(App.Data.Filter.Data, function(filterDatum) {
-        if(selectedFilters.indexOf(filterDatum.href) !== -1) {
-          filterDatum.active = 'active';
-        } else {
-          filterDatum.active = '';
-        }
-        return filterDatum;
-      });
+      var selectedFilters = (filters) ? filters.split(',') : [];
+      var myActiveFilters = Module.GetActiveFilters(selectedFilters);
 
       // Activate menu tab.
       App.vent.trigger('menu:tab', 'program');
 
       // Show filters menu.
       App.Content.show(
-        new App.Views.Filter.CollectionView({
-          collection: new App.Models.Filter.Collection(myFilterData)
+        new Module.Views.Filter.CollectionView({
+          collection: new Module.Models.Filter.Collection(myActiveFilters)
         })
       );
 
     }
 
-  };
+  });
 
-});
+};
