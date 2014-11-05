@@ -27,6 +27,7 @@ module.exports = {
     },
     files: {
       src: [
+        'grunt/**/*.js',
         'app/build/src/app.js'
       ]
     }

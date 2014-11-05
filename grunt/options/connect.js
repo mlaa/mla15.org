@@ -1,5 +1,7 @@
 /* grunt-contrib-connect */
 
+'use strict';
+
 module.exports = {
   server: {
     options: {

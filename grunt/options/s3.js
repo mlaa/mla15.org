@@ -1,5 +1,7 @@
 /* grunt-aws */
 
+'use strict';
+
 module.exports = {
   options: {
     accessKeyId: '<%= aws.accessKeyId %>',

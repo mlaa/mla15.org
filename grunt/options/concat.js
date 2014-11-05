@@ -1,5 +1,7 @@
 /* grunt-contrib-concat */
 
+'use strict';
+
 module.exports = {
   app: {
     files: {

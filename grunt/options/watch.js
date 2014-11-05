@@ -1,5 +1,7 @@
 /* grunt-contrib-watch */
 
+'use strict';
+
 module.exports = {
   html: {
     options: {

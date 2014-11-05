@@ -1,7 +1,12 @@
 /* grunt-contrib-cssmin */
 
+'use strict';
+
 module.exports = {
-  add_banner: {
+  app: {
+    options: {
+      banner: '<%= pkg.banner %>'
+    },
     files: {
       'app/build/src/main.min.css': [
         'app/build/src/main.css'

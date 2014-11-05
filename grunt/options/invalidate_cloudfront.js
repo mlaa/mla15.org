@@ -1,5 +1,7 @@
 /* grunt-invalidate-cloudfront */
 
+'use strict';
+
 module.exports = {
   options: {
     key: '<%= aws.accessKeyId %>',
@@ -57,4 +59,4 @@ module.exports = {
       }
     ]
   }
-}
+};

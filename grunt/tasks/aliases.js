@@ -1,5 +1,7 @@
 /* Grunt task aliases */
 
+'use strict';
+
 module.exports = function(grunt) {
 
   grunt.registerTask(

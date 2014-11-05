@@ -1,5 +1,7 @@
 /* grunt-manifest */
 
+'use strict';
+
 module.exports = {
   generate: {
     options: {
