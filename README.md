@@ -10,7 +10,7 @@ be found in the `app/data` folder.
 
 ## Build
 
-This project uses [Grunt][grunt]:
+This project uses [Grunt][grunt] and [Browserify][browserify] and other stuff.
 
 ```bash
 npm install && grunt
@@ -18,3 +18,4 @@ npm install && grunt
 
 [mla15]: http://mla15.org
 [grunt]: http://gruntjs.org
+[browserify]: http://browserify.org
