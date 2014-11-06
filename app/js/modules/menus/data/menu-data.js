@@ -134,7 +134,7 @@ module.exports = function (Module) {
       {
         id: 'people/Z',
         title: 'Z'
-      },
+      }
     ],
     maps: [
       {

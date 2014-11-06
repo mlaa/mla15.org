@@ -21,7 +21,7 @@ module.exports = {
       basepath: 'app/build/'
     },
     files: {
-      'app/build/index.html': 'app/html/index.html',
+      'app/build/index.html': 'app/html/index.html'
     }
   }
 };
