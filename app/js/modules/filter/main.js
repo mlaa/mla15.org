@@ -1,5 +1,7 @@
 /* Filter module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   require('./data/filter-data.js')(Module, App, Backbone);

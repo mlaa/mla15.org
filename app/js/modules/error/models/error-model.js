@@ -1,5 +1,7 @@
 /* Error */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   var Model = Backbone.Model.extend({});

@@ -1,5 +1,7 @@
 /* Error module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   require('./models/error-model.js')(Module, App, Backbone);

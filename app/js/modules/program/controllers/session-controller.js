@@ -1,5 +1,7 @@
 /* Session controller */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   var _ = Backbone._;

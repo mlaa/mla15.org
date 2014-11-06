@@ -1,5 +1,7 @@
 /* Menu module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   require('./data/menu-data.js')(Module, App, Backbone);

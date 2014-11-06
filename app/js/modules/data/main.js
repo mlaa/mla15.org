@@ -1,5 +1,7 @@
 /* Data module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   var $ = Backbone.$;

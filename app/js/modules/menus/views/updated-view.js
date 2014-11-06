@@ -1,5 +1,7 @@
 /* Update information view */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   Module.Views = Module.Views || {};

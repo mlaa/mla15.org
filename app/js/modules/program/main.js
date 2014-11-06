@@ -2,6 +2,8 @@
 
 module.exports = function (Module, App, Backbone) {
 
+  'use strict';
+
   require('./models/session-model.js')(Module, App, Backbone);
   require('./models/session-detail-model.js')(Module, App, Backbone);
   require('./views/session-view.js')(Module, App, Backbone);

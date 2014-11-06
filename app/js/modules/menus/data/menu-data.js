@@ -1,5 +1,7 @@
 /* Menu data */
 
+'use strict';
+
 module.exports = function (Module) {
 
   Module.Data = Module.Data || {};

@@ -1,5 +1,7 @@
 /* Search module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   var Router = require('./routers/search-router.js')(Module, App, Backbone);

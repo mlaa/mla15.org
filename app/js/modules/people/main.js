@@ -1,5 +1,7 @@
 /* Person module */
 
+'use strict';
+
 module.exports = function (Module, App, Backbone) {
 
   require('./models/person-model.js')(Module, App, Backbone);
