@@ -4,12 +4,16 @@ var $ = require('jquery');
 var _ = require('underscore');
 var Backbone = require('backbone');
 var Templates = require('../build/src/compiled-templates.js');
+var attachFastClick = require('fastclick');
 
 // Side-shim jQuery and Underscore before requiring Marionette.
 Backbone.$ = $;
 Backbone._ = _;
 
 require('backbone.marionette');
+
+// Attach FastClick.
+attachFastClick(document.body);
 
 // Create the application.
 var App = new Backbone.Marionette.Application();
