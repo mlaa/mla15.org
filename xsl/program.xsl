@@ -364,22 +364,9 @@
 
                                 <!-- UPDATE: Specially formatted sessions -->
                                 <xsl:when test="$sequence = '421' and position() = last()">
-                                    <line>1. Report of the Executive Director, Rosemary G. Feal</line>
-                                    <line>2. The Presidential Address, “Connective Histories in Vulnerable Times,” Marianne Hirsch, Columbia Univ., MLA President. Hirsch will discuss her personal and scholarly interests in how traumatic stories are transmitted—in images and narratives made in the aftermath of violence—in the light of her current work on vulnerability. These connections provide a fulcrum for her reflections on the MLA and on the challenges facing the humanities. Hirsch will suggest that an acknowledgment of vulnerability, whether shared or differentially imposed, can create new space for connective engagements in vulnerable times.</line>
-                                    <line>Reception immediately following.</line>
                                 </xsl:when>
 
                                 <xsl:when test="$sequence = '660' and position() = last()">
-                                    <line>1. Margaret W. Ferguson, Univ. of California, Davis, MLA First Vice President, will present the William Riley Parker Prize, James Russell Lowell Prize, MLA Prize for a First Book, Kenneth W. Mildenberger Prize, Katherine Singer Kovacs Prize, Morton N. Cohen Award, MLA Prize for a Scholarly Edition, Aldo and Jeanne Scaglione Prize for Comparative Literary Studies, Aldo and Jeanne Scaglione Prize for French and Francophone Studies, Aldo and Jeanne Scaglione Prize for Studies in Slavic Languages and Literatures, Aldo and Jeanne Scaglione Prize for a Translation of a Scholarly Study of Literature, Aldo and Jeanne Scaglione Prize for Italian Studies, Aldo and Jeanne Scaglione Publication Award for a Manuscript in Italian Literary Studies, Lois Roth Award, William Sanders Scarborough Prize, and MLA Prize in United States Latina and Latino and Chicana and Chicano Literary and Cultural Studies.</line>
-                                    <line>2. Rosemary G. Feal, MLA, will present the <em>MLA International Bibliography Fellowship</em> Awards.</line>
-                                    <line>3. Rosemary G. Feal will announce the recipients of the seal of approval from the Committee on Scholarly Editions.</line>
-                                    <line>4. Timothy Scheie, Univ. of Rochester, Eastman School of Music, ADFL President, will present the ADFL Award for Distinguished Service to the Profession to Elizabeth Bernhardt, Stanford Univ.</line>
-                                    <line>5. Remarks by Elizabeth Bernhardt</line>
-                                    <line>6. Susan Miller, Santa Fe Coll., ADE President, will present the ADE Francis Andrew March Award to Carol T. Christ, Smith Coll.</line>
-                                    <line>7. Remarks by Carol T. Christ</line>
-                                    <line>8. Marianne Hirsch will present the Phyllis Franklin Award for Public Advocacy of the Humanities to John Sayles.</line>
-                                    <line>9. Remarks by John Sayles</line>
-                                    <line>Reception immediately following.</line>
                                 </xsl:when>
 
                             </xsl:choose>
