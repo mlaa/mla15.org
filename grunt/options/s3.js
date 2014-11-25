@@ -10,7 +10,7 @@ module.exports = {
   },
   staging: {
     options: {
-      bucket: 'staging.mla14.org'
+      bucket: 'staging.mla15.org'
     },
     files: [
       {
