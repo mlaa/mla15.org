@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# update-mla14.sh
+# update.sh
 # ---------------------
 # Chris Zarate, 2013-10
 
@@ -14,27 +14,29 @@
 
 ## Usage
 
-  usage_text="[OPTIONS] -i [INPUT_DIRECTORY]
+  usage_text="[OPTIONS] -a [program_xml] -b [people_xml]
 
-  This script looks for updated Program XML in the input directory. If files
-  differ from the previous version, it outputs new HTML files and uploads them
-  to staging.mla14.org.
+  This script looks for updated Program XML and People XML. If files differ
+  from the previous version, it outputs new HTML and JSON files and uploads
+  them to the staging site.
 
   OPTIONS:
-    -i dir    Input directory (required)
-    -n email  E-mail address for notification
-    -s        Enable logging (no console output)
-    -h        Show this message
+    -a xml_file  Program XML
+    -b xml_file  People XML
+    -n email     E-mail address for notification
+    -s           Enable logging (no console output)
+    -h           Show this message
 "
 
 
 ## Command-line options
 
-  flags=i:n:sh
+  flags=a:b:n:sh
 
   options () {
     case $opt in
-      i) resources_dir="$OPTARG";;
+      a) program_xml="$OPTARG";;
+      b) people_xml="$OPTARG";;
       n) notify_email="$OPTARG";;
       s) enable_log="y";;
       h) usage;;
@@ -44,7 +46,7 @@
   }
 
   # Required options
-  required_options="resources_dir"
+  required_options="program_xml people_xml"
 
 
 ## Configuration
@@ -70,29 +72,27 @@
   # Data directory
   json_dir="$grunt_dir/data"
 
-  # Resources (space-separated)
-  resources="conv_prog_participant.xml conv_part_prog.xml"
-
   # Requirements
+  require_files="program_xml people_xml"
   require_dirs="archive_dir xml_dir xsl_dir grunt_dir json_dir"
-
-
-## Bash
-
-  # Source the Bash helper script
-  source $scripts_dir/Tools/bash-helper.sh
-
-  # Source the Bash functions script
-  source $scripts_dir/Tools/bash-functions.sh
 
 
 ## Safety
 
   # Exit if bash helper has not been loaded
-  if [[ -z "$tools_dir" ]]; then
+  if [[ -z "$scripts_dir" ]]; then
     echo "Could not connect to $scripts_dir."
     exit
   fi
+
+
+  ## Bash
+
+  # Source the Bash helper script
+  source $scripts_dir/include/bash/bash-helper.sh
+
+  # Source the Bash functions script
+  source $scripts_dir/include/bash/bash-functions.sh
 
 
 #############################
@@ -103,7 +103,7 @@
 ## Program
 
 # Compare INCOMING XML with PREVIOUS XML
-if `diff -q "$resource1" "$archive_dir/program_latest.xml" >/dev/null`; then
+if `diff -q "$program_xml" "$archive_dir/program_latest.xml" >/dev/null`; then
 	echo "The program XML has not been updated."
 else
 
@@ -111,10 +111,10 @@ else
 	updated_files=YES
 
 	# Keep a copy of the updated XML.
-	cp $resource1 "$archive_dir/program_latest.xml"
+	cp $program_xml "$archive_dir/program_latest.xml"
 
 	# Transform Oracle output.
-	transform_saxon8 "$resource1" "$xsl_dir/program.xsl" "xml-dir=${xml_dir} json-dir=${json_dir}"
+	transform_saxon8 "$program_xml" "$xsl_dir/program.xsl" "xml-dir=${xml_dir} json-dir=${json_dir}"
 
 fi
 
@@ -122,7 +122,7 @@ fi
 ## People
 
 # Compare INCOMING XML with PREVIOUS XML
-if `diff -q "$resource2" "$archive_dir/people_latest.xml" >/dev/null`; then
+if `diff -q "$people_xml" "$archive_dir/people_latest.xml" >/dev/null`; then
 	echo "The participant XML has not been updated."
 else
 
@@ -130,10 +130,10 @@ else
 	updated_files=YES
 
 	# Keep a copy of the updated XML.
-	cp $resource2 "$archive_dir/people_latest.xml"
+	cp $people_xml "$archive_dir/people_latest.xml"
 
 	# Transform Oracle output.
-	transform_saxon8 "$resource2" "$xsl_dir/people.xsl" "xml-dir=${xml_dir} json-dir=${json_dir}"
+	transform_saxon8 "$people_xml" "$xsl_dir/people.xsl" "xml-dir=${xml_dir} json-dir=${json_dir}"
 
 fi
 
