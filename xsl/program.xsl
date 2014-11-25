@@ -69,21 +69,6 @@
             <xsl:apply-templates select="LIST_G_P_SEQ"/>
 
             <!-- Missing sessions -->
-            <session id="M024H">
-                <sequence>155A</sequence>
-                <title>A Screening of <em>Eight Men Out</em>, a Film by John Sayles</title>
-                <date>9 January</date>
-                <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-                <start-time abbrev="18" minutes="30" ambig="eve" header="6:30 p.m.">6:30 p.m.</start-time>
-                <end-time abbrev="20" minutes="45" ambig="eve">8:45 p.m.</end-time>
-                <venue>Chicago Marriott</venue>
-                <room>Grand I</room>
-                <type abbrev="pub">Open to the Public</type>
-                <details>
-                    <line role="calendar">Thursday, 9 January, 6:30–8:45 p.m., Grand I, Chicago Marriott</line>
-                    <line>Program arranged by the Office of the Executive Director</line>
-                </details>
-            </session>
 
         </xsl:variable>
 
