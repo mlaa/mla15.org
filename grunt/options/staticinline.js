@@ -12,6 +12,7 @@ module.exports = {
       vars: {
         'head/meta.html': grunt.file.read('app/html/head/meta.html'),
         'head/icons.html': grunt.file.read('app/html/head/icons.html'),
+        'head/typekit.html': grunt.file.read('app/html/head/typekit.html'),
         'etc/banner.html': grunt.file.read('app/html/etc/banner.html'),
         'etc/search.html': grunt.file.read('app/html/etc/search.html'),
         'etc/tabs.html': grunt.file.read('app/html/etc/tabs.html'),

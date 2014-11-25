@@ -9,7 +9,7 @@ module.exports = {
     },
     files: {
       'app/build/src/main.min.css': [
-        'app/build/src/main.css'
+        'app/css/main.css'
       ]
     }
   }
