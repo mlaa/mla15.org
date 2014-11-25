@@ -119,20 +119,20 @@
 
             <!-- UPDATE: Days of the week -->
             <xsl:choose>
+                <xsl:when test="P_DAY = '08-JAN-14'">
+                    <date>8 January</date>
+                    <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+                </xsl:when>
                 <xsl:when test="P_DAY = '09-JAN-14'">
                     <date>9 January</date>
-                    <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+                    <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
                 </xsl:when>
                 <xsl:when test="P_DAY = '10-JAN-14'">
                     <date>10 January</date>
-                    <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
+                    <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
                 </xsl:when>
                 <xsl:when test="P_DAY = '11-JAN-14'">
                     <date>11 January</date>
-                    <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
-                </xsl:when>
-                <xsl:when test="P_DAY = '12-JAN-14'">
-                    <date>12 January</date>
                     <day num="4" abbrev="su" ambig="Sun.">Sunday</day>
                 </xsl:when>
                 <xsl:otherwise>
@@ -221,9 +221,8 @@
                     <!-- UPDATE: Venues -->
                     <xsl:attribute name="abbrev">
                         <xsl:choose>
-                            <xsl:when test="P_HOTEL = 'Sheraton Chicago'">sh</xsl:when>
-                            <xsl:when test="P_HOTEL = 'Chicago Marriott'">ma</xsl:when>
-                            <xsl:when test="P_HOTEL = 'Fairmont Chicago'">fa</xsl:when>
+                            <xsl:when test="P_HOTEL = 'VCC East'">ve</xsl:when>
+                            <xsl:when test="P_HOTEL = 'VCC West'">vw</xsl:when>
                             <xsl:when test="P_OFFSITE and P_OFFSITE = 'Y'">off</xsl:when>
                             <xsl:otherwise>[Unknown]</xsl:otherwise>
                         </xsl:choose>
@@ -488,11 +487,8 @@
 
         <!-- UPDATE: Venue names -->
         <!-- Shorten venue names -->
-        <xsl:variable name="str5" select="replace($str4, 'Sheraton Chicago', 'Sheraton')"/>
-        <xsl:variable name="str6" select="replace($str5, 'Chicago Marriott', 'Marriott')"/>
-        <xsl:variable name="str7" select="replace($str6, 'Fairmont Chicago', 'Fairmont')"/>
 
-        <xsl:value-of select="$str7"/>
+        <xsl:value-of select="$str4"/>
 
     </xsl:template>
 
@@ -531,14 +527,11 @@
                 <xsl:text>"</xsl:text><xsl:value-of select="day/@abbrev"/><xsl:text>",</xsl:text>
                 <xsl:text>"</xsl:text><xsl:value-of select="start-time/@ambig"/><xsl:text>"</xsl:text>
                 <!-- UPDATE: All filterable session classes -->
-                <xsl:if test="count($concurrent[venue/@abbrev = 'sh']) &gt; 0">
-                    <xsl:text>,"sh"</xsl:text>
+                <xsl:if test="count($concurrent[venue/@abbrev = 've']) &gt; 0">
+                    <xsl:text>,"ve"</xsl:text>
                 </xsl:if>
-                <xsl:if test="count($concurrent[venue/@abbrev = 'ma']) &gt; 0">
-                    <xsl:text>,"ma"</xsl:text>
-                </xsl:if>
-                <xsl:if test="count($concurrent[venue/@abbrev = 'fa']) &gt; 0">
-                    <xsl:text>,"fa"</xsl:text>
+                <xsl:if test="count($concurrent[venue/@abbrev = 'vw']) &gt; 0">
+                    <xsl:text>,"vw"</xsl:text>
                 </xsl:if>
                 <xsl:if test="count($concurrent[venue/@abbrev = 'eh']) &gt; 0">
                     <xsl:text>,"eh"</xsl:text>
