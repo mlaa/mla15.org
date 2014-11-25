@@ -119,19 +119,19 @@
 
             <!-- UPDATE: Days of the week -->
             <xsl:choose>
-                <xsl:when test="P_DAY = '08-JAN-14'">
+                <xsl:when test="P_DAY = '08-JAN-15'">
                     <date>8 January</date>
                     <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
                 </xsl:when>
-                <xsl:when test="P_DAY = '09-JAN-14'">
+                <xsl:when test="P_DAY = '09-JAN-15'">
                     <date>9 January</date>
                     <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
                 </xsl:when>
-                <xsl:when test="P_DAY = '10-JAN-14'">
+                <xsl:when test="P_DAY = '10-JAN-15'">
                     <date>10 January</date>
                     <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
                 </xsl:when>
-                <xsl:when test="P_DAY = '11-JAN-14'">
+                <xsl:when test="P_DAY = '11-JAN-15'">
                     <date>11 January</date>
                     <day num="4" abbrev="su" ambig="Sun.">Sunday</day>
                 </xsl:when>
