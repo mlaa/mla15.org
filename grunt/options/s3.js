@@ -4,9 +4,9 @@
 
 module.exports = {
   options: {
-    accessKeyId: '<%= aws.accessKeyId %>',
-    secretAccessKey: '<%= aws.secretAccessKey %>',
-    region: '<%= aws.region %>'
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    region: process.env.AWS_DEFAULT_REGION
   },
   staging: {
     options: {
