@@ -65,18 +65,13 @@ module.exports = function (Module, App, Backbone) {
     },
     {
       type: 'venue',
-      href: 'sh',
-      title: 'Sheraton'
+      href: 've',
+      title: 'VCC East'
     },
     {
       type: 'venue',
-      href: 'ma',
-      title: 'Marriott'
-    },
-    {
-      type: 'venue',
-      href: 'fa',
-      title: 'Fairmont'
+      href: 'vw',
+      title: 'VCC West'
     },
     {
       type: 'venue',
