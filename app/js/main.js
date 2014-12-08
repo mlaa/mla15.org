@@ -1,14 +1,14 @@
 'use strict';
 
-var $ = require('jquery');
-var _ = require('underscore');
+var jQuery = require('jquery');
+var underscore = require('underscore');
 var Backbone = require('backbone');
 var Templates = require('../build/src/compiled-templates.js');
 var attachFastClick = require('fastclick');
 
 // Side-shim jQuery and Underscore before requiring Marionette.
-Backbone.$ = $;
-Backbone._ = _;
+Backbone.$ = jQuery;
+Backbone._ = underscore;
 
 require('backbone.marionette');
 
