@@ -9,6 +9,7 @@ module.exports = {
         'app/',
         'app/build/'
       ],
+      hostname: '*',
       livereload: true,
       open: true,
       port: 8000
