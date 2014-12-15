@@ -4,8 +4,6 @@
 
 module.exports = function (Module, App, Backbone) {
 
-  var $ = Backbone.$;
-
   var ItemView = Backbone.Marionette.ItemView.extend({
 
     tagName: 'li',
@@ -16,10 +14,7 @@ module.exports = function (Module, App, Backbone) {
     },
 
     serializeData: function () {
-      return $.extend(
-        this.model.toJSON(),
-        this.model.getLinkAttributes()
-      );
+      return this.model.toJSON();
     },
 
     initialize: function () {
@@ -31,6 +26,10 @@ module.exports = function (Module, App, Backbone) {
 
       if (this.model.attributes.href) {
         this.template = App.Templates['app/js/modules/menus/templates/menu-item-external.tmpl'];
+      }
+
+      if (this.model.attributes.childClass) {
+        this.template = App.Templates['app/js/modules/menus/templates/menu-item-icon.tmpl'];
       }
 
     }

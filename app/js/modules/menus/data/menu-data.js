@@ -11,23 +11,28 @@ module.exports = function (Module) {
     program: [
       {
         id: 'program/th',
-        title: 'Thursday, 9 January'
+        title: 'Thursday, 9 January',
+        childClass: 'icon-calendar-empty'
       },
       {
         id: 'program/fr',
-        title: 'Friday, 10 January'
+        title: 'Friday, 10 January',
+        childClass: 'icon-calendar-empty'
       },
       {
         id: 'program/sa',
-        title: 'Saturday, 11 January'
+        title: 'Saturday, 11 January',
+        childClass: 'icon-calendar-empty'
       },
       {
         id: 'program/su',
-        title: 'Sunday, 12 January'
+        title: 'Sunday, 12 January',
+        childClass: 'icon-calendar-empty'
       },
       {
         id: 'filter',
-        title: 'Filter by category'
+        title: 'Filter by category',
+        childClass: 'icon-filter'
       }
     ],
     people: [
