@@ -64,7 +64,7 @@ module.exports = function (Module, App, Backbone) {
 
         // Get current scroll position.
         var offsetHeight = document.body.scrollTop || document.documentElement.scrollTop || 0;
-        var headerHeight = 95;
+        var headerHeight = 91;
         var targetOffset;
 
         App.Content.$el.removeClass('collapsed');
