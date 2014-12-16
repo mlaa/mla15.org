@@ -30,14 +30,13 @@ module.exports = function (Module, App, Backbone) {
     // Scroll to top of the window.
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 
-    // Remove "collapsed" class, if present.
-    $els.content.removeClass('collapsed');
+    // Remove all classes from body and content.
+    $els.body.removeClass();
+    $els.content.removeClass();
 
-    // Show "skyline" expanded header on home page.
+    // Add home and section classes.
     $els.body.toggleClass('home', isHome);
-
-    // Show actions on home page.
-    $els.actions.toggle(isHome);
+    $els.body.addClass(section);
 
     // Add "here" class to show active tab.
     $els.tabs.all.removeClass('here');

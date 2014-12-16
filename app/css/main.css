@@ -190,16 +190,32 @@ fieldset {
 }
 
 
-/* Last updated date */
+/* Home page actions */
 
-#updated {
+#actions {
   display: none;
-  margin: 0;
-  padding: 5px 12px;
-  color: #bbb;
 }
 
-.info #updated {
+.home #actions {
+  display: block;
+}
+
+
+/* Last updated date */
+
+#notice {
+  display: none;
+}
+
+#notice p {
+  margin: 0;
+  padding: 10px 12px 8px 12px;
+  color: #bbb;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.info #notice {
   display: block;
 }
 
@@ -502,21 +518,6 @@ fieldset {
     background-color: #666;
     border: none;
     border-radius: 0;
-  }
-
-}
-
-
-/* Menus touch screen edge */
-
-@media only screen and (max-width: 355px) {
-
-  .actions li:first-child a {
-    border-left: none;
-  }
-
-  .actions li:last-child a {
-    border-right: none;
   }
 
 }

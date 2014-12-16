@@ -24,7 +24,8 @@ App.Templates = Templates;
 // Add regions.
 App.addRegions({
   Content: '#content',
-  Updated: '#updated'
+  Actions: '#actions',
+  Notice: '#notice'
 });
 
 // Load modules.
@@ -37,9 +38,10 @@ App.module('Menus', require('./modules/menus/main.js'));
 App.module('People', require('./modules/people/main.js'));
 App.module('Program', require('./modules/program/main.js'));
 App.module('Search', require('./modules/search/main.js'));
+App.module('Updated', require('./modules/updated/main.js'));
 
 // Start the history listener.
-App.on('start', function() {
+App.on('start', function () {
   Backbone.history.start({pushState: true});
 });
 
