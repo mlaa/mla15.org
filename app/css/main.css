@@ -180,10 +180,6 @@ fieldset {
 
 /* Add icons on home page */
 
-.home #nav {
-  /*height: 55px;*/
-}
-
 #tabs [class^="icon-"]:before, #tabs [class*=" icon-"]:before {
   display: block;
   width: 100%;
@@ -194,13 +190,17 @@ fieldset {
 }
 
 
-/* Update date */
+/* Last updated date */
 
 #updated {
   display: none;
   margin: 0;
   padding: 5px 12px;
   color: #bbb;
+}
+
+.info #updated {
+  display: block;
 }
 
 
@@ -412,10 +412,6 @@ fieldset {
   background-color: #fff;
 }
 
-.home #app {
-  /*margin-top: 109px;*/
-}
-
 #status, #title, .head, .menu-head, .text-head, .filter-head, .subhead {
   top: 66px;
   position: sticky;
@@ -495,10 +491,6 @@ fieldset {
 /* Phone-y */
 
 @media only screen and (max-width: 400px) {
-
-  .home #content {
-    padding-bottom: 100px;
-  }
 
   .session {
     padding-bottom: 48px;

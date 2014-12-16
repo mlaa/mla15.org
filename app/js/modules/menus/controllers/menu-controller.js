@@ -82,17 +82,6 @@ module.exports = function (Module, App, Backbone) {
 
   };
 
-  var _updateInformation = function () {
-    // Append the views to the main region.
-    App.Data.Promises.updated.done(function(update) {
-      App.Updated.show(
-        new Module.Views.Updated({
-          model: new Backbone.Model(update)
-        })
-      );
-    });
-  };
-
   // Menu state cache
   Module.stateCache = [];
 
@@ -106,9 +95,6 @@ module.exports = function (Module, App, Backbone) {
   App.vent.bind('menu:tab', _activateTab);
   App.vent.bind('menu:showParent', _showParent);
   App.vent.bind('menu:saveMenuState', _saveMenuState);
-
-  // Show last-updated date.
-  _updateInformation();
 
   return Backbone.Marionette.Controller.extend({
 

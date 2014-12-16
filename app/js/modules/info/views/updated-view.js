@@ -7,8 +7,8 @@ module.exports = function (Module, App, Backbone) {
   Module.Views = Module.Views || {};
 
   Module.Views.Updated = Backbone.Marionette.ItemView.extend({
-    tagName: 'span',
-    template: App.Templates['app/js/modules/menus/templates/updated.tmpl']
+    tagName: 'p',
+    template: App.Templates['app/js/modules/info/templates/updated.tmpl']
   });
 
 };
