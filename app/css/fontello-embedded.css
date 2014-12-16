@@ -5,47 +5,26 @@
   font-style: normal;
 }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?36768472#fontello') format('svg');
-  }
-}
-*/
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
+.icon:before, .icon:after, .filter-head:before, .subhead:before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
-
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.5em;
-  text-align: left;
-  /* opacity: .8; */
-
-  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
+  text-decoration: inherit;
   text-transform: none;
-
-  /* fix buttons height, for twitter bootstrap */
   line-height: 0.9em;
-
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  /* margin-left: .2em; */
-
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  text-align: left;
+  speak: none;
 }
+
+.icon:after {
+  margin-right: 0;
+  text-align: right;
+}
+
 .icon-attention:before { content: '\e800'; } /* '' */
 .icon-attention-circled:before { content: '\e801'; } /* '' */
 .icon-angle-left:before { content: '\e802'; } /* '' */
@@ -94,3 +73,8 @@
 .icon-mail-1:before { content: '\e82d'; } /* '' */
 .icon-heart:before { content: '\e82e'; } /* '' */
 .icon-heart-empty:before { content: '\e82f'; } /* '' */
+
+/*  */
+.filter-head:before { content: '\e828'; }
+.program .subhead:before { content: '\e805'; }
+.collapsed .subhead:before { content: '\e804'; }

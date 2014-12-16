@@ -35,7 +35,7 @@ module.exports = function (Module, App, Backbone) {
 
     childView: ItemView,
     tagName: 'ul',
-    className: 'program list',
+    className: 'list',
 
     events: {
       'click .head': 'loadParentMenu',

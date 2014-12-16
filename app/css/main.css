@@ -173,10 +173,7 @@ fieldset {
   border-color: #46752c;
 }
 
-
-/* Add icons on home page */
-
-#tabs [class^="icon-"]:before, #tabs [class*=" icon-"]:before {
+#tabs .icon:before {
   display: block;
   width: 100%;
   margin: 0;
@@ -288,7 +285,7 @@ fieldset {
 }
 
 .collapsed li.head, .collapsed li.filter-head, .collapsed li.subhead {
-  display: block;
+  display: list-item;
 }
 
 .collapsed .subhead {
@@ -296,7 +293,7 @@ fieldset {
   display: block;
 }
 
-.list [class^="icon-"]:before, #tabs [class*=" icon-"]:before {
+.list .icon:before {
   color: #697580;
 }
 
@@ -307,17 +304,8 @@ fieldset {
   padding-bottom: 0.1em;
 }
 
-.filters a {
-  background-image: none;
-  padding: 0.75em 12px;
-}
-
 .filters .active {
   font-weight: 600;
-}
-
-.filters .subhead {
-  background-image: none;
 }
 
 .filters .button {
