@@ -339,12 +339,11 @@ fieldset {
   min-height: 21px;
   margin: 0;
   padding: 0.5em 1.6em 0.25em 0.75em;
-  color: #f33;
+  color: #467f2e;
   font-size: 1em;
   font-weight: 400;
   background-color: #fff;
-  border-bottom: solid 1px #fc8d8d;
-  text-transform: uppercase;
+  border-bottom: solid 1px #467f2e;
 }
 
 .text {
@@ -354,7 +353,7 @@ fieldset {
 .text h3 {
   margin: 0.25em 0 0 0;
   padding: 0;
-  color: #333;
+  color: #000;
   font-size: 1.25em;
   line-height: 1.25em;
 }
@@ -412,27 +411,19 @@ fieldset {
   background-color: #fff;
 }
 
-#status, #title, .head, .menu-head, .text-head, .filter-head, .subhead {
-  top: 66px;
+.head, .text-head, .subhead {
+  top: 95px;
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
-}
-
-.subhead {
-  top: 98px;
 }
 
 .searchFocus #header {
   position: absolute;
 }
 
-.searchFocus #status,
-.searchFocus #title,
 .searchFocus .head,
-.searchFocus .menu-head,
 .searchFocus .text-head,
-.searchFocus .filter-head,
 .searchFocus .subhead {
   position: static;
 }

@@ -64,15 +64,13 @@ module.exports = function (Module, App, Backbone) {
 
         // Get current scroll position.
         var offsetHeight = document.body.scrollTop || document.documentElement.scrollTop || 0;
-        var headerHeight, targetOffset;
+        var headerHeight = 95;
+        var targetOffset;
 
         App.Content.$el.removeClass('collapsed');
 
         // Get offset of clicked subhead.
         targetOffset = e.target.getBoundingClientRect();
-
-        // Offset height depends on support for position:sticky.
-        headerHeight = ($(e.target).css('position').indexOf('sticky') !== -1) ? 99 : 66;
 
         // Scroll to the clicked subhead.
         document.body.scrollTop = document.documentElement.scrollTop = Math.max(targetOffset.top + offsetHeight - headerHeight, 0);
