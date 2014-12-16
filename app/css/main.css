@@ -102,10 +102,6 @@ fieldset {
   text-indent: 25px;
   border: none;
   border-radius: 3px;
-  background-image: url("/img/ui/search.png");
-  background-position: 6px center;
-  background-repeat: no-repeat;
-  background-size: 12px 12px;
 }
 
 #terms:-ms-input-placeholder { text-indent: 24px; }
@@ -126,7 +122,7 @@ fieldset {
   min-width: 300px;
   max-width: 340px;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 5px 0 3px 0;
 }
 
 #tabs li {
@@ -232,17 +228,10 @@ fieldset {
   padding: 0.5em 12px 0.25em 0.75em;
   color: #467f2e;
   background-color: #fff;
-  border-bottom: solid 1px #265f0e;
+  border-bottom: solid 1px #467f2e;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-.head, .text-head {
-  background-image: url("/img/ui/menu.png");
-  background-position: 98% center;
-  background-size: 14px 11px;
-  background-repeat: no-repeat;
 }
 
 .head, .text-head, .filter-head, .program .subhead {
@@ -304,7 +293,6 @@ fieldset {
 
 .collapsed .subhead {
   position: static;
-  background-image: url("/img/ui/expand.png");
   display: block;
 }
 
@@ -326,10 +314,6 @@ fieldset {
 
 .filters .active {
   font-weight: 600;
-  background-image: url("/img/ui/check.png");
-  background-repeat: no-repeat;
-  background-position: 96% center;
-  background-size: 15px 12px;
 }
 
 .filters .subhead {
@@ -424,7 +408,7 @@ fieldset {
 }
 
 #app {
-  margin-top: 98px;
+  margin-top: 95px;
   background-color: #fff;
 }
 
@@ -451,34 +435,6 @@ fieldset {
 .searchFocus .filter-head,
 .searchFocus .subhead {
   position: static;
-}
-
-
-/* Icons */
-
-.browse-icon, .external a {
-  background-image: url("/img/ui/browse.png");
-  background-size: 15px 15px;
-}
-
-.share-icon {
-  background-image: url("/img/ui/share.png");
-  background-size: 18px 18px;
-}
-
-.theater-icon {
-  background-image: url("/img/ui/theater.png");
-  background-size: 16px 16px;
-}
-
-.back-icon {
-  background-image: url("/img/ui/back.png");
-  background-size: 10px 16px;
-}
-
-.tweet-icon {
-  background-image: url("/img/ui/tweet.png");
-  background-size: 18px 16px;
 }
 
 
