@@ -211,7 +211,7 @@ fieldset {
   line-height: 18px;
 }
 
-.info #notice {
+.info.menu #notice {
   display: block;
 }
 

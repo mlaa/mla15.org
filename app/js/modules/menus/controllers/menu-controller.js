@@ -74,6 +74,9 @@ module.exports = function (Module, App, Backbone) {
     // Set menu tab.
     _activateTab(section);
 
+    // Add menu class.
+    $els.body.addClass('menu');
+
     // Append the views to the content region.
     App.Content.show(new Module.Views.Menu.CollectionView({
       collection: new Module.Models.Menu.Collection(Module.Data.Menu[section])
