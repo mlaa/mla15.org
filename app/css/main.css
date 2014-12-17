@@ -83,31 +83,43 @@ a { color: #000; }
 
 /* Search (header floats right to accommodate this) */
 
-form, fieldset {
-  display: none;
-  margin: 0;
+fieldset {
+  position: relative;
+  margin: 0 8px 0 5px;
   padding: 0;
+  border: none;
 }
 
-fieldset {
-  margin-top: 5px;
-  padding: 0 3px 0 8px;
-  border: none;
+.search {
+  display: none;
+}
+
+.home .search {
+  display: block;
+}
+
+.icon-search {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  color: #cdd2d6;
+  font-size: 0.9em;
 }
 
 #terms {
   width: 100%;
-  padding: 2px 0;
+  padding: 3px 0;
   font-size: 13px;
-  text-indent: 25px;
-  border: none;
-  border-radius: 3px;
+  text-indent: 26px;
+  background-color: #fff;
+  border: solid 1px #cdd2d6;
+  border-radius: 8px;
 }
 
-#terms:-ms-input-placeholder { text-indent: 24px; }
-#terms:-moz-placeholder { text-indent: 24px; }
-#terms::-moz-placeholder { text-indent: 24px; }
-#terms::-webkit-input-placeholder { text-indent: 24px; }
+#terms:-ms-input-placeholder { text-indent: 26px; }
+#terms:-moz-placeholder { text-indent: 26px; }
+#terms::-moz-placeholder { text-indent: 26px; }
+#terms::-webkit-input-placeholder { text-indent: 26px; }
 
 
 /* Main navigation (tabs) */
