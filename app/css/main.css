@@ -398,7 +398,7 @@ fieldset {
   background-color: #fff;
 }
 
-.head, .text-head, .subhead {
+.head, .subhead {
   top: 91px;
   position: sticky;
   position: -webkit-sticky;
