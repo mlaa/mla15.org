@@ -4,12 +4,12 @@
 
 module.exports = {
   options: {
-    key: '<%= aws.accessKeyId %>',
-    secret: '<%= aws.secretAccessKey %>'
+    key: process.env.AWS_ACCESS_KEY_ID,
+    secret: process.env.AWS_SECRET_ACCESS_KEY
   },
   staging: {
     options: {
-      distribution: 'E3PYT2VG5KYX14'
+      distribution: 'E30TABZRCX2VMD'
     },
     files: [
       {
@@ -35,7 +35,7 @@ module.exports = {
   },
   live: {
     options: {
-      distribution: 'E1NHITB9VQPQRG'
+      distribution: ''
     },
     files: [
       {
