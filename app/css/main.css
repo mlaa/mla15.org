@@ -244,9 +244,9 @@ fieldset {
 
 .head, .menu-head, .filter-head, .text-head {
   padding: 0.5em 12px 0.25em 0.75em;
-  color: #467f2e;
+  color: #40474f;
   background-color: #fff;
-  border-bottom: solid 1px #467f2e;
+  border-bottom: solid 1px #40474f;
 }
 
 .head, .text-head, .filter-head, .subhead {
@@ -260,8 +260,8 @@ fieldset {
   padding: 0.4em 0.75em 0.2em 0.85em;
   color: #fff;
   font-size: 0.9em;
-  background-color: #467f2e;
-  border-bottom: solid 1px #265f0e;
+  background-color: #3f474f;
+  border-bottom: solid 1px #8a8a8a;
 }
 
 .list a {
@@ -269,7 +269,7 @@ fieldset {
   z-index: 250;
   margin: 0 12px;
   padding: 0.8em 0;
-  color: #333;
+  color: #40474f;
   text-decoration: none;
   border-bottom: solid 1px #eee;
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ fieldset {
 }
 
 .list .icon:before {
-  color: #697580;
+  color: #40474f;
 }
 
 
@@ -335,7 +335,7 @@ fieldset {
   padding: 0.75em;
   font-weight: 600;
   color: #fff;
-  background-color: #666;
+  background-color: #467f2e;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -343,6 +343,7 @@ fieldset {
 
 .filter-head {
   padding-left: 0.6em;
+  border: none;
 }
 
 
@@ -361,7 +362,7 @@ fieldset {
 .text h3 {
   margin: 0.25em 0 0 0;
   padding: 0;
-  color: #000;
+  color: #40474f;
   font-size: 1.25em;
   line-height: 1.25em;
 }
