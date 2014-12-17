@@ -5,7 +5,8 @@
   font-style: normal;
 }
 
-.icon:before, .filter-head:before, .subhead:before, .active:after {
+.icon:before, .filter-head:before, .subhead:before,
+.active:after, .head:after {
   display: inline-block;
   width: 1em;
   margin-right: 0.5em;
@@ -20,9 +21,10 @@
   speak: none;
 }
 
-.icon:after, .active:after {
-  margin-right: 0;
+.icon:after, .active:after, .head:after {
   float: right;
+  margin-right: 0;
+  line-height: 1.3em;
 }
 
 .icon-mobile:before { content: '\e800'; } /* '' */
@@ -106,9 +108,7 @@
 .filter-head:before { content: '\e83f'; }
 .subhead:before { content: '\e812'; }
 .collapsed .subhead:before { content: '\e811'; }
+.head:after { content: '\e80a'; }
 
 /* Filters */
-.active:after {
-  content: '\e80d';
-  line-height: 1.3em;
-}
+.active:after { content: '\e80d'; }

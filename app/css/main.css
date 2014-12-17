@@ -222,7 +222,7 @@ fieldset {
 }
 
 .head, .menu-head, .filter-head {
-  padding: 0.5em 12px 0.25em 0.6em;
+  padding: 0.5em 12px 0.25em 0.75em;
   color: #467f2e;
   background-color: #fff;
   border-bottom: solid 1px #467f2e;
@@ -318,6 +318,10 @@ fieldset {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+}
+
+.filter-head {
+  padding-left: 0.6em;
 }
 
 
