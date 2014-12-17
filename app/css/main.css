@@ -221,18 +221,18 @@ fieldset {
   list-style: none;
 }
 
-.head, .menu-head, .filter-head {
+.head, .menu-head, .filter-head, .text-head {
   padding: 0.5em 12px 0.25em 0.75em;
   color: #467f2e;
   background-color: #fff;
   border-bottom: solid 1px #467f2e;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .head, .text-head, .filter-head, .subhead {
   cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .subhead, .filter-subhead, .group-subhead {
@@ -330,12 +330,7 @@ fieldset {
 .text-head {
   min-height: 21px;
   margin: 0;
-  padding: 0.5em 1.6em 0.25em 0.75em;
-  color: #467f2e;
   font-size: 1em;
-  font-weight: 400;
-  background-color: #fff;
-  border-bottom: solid 1px #467f2e;
 }
 
 .text {

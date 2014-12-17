@@ -6,7 +6,7 @@
 }
 
 .icon:before, .filter-head:before, .subhead:before,
-.active:after, .head:after {
+.active:after, .head:after, .text-head:after {
   display: inline-block;
   width: 1em;
   margin-right: 0.5em;
@@ -21,7 +21,7 @@
   speak: none;
 }
 
-.icon:after, .active:after, .head:after {
+.icon:after, .active:after, .head:after, .text-head:after {
   float: right;
   margin-right: 0;
   line-height: 1.3em;
@@ -108,7 +108,7 @@
 .filter-head:before { content: '\e83f'; }
 .subhead:before { content: '\e812'; }
 .collapsed .subhead:before { content: '\e811'; }
-.head:after { content: '\e80a'; }
+.head:after, .text-head:after { content: '\e80a'; }
 
 /* Filters */
 .active:after { content: '\e80d'; }
