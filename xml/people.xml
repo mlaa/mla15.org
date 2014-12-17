@@ -247,14 +247,6 @@
          <session>480</session>
       </sessions>
    </person>
-   <person id="183453" sort="A">
-      <first>Richard Oko</first>
-      <last>Ajah</last>
-      <sessions>
-         <count>1</count>
-         <session>91</session>
-      </sessions>
-   </person>
    <person id="143037" sort="A">
       <first>Clement</first>
       <last>Akassi</last>
@@ -3469,10 +3461,9 @@
       <first>Kent</first>
       <last>Cartwright</last>
       <sessions>
-         <count>3</count>
+         <count>2</count>
          <session>4</session>
          <session>329</session>
-         <session>641</session>
       </sessions>
    </person>
    <person id="66520" sort="C">
@@ -5172,7 +5163,8 @@
       <first>Daisy J.</first>
       <last>Delogu</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
+         <session>145</session>
          <session>542</session>
       </sessions>
    </person>
@@ -8357,6 +8349,14 @@
          <session>397</session>
       </sessions>
    </person>
+   <person id="20088659" sort="G">
+      <first>Larry</first>
+      <last>Grant</last>
+      <sessions>
+         <count>1</count>
+         <session>406</session>
+      </sessions>
+   </person>
    <person id="20084483" sort="G">
       <first>Roger Mathew</first>
       <last>Grant</last>
@@ -9362,14 +9362,6 @@
          <count>2</count>
          <session>489</session>
          <session>663</session>
-      </sessions>
-   </person>
-   <person id="93310" sort="H">
-      <first>Hugh</first>
-      <last>Hazelton</last>
-      <sessions>
-         <count>1</count>
-         <session>761</session>
       </sessions>
    </person>
    <person id="144187" sort="H">
@@ -10914,8 +10906,9 @@
       <first>Catherine M.</first>
       <last>Jones</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
          <session>274</session>
+         <session>364</session>
       </sessions>
    </person>
    <person id="169786" sort="J">
@@ -11542,6 +11535,14 @@
          <session>448</session>
       </sessions>
    </person>
+   <person id="183128" sort="K">
+      <first>Eunsong Angela</first>
+      <last>Kim</last>
+      <sessions>
+         <count>1</count>
+         <session>14</session>
+      </sessions>
+   </person>
    <person id="128980" sort="K">
       <first>Heidi Kathleen</first>
       <last>Kim</last>
@@ -11604,14 +11605,6 @@
       <sessions>
          <count>1</count>
          <session>418</session>
-      </sessions>
-   </person>
-   <person id="20087675" sort="K">
-      <first>Thomas</first>
-      <last>King</last>
-      <sessions>
-         <count>1</count>
-         <session>537</session>
       </sessions>
    </person>
    <person id="184254" sort="K">
@@ -11966,15 +11959,6 @@
       <sessions>
          <count>1</count>
          <session>671</session>
-      </sessions>
-   </person>
-   <person id="83750" sort="K">
-      <first>Kathy M.</first>
-      <last>Krause</last>
-      <sessions>
-         <count>2</count>
-         <session>145</session>
-         <session>364</session>
       </sessions>
    </person>
    <person id="131902" sort="K">
@@ -14258,6 +14242,14 @@
          <session>473</session>
       </sessions>
    </person>
+   <person id="20088580" sort="M">
+      <first>Lisa</first>
+      <last>Mayorga</last>
+      <sessions>
+         <count>1</count>
+         <session>341</session>
+      </sessions>
+   </person>
    <person id="129525" sort="M">
       <first>Kelly</first>
       <last>Mays</last>
@@ -15009,6 +15001,14 @@
          <session>544</session>
       </sessions>
    </person>
+   <person id="20088602" sort="M">
+      <first>Roy</first>
+      <last>Miki</last>
+      <sessions>
+         <count>1</count>
+         <session>537</session>
+      </sessions>
+   </person>
    <person id="178422" sort="M">
       <first>Marzia</first>
       <last>Milazzo</last>
@@ -15489,6 +15489,14 @@
          <session>216</session>
       </sessions>
    </person>
+   <person id="160322" sort="M">
+      <first>Sylvia Veronica</first>
+      <last>Morin</last>
+      <sessions>
+         <count>1</count>
+         <session>393</session>
+      </sessions>
+   </person>
    <person id="155250" sort="M">
       <first>Adam</first>
       <last>Morris</last>
@@ -15859,14 +15867,6 @@
       <sessions>
          <count>1</count>
          <session>451</session>
-      </sessions>
-   </person>
-   <person id="184333" sort="N">
-      <first>Daniel Efraín</first>
-      <last>Navarro Granados</last>
-      <sessions>
-         <count>1</count>
-         <session>91</session>
       </sessions>
    </person>
    <person id="161419" sort="N">
@@ -16769,14 +16769,6 @@
          <session>85</session>
       </sessions>
    </person>
-   <person id="20087467" sort="P">
-      <first>Edwin</first>
-      <last>Padilla</last>
-      <sessions>
-         <count>1</count>
-         <session>393</session>
-      </sessions>
-   </person>
    <person id="125797" sort="P">
       <first>Yolanda</first>
       <last>Padilla</last>
@@ -16954,14 +16946,6 @@
       <sessions>
          <count>1</count>
          <session>427</session>
-      </sessions>
-   </person>
-   <person id="20086344" sort="P">
-      <first>Suey</first>
-      <last>Park</last>
-      <sessions>
-         <count>1</count>
-         <session>14</session>
       </sessions>
    </person>
    <person id="156333" sort="P">
@@ -17194,8 +17178,7 @@
       <first>Pedro S.</first>
       <last>Pereira</last>
       <sessions>
-         <count>2</count>
-         <session>370</session>
+         <count>1</count>
          <session>486</session>
       </sessions>
    </person>
@@ -17530,7 +17513,7 @@
       <sessions>
          <count>3</count>
          <session>84</session>
-         <session>146</session>
+         <session>626</session>
          <session>741</session>
       </sessions>
    </person>
@@ -18599,14 +18582,6 @@
       <sessions>
          <count>1</count>
          <session>199</session>
-      </sessions>
-   </person>
-   <person id="20087798" sort="R">
-      <first>Silvia</first>
-      <last>Rivera Cusicanqui</last>
-      <sessions>
-         <count>1</count>
-         <session>316</session>
       </sessions>
    </person>
    <person id="181277" sort="R">
@@ -20168,7 +20143,8 @@
       <first>Nhora Lucia</first>
       <last>Serrano</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
+         <session>91</session>
          <session>624</session>
       </sessions>
    </person>
@@ -21950,8 +21926,9 @@
       <first>Diana</first>
       <last>Taylor</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
          <session>47</session>
+         <session>316</session>
       </sessions>
    </person>
    <person id="149977" sort="T">
@@ -22732,7 +22709,8 @@
       <first>Julia</first>
       <last>Vaingurt</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
+         <session>146</session>
          <session>626</session>
       </sessions>
    </person>
@@ -23928,9 +23906,10 @@
       <first>Dana A.</first>
       <last>Williams</last>
       <sessions>
-         <count>2</count>
+         <count>3</count>
          <session>225</session>
          <session>329</session>
+         <session>641</session>
       </sessions>
    </person>
    <person id="60462" sort="W">
