@@ -83,6 +83,11 @@ a { color: #000; }
 
 /* Search (header floats right to accommodate this) */
 
+form {
+  margin: 0;
+  padding: 0;
+}
+
 fieldset {
   position: relative;
   margin: 0 8px 0 5px;
