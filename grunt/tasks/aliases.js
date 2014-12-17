@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       'browserify',
       'uglify',
       'clean',
-      //'imageEmbed',
+      'imageEmbed',
       'cssmin',
       'staticinline',
       'manifest'
