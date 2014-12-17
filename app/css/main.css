@@ -310,13 +310,13 @@ fieldset {
 
 .filters .button {
   display: block;
-  margin: 1em;
+  margin: 0;
   padding: 0.75em;
   font-weight: 600;
+  color: #fff;
+  background-color: #666;
   text-align: center;
   text-decoration: none;
-  border: solid 1px #999;
-  border-radius: 0.5em;
   cursor: pointer;
 }
 
@@ -445,14 +445,6 @@ fieldset {
 
   .session {
     padding-bottom: 48px;
-  }
-
-  .filters .button {
-    margin: 0;
-    color: #fff;
-    background-color: #666;
-    border: none;
-    border-radius: 0;
   }
 
 }
