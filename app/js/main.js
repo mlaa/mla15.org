@@ -9,8 +9,10 @@ var attachFastClick = require('fastclick');
 // Side-shim jQuery and Underscore before requiring Marionette.
 Backbone.$ = jQuery;
 Backbone._ = underscore;
-
 require('backbone.marionette');
+
+// jquery.panzoom
+require('jquery.panzoom');
 
 // Attach FastClick.
 attachFastClick(document.body);
