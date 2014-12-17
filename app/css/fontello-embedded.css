@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-.icon:before, .icon:after, .filter-head:before, .subhead:before {
+.icon:before, .filter-head:before, .subhead:before, .active:after {
   display: inline-block;
   width: 1em;
   margin-right: 0.5em;
@@ -20,9 +20,9 @@
   speak: none;
 }
 
-.icon:after {
+.icon:after, .active:after {
   margin-right: 0;
-  text-align: right;
+  float: right;
 }
 
 .icon-mobile:before { content: '\e800'; } /* '' */
@@ -102,7 +102,13 @@
 .icon-map:before { content: '\e84a'; } /* '' */
 .icon-users-1:before { content: '\e84b'; } /* '' */
 
-/* Grafts */
+/* Heads */
 .filter-head:before { content: '\e83f'; }
 .program .subhead:before { content: '\e812'; }
 .collapsed .subhead:before { content: '\e811'; }
+
+/* Filters */
+.active:after {
+  content: '\e80d';
+  line-height: 1.3em;
+}
