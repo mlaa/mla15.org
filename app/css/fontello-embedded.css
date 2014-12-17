@@ -104,7 +104,7 @@
 
 /* Heads */
 .filter-head:before { content: '\e83f'; }
-.program .subhead:before { content: '\e812'; }
+.subhead:before { content: '\e812'; }
 .collapsed .subhead:before { content: '\e811'; }
 
 /* Filters */

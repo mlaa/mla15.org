@@ -12,7 +12,7 @@ module.exports = function (Module, App, Backbone) {
       title: 'Filters'
     },
     {
-      style: 'subhead',
+      style: 'filter-subhead',
       title: 'Day'
     },
     {
@@ -36,7 +36,7 @@ module.exports = function (Module, App, Backbone) {
       title: 'Sunday, 12 January'
     },
     {
-      style: 'subhead',
+      style: 'filter-subhead',
       title: 'Time'
     },
     {
@@ -60,7 +60,7 @@ module.exports = function (Module, App, Backbone) {
       title: 'Late-Night'
     },
     {
-      style: 'subhead',
+      style: 'filter-subhead',
       title: 'Location'
     },
     {
@@ -84,7 +84,7 @@ module.exports = function (Module, App, Backbone) {
       title: 'Elsewhere'
     },
     {
-      style: 'subhead',
+      style: 'filter-subhead',
       title: 'Session Type'
     },
     {

@@ -231,11 +231,11 @@ fieldset {
   text-overflow: ellipsis;
 }
 
-.head, .text-head, .filter-head, .program .subhead {
+.head, .text-head, .filter-head, .subhead {
   cursor: pointer;
 }
 
-.subhead {
+.subhead, .filter-subhead, .group-subhead {
   padding: 0.4em 0.75em 0.2em 0.85em;
   color: #fff;
   font-size: 0.9em;
@@ -284,7 +284,7 @@ fieldset {
   display: none;
 }
 
-.collapsed li.head, .collapsed li.filter-head, .collapsed li.subhead {
+.collapsed .head, .collapsed .filter-head {
   display: list-item;
 }
 

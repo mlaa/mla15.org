@@ -28,6 +28,7 @@ module.exports = function (Module, App, Backbone) {
 
           // Add last-seen subhead if it hasn't already been added.
           if (lastSubhead) {
+            lastSubhead.type = 'group-subhead';
             filteredSessions.push(lastSubhead);
             lastSubhead = false;
           }
