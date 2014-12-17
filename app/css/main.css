@@ -419,31 +419,3 @@ fieldset {
 /* OFF by default */
 
 .hidden { display: none; }
-
-
-/* Tablet-y */
-
-@media only screen and (max-width: 770px) {}
-
-
-
-/* Maximum content width */
-
-@media only screen and (max-width: 500px) {
-
-  html {
-    background-color: #fff;
-  }
-
-}
-
-
-/* Phone-y */
-
-@media only screen and (max-width: 400px) {
-
-  .session {
-    padding-bottom: 48px;
-  }
-
-}
