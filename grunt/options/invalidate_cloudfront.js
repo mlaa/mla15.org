@@ -35,7 +35,7 @@ module.exports = {
   },
   live: {
     options: {
-      distribution: ''
+      distribution: 'E37FIPBQ4NEDL2'
     },
     files: [
       {
