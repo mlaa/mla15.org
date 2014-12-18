@@ -244,9 +244,9 @@ fieldset {
 
 .head, .menu-head, .filter-head, .text-head {
   padding: 0.5em 12px 0.25em 0.75em;
-  color: #40474f;
+  color: #3f474f;
   background-color: #fff;
-  border-bottom: solid 1px #40474f;
+  border-bottom: solid 1px #3f474f;
 }
 
 .head, .text-head, .filter-head, .subhead {
@@ -262,6 +262,11 @@ fieldset {
   font-size: 0.9em;
   background-color: #3f474f;
   border-bottom: solid 1px #8a8a8a;
+}
+
+.subhead {
+  background-color: #467f2e;
+  border-color: #265f0e;
 }
 
 .list a {
@@ -343,7 +348,6 @@ fieldset {
 
 .filter-head {
   padding-left: 0.6em;
-  border: none;
 }
 
 
