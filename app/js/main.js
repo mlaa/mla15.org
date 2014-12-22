@@ -36,6 +36,7 @@ App.module('Error', require('./modules/error/main.js'));
 App.module('Filter', require('./modules/filter/main.js'));
 App.module('Info', require('./modules/info/main.js'));
 App.module('Links', require('./modules/links/main.js'));
+App.module('Maps', require('./modules/maps/main.js'));
 App.module('Menus', require('./modules/menus/main.js'));
 App.module('People', require('./modules/people/main.js'));
 App.module('Program', require('./modules/program/main.js'));

@@ -144,32 +144,43 @@ module.exports = function (Module) {
     maps: [
       {
         type: 'menu-head',
-        title: 'Area Maps'
+        title: 'Vancouver Convention Centre East'
       },
       {
-        href: 'http://goo.gl/maps/CcKo4',
-        title: 'MLA Convention Google Map',
-        style: 'external'
+        id: 'maps/vcc-east-convention',
+        title: 'Convention Level'
+      },
+      {
+        id: 'maps/vcc-east-meeting',
+        title: 'Meeting Level'
       },
       {
         type: 'menu-head',
-        title: 'Venue Maps'
+        title: 'Vancouver Convention Centre West'
       },
       {
-        id: 'maps/sheraton',
-        title: 'Sheraton Chicago'
+        id: 'maps/vcc-west-1',
+        title: 'Level 1'
       },
       {
-        id: 'maps/marriott',
-        title: 'Chicago Marriott'
+        id: 'maps/vcc-exhibit-area',
+        title: 'Exhibit Area, Level 1'
       },
       {
-        id: 'maps/fairmont',
-        title: 'Fairmont Chicago'
+        id: 'maps/vcc-west-2',
+        title: 'Level 2'
       },
       {
-        href: '/img/maps/exhibit-area.png',
-        title: 'Exhibit Area'
+        id: 'maps/vcc-west-3',
+        title: 'Level 3'
+      },
+      {
+        type: 'menu-head',
+        title: 'Fairmont Waterfront'
+      },
+      {
+        id: 'maps/fairmont-waterfront',
+        title: 'Lobby Level'
       }
     ],
     info: [
@@ -437,72 +448,34 @@ module.exports = function (Module) {
   };
 
   Module.Data.Maps = {
-    sheraton: [
-      {
-        type: 'head',
-        title: 'Sheraton Chicago'
-      },
-      {
-        href: '/img/maps/sheraton-2.png',
-        title: 'Meeting Room Level 2'
-      },
-      {
-        href: '/img/maps/sheraton-3.png',
-        title: 'Lobby Level 3'
-      },
-      {
-        href: '/img/maps/sheraton-4.png',
-        title: 'Ballroom Level 4'
-      }
-    ],
-    marriott: [
-      {
-        type: 'head',
-        title: 'Chicago Marriott'
-      },
-      {
-        href: '/img/maps/marriott-2.png',
-        title: '2nd Floor'
-      },
-      {
-        href: '/img/maps/marriott-3.png',
-        title: '3rd Floor'
-      },
-      {
-        href: '/img/maps/marriott-4.png',
-        title: '4th Floor'
-      },
-      {
-        href: '/img/maps/marriott-5.png',
-        title: '5th Floor'
-      },
-      {
-        href: '/img/maps/marriott-6.png',
-        title: '6th Floor'
-      },
-      {
-        href: '/img/maps/marriott-7.png',
-        title: '7th Floor'
-      },
-      {
-        href: '/img/maps/marriott-10.png',
-        title: '10th Floor'
-      }
-    ],
-    fairmont: [
-      {
-        type: 'head',
-        title: 'Fairmont Chicago'
-      },
-      {
-        href: '/img/maps/fairmont-b2.png',
-        title: 'Level B2'
-      },
-      {
-        href: '/img/maps/fairmont-2.png',
-        title: 'Level 2'
-      }
-    ]
+    'vcc-east-convention': {
+      title: 'Convention Level',
+      imageSrc: '/img/maps/mla/vcc-east-convention.png'
+    },
+    'vcc-east-meeting': {
+      title: 'Meeting Level',
+      imageSrc: '/img/maps/mla/vcc-east-meeting.png'
+    },
+    'vcc-west-1': {
+      title: 'Level 1',
+      imageSrc: '/img/maps/mla/vcc-west-1.png'
+    },
+    'vcc-exhibit-area': {
+      title: 'Exhibit Area, Level 1',
+      imageSrc: '/img/maps/mla/vcc-exhibit-area.png'
+    },
+    'vcc-west-2': {
+      title: 'Level 2',
+      imageSrc: '/img/maps/mla/vcc-west-2.png'
+    },
+    'vcc-west-3': {
+      title: 'Level 3',
+      imageSrc: '/img/maps/mla/vcc-west-3.png'
+    },
+    'fairmont-waterfront': {
+      title: 'Lobby Level',
+      imageSrc: '/img/maps/mla/fairmont-waterfront.png'
+    }
   };
 
 };

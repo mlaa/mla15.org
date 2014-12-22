@@ -99,28 +99,7 @@ module.exports = function (Module, App, Backbone) {
   App.vent.bind('menu:saveMenuState', _saveMenuState);
 
   return Backbone.Marionette.Controller.extend({
-
-    showMenu: _showMenu,
-
-    // Maps are just a big menu.
-    showMaps: function (map) {
-
-      // Set menu tab.
-      _activateTab('maps');
-
-      if (Module.Data.Maps[map]) {
-        // Append the views to the content region.
-        App.Content.show(
-          new Module.Views.Menu.MapCollectionView({
-            collection: new Module.Models.Menu.Collection(Module.Data.Maps[map])
-          })
-        );
-      } else {
-        App.vent.trigger('error:notfound');
-      }
-
-    }
-
+    showMenu: _showMenu
   });
 
 };

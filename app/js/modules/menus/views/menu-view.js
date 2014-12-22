@@ -53,28 +53,10 @@ module.exports = function (Module, App, Backbone) {
 
   });
 
-  var MapCollectionView = Backbone.Marionette.CollectionView.extend({
-
-    childView: ItemView,
-    tagName: 'ul',
-    className: 'list',
-
-    events: {
-      'click .head': 'loadParentMenu'
-    },
-
-    loadParentMenu: function (e) {
-      e.preventDefault();
-      App.vent.trigger('menu:showParent', 'maps');
-    }
-
-  });
-
   Module.Views = Module.Views || {};
   Module.Views.Menu = {
     ItemView: ItemView,
-    CollectionView: CollectionView,
-    MapCollectionView: MapCollectionView
+    CollectionView: CollectionView
   };
 
 };

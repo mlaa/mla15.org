@@ -7,7 +7,6 @@ module.exports = function (Module, App, Backbone) {
     initialize: function (options) {
       // Routes added on initializer are in reverse priority order.
       this.route(/^(program|people|maps|info)\/?$/, options.controller.showMenu);
-      this.route(/^maps\/(.+)$/, options.controller.showMaps);
       this.route(/^$/, options.controller.showMenu);
     }
   });

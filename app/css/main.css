@@ -391,6 +391,13 @@ fieldset {
 }
 
 
+/* Maps */
+
+.panzoom {
+  overflow: hidden;
+}
+
+
 /* Errors */
 
 .error p {
