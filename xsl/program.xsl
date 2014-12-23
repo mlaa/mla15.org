@@ -363,10 +363,25 @@
                                 </xsl:when>
 
                                 <!-- UPDATE: Specially formatted sessions -->
-                                <xsl:when test="$sequence = '421' and position() = last()">
+                                <xsl:when test="$sequence = '406' and position() = last()">
+                                  <line>1. Welcome, Larry Grant, Musqueam Nation</line>
+                                  <line>2. Report of the Executive Director, Rosemary G. Feal</line>
+                                  <line>3. The Presidential Address, Margaret W. Ferguson, Univ. of California, Davis, MLA President. Ferguson will explore strategies of negotiation (involving challenge, persuasion, translation, interpretation, performance of real or feigned hope and expressing awareness of possible failure) among several contested sites of memory in today's academy. These include Vancouver itself, the humanities classroom today and in the past, and the MLA, as an organization whose members have competing memories about its mission.</line>
+                                  <line>Reception immediately following.</line>
                                 </xsl:when>
 
-                                <xsl:when test="$sequence = '660' and position() = last()">
+                                <xsl:when test="$sequence = '641' and position() = last()">
+                                  <line>1. Margaret W. Ferguson will announce the newly elected honorary member and fellows.</line>
+                                  <line>2. Roland Greene, Stanford Univ., MLA First Vice President, will present the William Riley Parker Prize; James Russell Lowell Prize; MLA Prize for a First Book; Mina P. Shaughnessy Prize; MLA Prize for Independent Scholars; Howard R. Marraro Prize; Katherine Singer Kovacs Prize; Aldo and Jeanne Scaglione Prize for Comparative Literary Studies; Aldo and Jeanne Scaglione Prize for French and Francophone Studies; Aldo and Jeanne Scaglione Prize for Germanic Languages and Literatures; Aldo and Jeanne Scaglione Prize for a Translation of a Literary Work; Aldo and Jeanne Scaglione Publication Award for a Manuscript in Italian Literary Studies; MLA Prize for a Bibliography, Archive, or Digital Project; William Sanders Scarborough Prize; Fenia and Yaakov Leviant Memorial Prize in Yiddish Studies; and MLA Prize in Native American Literatures, Cultures, and Languages.</line>
+                                  <line>3. Rosemary G. Feal, MLA, will present the <em>MLA International Bibliography</em> Fellowship Awards.</line>
+                                  <line>4. Rosemary G. Feal will announce the recipients of the seal of approval from the Committee on Scholarly Editions.</line>
+                                  <line>5. Sibelan Forrester, Swarthmore Coll., ADFL President, will present the ADFL Award for Distinguished Service to the Profession to Olga Kagan, Univ. of California, Los Angeles.</line>
+                                  <line>6. Remarks by Olga Kagan</line>
+                                  <line>7. Dana A. Williams, Howard Univ., ADE President, will present the ADE Francis Andrew March Award to Neal Lester, Arizona State Univ.</line>
+                                  <line>8. Remarks by Neal Lester</line>
+                                  <line>9. Margaret W. Ferguson will present the MLA Award for Lifetime Scholarly Achievement to Rolena Adorno, Yale Univ.</line>
+                                  <line>10. Remarks by Rolena Adorno</line>
+                                  <line>Reception immediately following.</line>
                                 </xsl:when>
 
                             </xsl:choose>
