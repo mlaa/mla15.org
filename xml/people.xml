@@ -524,8 +524,8 @@
       </sessions>
    </person>
    <person id="145341" sort="A">
-      <first>Raul</first>
-      <last>Alvarez-Moreno</last>
+      <first>Raúl</first>
+      <last>Álvarez-Moreno</last>
       <sessions>
          <count>1</count>
          <session>433</session>
@@ -8286,7 +8286,7 @@
       </sessions>
    </person>
    <person id="185666" sort="G">
-      <first>Ignasi</first>
+      <first>Ignasí</first>
       <last>Gozalo</last>
       <sessions>
          <count>1</count>
@@ -8570,8 +8570,9 @@
       <first>James</first>
       <last>Grossman</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
          <session>242</session>
+         <session>307</session>
       </sessions>
    </person>
    <person id="71119" sort="G">
@@ -15328,7 +15329,7 @@
    </person>
    <person id="185243" sort="M">
       <first>Lizabel</first>
-      <last>Monica</last>
+      <last>Mónica</last>
       <sessions>
          <count>1</count>
          <session>778</session>
@@ -20253,15 +20254,6 @@
          <session>500</session>
       </sessions>
    </person>
-   <person id="63112" sort="S">
-      <first>Thomas F.</first>
-      <last>Shannon</last>
-      <sessions>
-         <count>2</count>
-         <session>396</session>
-         <session>582</session>
-      </sessions>
-   </person>
    <person id="20087124" sort="S">
       <first>Alan</first>
       <last>Shapiro</last>
@@ -22106,14 +22098,6 @@
       <sessions>
          <count>1</count>
          <session>190</session>
-      </sessions>
-   </person>
-   <person id="131195" sort="T">
-      <first>Ana Clotilde</first>
-      <last>Thomé-Williams</last>
-      <sessions>
-         <count>1</count>
-         <session>555</session>
       </sessions>
    </person>
    <person id="165093" sort="T">
