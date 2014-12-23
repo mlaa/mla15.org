@@ -3302,6 +3302,45 @@
          <line role="calendar">8:45–10:00 p.m., 110, VCC West</line>
       </details>
    </session>
+   <session id="C900">
+      <sequence>C900</sequence>
+      <title>Organizational Meeting for CLCS Global Arab and Arab American</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="20" minutes="45" ambig="ln" header="8:45 p.m.">8:45 p.m.</start-time>
+      <end-time abbrev="22" minutes="00" ambig="ln">10:00 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>122</room>
+      <details>
+         <line role="calendar">8:45–10:00 p.m., 122, VCC West</line>
+      </details>
+   </session>
+   <session id="C901">
+      <sequence>C901</sequence>
+      <title>Organizational Meeting for CLCS Global South</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="20" minutes="45" ambig="ln" header="8:45 p.m.">8:45 p.m.</start-time>
+      <end-time abbrev="22" minutes="00" ambig="ln">10:00 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>121</room>
+      <details>
+         <line role="calendar">8:45–10:00 p.m., 121, VCC West</line>
+      </details>
+   </session>
+   <session id="C902">
+      <sequence>C902</sequence>
+      <title>Organizational Meeting for RCWS Literacy Studies</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="20" minutes="45" ambig="ln" header="8:45 p.m.">8:45 p.m.</start-time>
+      <end-time abbrev="22" minutes="00" ambig="ln">10:00 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>113</room>
+      <details>
+         <line role="calendar">8:45–10:00 p.m., 113, VCC West</line>
+      </details>
+   </session>
    <session id="D081B">
       <sequence>179</sequence>
       <title>Reorganizing the MLA: Making More Room for Rhetoric, Composition, and Writing Studies</title>
@@ -11873,6 +11912,19 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda">www.
       <type abbrev="soc">Social</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 206, VCC West</line>
+      </details>
+   </session>
+   <session id="C903">
+      <sequence>C903</sequence>
+      <title>Organizational Meeting for LLC Latina and Latino</title>
+      <date>10 January</date>
+      <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
+      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
+      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>1</room>
+      <details>
+         <line role="calendar">7:00–8:15 p.m., 1, VCC East</line>
       </details>
    </session>
    <session id="A104E">
