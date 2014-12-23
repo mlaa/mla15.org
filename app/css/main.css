@@ -95,11 +95,11 @@ fieldset {
   border: none;
 }
 
-.search {
+#search {
   display: none;
 }
 
-.home .search {
+.home #search {
   display: block;
 }
 
