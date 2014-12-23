@@ -271,7 +271,7 @@
 
                             <xsl:choose>
 
-                                <xsl:when test="P_PRINT_ORD &lt;= 10 or ($sequence != '421' and $sequence != '660')">
+                                <xsl:when test="P_PRINT_ORD &lt;= 10 or ($sequence != '406' and $sequence != '641')">
 
                                     <line>
 
