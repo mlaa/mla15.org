@@ -246,6 +246,7 @@ fieldset {
   padding: 0.5em 12px 0.25em 0.75em;
   color: #3f474f;
   background-color: #fff;
+  font-weight: bold;
   border-bottom: solid 1px #3f474f;
 }
 
@@ -363,25 +364,21 @@ fieldset {
   padding: 1em 1em 1em 0.75em;
 }
 
-.text h3 {
-  margin: 0.25em 0 0 0;
-  padding: 0;
-  color: #40474f;
-  font-size: 1.25em;
-  line-height: 1.25em;
-}
-
 .text h4 {
   margin: 1em 0 0.5em 0;
   padding: 0;
-  color: #444;
+  color: #40474f;
   font-size: 1em;
-  font-weight: 400;
   line-height: 1.25em;
 }
 
 .text p {
+  margin: 1em 0;
   padding: 0;
+}
+
+.text h4:first-child, .text p:first-child {
+  margin-top: 0.5em;
 }
 
 .text li {

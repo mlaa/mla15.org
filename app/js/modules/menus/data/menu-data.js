@@ -197,10 +197,6 @@ module.exports = function (Module) {
         title: '<em>Convention Daily</em>'
       },
       {
-        id: 'info/program',
-        title: 'Program Online'
-      },
-      {
         id: 'info/twitter',
         title: '<em>Twitter</em>'
       },
@@ -254,15 +250,11 @@ module.exports = function (Module) {
       },
       {
         type: 'menu-head',
-        title: 'MLA Registration and Welcome Centers'
+        title: 'MLA Registration and Welcome Center'
       },
       {
         id: 'info/registration',
-        title: 'About the MLA Registration and Welcome Centers'
-      },
-      {
-        id: 'info/chicago',
-        title: 'Chicago Information and Restaurant Reservations'
+        title: 'About the MLA Registration and Welcome Center'
       },
       {
         id: 'info/disabilities',
@@ -274,23 +266,27 @@ module.exports = function (Module) {
       },
       {
         id: 'info/membership',
-        title: 'Membership Desks'
-      },
-      {
-        id: 'info/commons',
-        title: '<em>MLA Commons</em>'
+        title: 'Membership Desk'
       },
       {
         id: 'info/print-program',
         title: 'Print Copies of the Program'
       },
       {
-        type: 'menu-head',
-        title: 'On-Site Resources'
+        id: 'info/austin',
+        title: 'Austin Information'
       },
       {
-        id: 'info/business-centers',
-        title: 'Business Centers'
+        type: 'menu-head',
+        title: 'MLA PubCentral'
+      },
+      {
+        id: 'info/pubcentral',
+        title: 'About MLA PubCentral'
+      },
+      {
+        id: 'info/business-center',
+        title: 'Business Center'
       },
       {
         id: 'info/child-care',
@@ -321,16 +317,16 @@ module.exports = function (Module) {
         title: 'Press Office'
       },
       {
-        id: 'info/shuttle-bus',
-        title: 'Shuttle Bus Service'
+        id: 'info/shuttle-service',
+        title: 'Shuttle Service'
       },
       {
-        id: 'info/ready-rooms',
-        title: 'Speaker Ready Rooms'
+        id: 'info/ready-room',
+        title: 'Speaker Ready Room'
       },
       {
         id: 'info/transportation',
-        title: 'Transportation in Chicago'
+        title: 'Transportation in Vancouver'
       },
       {
         id: 'info/whos-here',
@@ -342,7 +338,7 @@ module.exports = function (Module) {
       },
       {
         id: 'info/jobs',
-        title: 'Fairmont, Imperial Ballroom, level B2'
+        title: 'Job Information Center'
       },
       {
         type: 'menu-head',
@@ -357,52 +353,40 @@ module.exports = function (Module) {
         title: 'Exhibit Hall Theater'
       },
       {
-        id: 'info/mla-booth',
-        title: 'MLA Exhibit Booth (Booth 100)'
+        id: 'info/pubcentral',
+        title: 'MLA Exhibit Booth'
       },
       {
         type: 'menu-head',
         title: 'Event Highlights'
       },
       {
+        id: 'info/creative-conversations',
+        title: 'Creative Conversations'
+      },
+      {
         id: 'info/excursions',
         title: 'Cultural Excursions'
       },
       {
-        id: '660',
-        title: 'MLA Awards Ceremony (Session 660)'
+        id: '641',
+        title: 'MLA Awards Ceremony (Session 641)'
       },
       {
-        id: '421',
-        title: 'Presidential Address (Session 421)'
+        id: '406',
+        title: 'Presidential Address (Session 406)'
       },
       {
-        id: '230',
-        title: 'Presidential Forum (Session 230)'
-      },
-      {
-        id: '155A',
-        title: 'A Screening of <em>Eight Men Out</em>, a Film by John Sayles (Session 155A)'
+        id: '219',
+        title: 'Presidential Forum (Session 219)'
       },
       {
         type: 'menu-head',
         title: 'Informational Sessions and Workshops'
       },
       {
-        id: 'info/humanities-summit',
-        title: 'Chicago Humanities Summit'
-      },
-      {
         id: 'info/celj',
         title: 'Council of Editors of Learned Journals'
-      },
-      {
-        id: 'info/career-options-phds',
-        title: 'Discussion of Career Options for Humanities PhDs'
-      },
-      {
-        id: 'info/ele',
-        title: 'Electronic Literature Exhibit: <em>Pathfinders: Twenty-Five Years of Experimental Literary Art</em>'
       },
       {
         id: 'info/government-careers',
@@ -430,7 +414,7 @@ module.exports = function (Module) {
       },
       {
         type: 'menu-head',
-        title: '2015 Convention in Vancouver'
+        title: '2016 Convention'
       },
       {
         id: 'info/calls-for-papers',
@@ -439,10 +423,6 @@ module.exports = function (Module) {
       {
         id: 'info/organizing-sessions',
         title: 'Organizing Sessions'
-      },
-      {
-        id: 'info/vancouver',
-        title: 'Vancouver Information'
       }
     ]
   };
