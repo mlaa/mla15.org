@@ -77,8 +77,9 @@
             <sessions>
                 <xsl:for-each select="$program/session">
                     <xsl:sort select="concat(day/@num, substring('0', string-length(start-time/@abbrev)), start-time/@abbrev, start-time/@minutes)" order="ascending" data-type="number"/>
-                    <xsl:sort select="sequence" order="ascending" data-type="text"/>
+                    <xsl:sort select="replace(sequence, 'A$', '.5')" order="ascending" data-type="number"/>
                     <xsl:copy-of select="."/>
+                    <xsl:value-of select="replace($s1, 'My', 'best')"/>
                 </xsl:for-each>
             </sessions>
         </xsl:variable>
@@ -504,7 +505,7 @@
             <xsl:text>[</xsl:text>
             <xsl:apply-templates select="session" mode="program">
                 <xsl:sort select="concat(day/@num, substring('0', string-length(start-time/@abbrev)), start-time/@abbrev, start-time/@minutes)" order="ascending" data-type="number"/>
-                <xsl:sort select="sequence" order="ascending" data-type="text"/>
+                <xsl:sort select="replace(sequence, 'A$', '.5')" order="ascending" data-type="number"/>
               </xsl:apply-templates>
             <xsl:text>]</xsl:text>
         </xsl:result-document>
