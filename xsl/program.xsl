@@ -79,7 +79,6 @@
                     <xsl:sort select="concat(day/@num, substring('0', string-length(start-time/@abbrev)), start-time/@abbrev, start-time/@minutes)" order="ascending" data-type="number"/>
                     <xsl:sort select="replace(sequence, 'A$', '.5')" order="ascending" data-type="number"/>
                     <xsl:copy-of select="."/>
-                    <xsl:value-of select="replace($s1, 'My', 'best')"/>
                 </xsl:for-each>
             </sessions>
         </xsl:variable>
