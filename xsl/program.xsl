@@ -303,12 +303,12 @@
                                                                                         <xsl:matching-substring></xsl:matching-substring>
                                                                                         <xsl:non-matching-substring>
 
-                                                                                            <xsl:analyze-string select="." regex="Reframing Postcolonial and Global Studies in the Longer ([^ ]+) \(346\)">
-                                                                                                <xsl:matching-substring><a href="#346">Reframing Postcolonial and Global Studies in the Longer <em>Durée</em></a></xsl:matching-substring>
+                                                                                            <xsl:analyze-string select="." regex="Literature and Science Studies \(334\)">
+                                                                                                <xsl:matching-substring><a href="#334">Literature and Science Studies</a></xsl:matching-substring>
                                                                                                 <xsl:non-matching-substring>
 
-                                                                                                    <xsl:analyze-string select="." regex="the forum The Presidential Forum: Vulnerable Times \(230\)">
-                                                                                                        <xsl:matching-substring><a href="#230">The Presidential Forum: Vulnerable Times</a></xsl:matching-substring>
+                                                                                                    <xsl:analyze-string select="." regex="the forum The Presidential Forum: Negotiating Sites of Memory \(219\)">
+                                                                                                        <xsl:matching-substring><a href="#219">The Presidential Forum: Negotiating Sites of Memory</a></xsl:matching-substring>
                                                                                                         <xsl:non-matching-substring>
 
                                                                                                             <xsl:analyze-string select="." regex="_([^_]+)_">
