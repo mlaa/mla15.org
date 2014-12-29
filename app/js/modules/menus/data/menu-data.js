@@ -285,6 +285,10 @@ module.exports = function (Module) {
         title: 'About MLA PubCentral'
       },
       {
+        type: 'menu-head',
+        title: 'On-Site Resources'
+      },
+      {
         id: 'info/business-center',
         title: 'Business Center'
       },
@@ -298,7 +302,7 @@ module.exports = function (Module) {
       },
       {
         id: 'info/headquarters',
-        title: 'Headquarters Offices'
+        title: 'Headquarters Office'
       },
       {
         id: 'info/internet-in-hotels',
@@ -327,6 +331,10 @@ module.exports = function (Module) {
       {
         id: 'info/transportation',
         title: 'Transportation in Vancouver'
+      },
+      {
+        id: 'info/vancouver-information',
+        title: 'Vancouver Information and Restaurant Reservations'
       },
       {
         id: 'info/whos-here',
