@@ -276,19 +276,19 @@
                                     <line>
 
                                         <xsl:analyze-string select="translate(P_DTL_LINE, '+', '–')" regex="(https?://[^ ]+[^\. ])">
-                                            <xsl:matching-substring><a href="{regex-group(1)}"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
+                                            <xsl:matching-substring><a href="{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
                                             <xsl:non-matching-substring>
 
                                                 <xsl:analyze-string select="." regex="(www\.[^ ]+[^\. ])">
-                                                    <xsl:matching-substring><a href="http://{regex-group(1)}"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
+                                                    <xsl:matching-substring><a href="http://{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
                                                     <xsl:non-matching-substring>
 
                                                         <xsl:analyze-string select="." regex="visit ([^ ]{{10,}}[^\. ])">
-                                                            <xsl:matching-substring>visit <a href="http://{regex-group(1)}"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
+                                                            <xsl:matching-substring>visit <a href="http://{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
                                                             <xsl:non-matching-substring>
 
                                                                 <xsl:analyze-string select="." regex="([0-9A-Za-z][^&lt;&gt; ]*@[0-9A-Za-z][^&lt;&gt; ]*\.[A-Za-z]{{2,9}})">
-                                                                    <xsl:matching-substring><a><xsl:attribute name="href">mailto:<xsl:value-of select="regex-group(1)"/></xsl:attribute><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
+                                                                    <xsl:matching-substring><a target="_blank"><xsl:attribute name="href">mailto:<xsl:value-of select="regex-group(1)"/></xsl:attribute><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
                                                                     <xsl:non-matching-substring>
 
                                                                         <xsl:analyze-string select="." regex="see (meetings|sessions) ([0-9]+) and ([0-9]+) and ([0-9]+)">
