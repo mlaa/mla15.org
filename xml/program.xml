@@ -82,6 +82,76 @@
          <line>Representatives of different institutional types discuss work and career paths in AA-, BA-, MA-, and PhD-granting programs and institutions. Speakers address institutional expectations and aspects of the job search: the application dossier, interviews at the convention and on campus, waiting out a sluggish market, and negotiating an offer.</line>
       </details>
    </session>
+   <session id="A085D">
+      <sequence>6</sequence>
+      <title>Leftist Activism in the Academy: Then and Now</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
+      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>116</room>
+      <details>
+         <line role="calendar">12:00 noon–1:15 p.m., 116, VCC West</line>
+         <line>Program arranged by the Radical Caucus in English and the Modern Languages. <em>Presiding:</em> Susan G. O'Malley, Kingsborough Community Coll., City Univ. of New York</line>
+         <line>1. "Governance, Academic Unionism, and <em>Radical Teacher</em>: Three Sites of Radical Activism," Susan G. O'Malley</line>
+         <line>2. "Against the Wind in Academia," Rosaura Sanchez, Univ. of California, San Diego</line>
+         <line>3. "Confronting the Crisis in Academic Labor," Margaret Hanzimanolis, De Anza Coll., CA</line>
+         <line>4. "Radical Organizing in the MLA: 1975–2015," Barbara Clare Foley, Rutgers Univ., Newark</line>
+         <line>For abstracts, write to <a target="_blank" href="mailto:bfoley@andromeda.rutgers.edu">bfoley@andromeda.rutgers.edu</a> after 1 Jan.</line>
+      </details>
+   </session>
+   <session id="D075A">
+      <sequence>7</sequence>
+      <title>Queer Archives</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
+      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>2</room>
+      <details>
+         <line role="calendar">12:00 noon–1:15 p.m., 2, VCC East</line>
+         <line>Program arranged by the Division on Gay Studies in Language and Literature. <em>Presiding:</em> Martha Nell Smith, Univ. of Maryland, College Park</line>
+         <line>1. "Not-at-Home Movies: The Queer Films of Cyrus Pinkham," Christopher D. Castiglia, Penn State Univ., University Park; Christopher Reed, Penn State Univ., University Park</line>
+         <line>2. "Queer Preservation Methods: 'Herstory' Inventory and Archival Media Practices," Ann L. Cvetkovich, Univ. of Texas, Austin</line>
+         <line>3. "Archival Fantasy and Cinematic Form," Valerie Rohy, Univ. of Vermont</line>
+      </details>
+   </session>
+   <session id="S731">
+      <sequence>8</sequence>
+      <title>Pacific Northwest Literary Regionalism: Acts of Recovery</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
+      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>205</room>
+      <details>
+         <line role="calendar">12:00 noon–1:15 p.m., 205, VCC West</line>
+         <line>A special session. <em>Presiding:</em> Laura Laffrado, Western Washington Univ.</line>
+         <line>1. "Carol Ryrie Brink and Moving Memory: A Novel Family History, from <em>Caddie Woodlawn</em>'s Wisconsin to <em>Buffalo Coat</em>'s Idaho," Jana L. Argersinger, Washington State Univ., Pullman</line>
+         <line>2. "Batterman Lindsay's <em>Derelicts of Destiny</em> and Pacific Northwest Native American Culture," Donna M. Campbell, Washington State Univ., Pullman</line>
+         <line>3. "Besides the Bureau of American Ethnology: Recovering the Alaska Native Brotherhood/Sisterhood as a Community of Native Writers," Michael Taylor, Univ. of British Columbia, Vancouver</line>
+      </details>
+   </session>
+   <session id="S712">
+      <sequence>9</sequence>
+      <title>In Praise of Flatness</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
+      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>219</room>
+      <details>
+         <line role="calendar">12:00 noon–1:15 p.m., 219, VCC West</line>
+         <line>A special session. <em>Presiding:</em> Megan Ward, Oregon State Univ.</line>
+         <line>
+            <em>Speakers:</em> Katherine Fusco, Univ. of Nevada, Reno; Rachel Greenwald Smith, Saint Louis Univ.; Andrew Hoberek, Univ. of Missouri, Columbia; Anna Kornbluh, Univ. of Illinois, Chicago; Lindsay Thomas, Clemson Univ.; Megan Ward</line>
+         <line>This roundtable focuses on the centrality of flat characters, flat affects, and flat forms to a range of fictional modes from 1850 to the present.</line>
+      </details>
+   </session>
    <session id="D017C">
       <sequence>10</sequence>
       <title>Colonial Soundings: Music and Memory</title>
@@ -607,76 +677,6 @@
          <line>1. "'A Looking-Glass for Traytors': Remembering the Trial and Execution of Charles I in 1660s Broadside Publications," Margaret J. M. Ezell, Texas A&amp;M Univ., College Station</line>
          <line>2. "Thomas Shadwell, <em>A True Widow</em> (1680), and the Legacy of the Civil War during the Exclusion Crisis," Robert Markley, Univ. of Illinois, Urbana</line>
          <line>3. "Divorcing Marriage Contract from Political Contract: Milton and After," Sharon Achinstein, Johns Hopkins Univ., MD</line>
-      </details>
-   </session>
-   <session id="A085D">
-      <sequence>6</sequence>
-      <title>Leftist Activism in the Academy: Then and Now</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
-      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>116</room>
-      <details>
-         <line role="calendar">12:00 noon–1:15 p.m., 116, VCC West</line>
-         <line>Program arranged by the Radical Caucus in English and the Modern Languages. <em>Presiding:</em> Susan G. O'Malley, Kingsborough Community Coll., City Univ. of New York</line>
-         <line>1. "Governance, Academic Unionism, and <em>Radical Teacher</em>: Three Sites of Radical Activism," Susan G. O'Malley</line>
-         <line>2. "Against the Wind in Academia," Rosaura Sanchez, Univ. of California, San Diego</line>
-         <line>3. "Confronting the Crisis in Academic Labor," Margaret Hanzimanolis, De Anza Coll., CA</line>
-         <line>4. "Radical Organizing in the MLA: 1975–2015," Barbara Clare Foley, Rutgers Univ., Newark</line>
-         <line>For abstracts, write to <a target="_blank" href="mailto:bfoley@andromeda.rutgers.edu">bfoley@andromeda.rutgers.edu</a> after 1 Jan.</line>
-      </details>
-   </session>
-   <session id="D075A">
-      <sequence>7</sequence>
-      <title>Queer Archives</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
-      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>2</room>
-      <details>
-         <line role="calendar">12:00 noon–1:15 p.m., 2, VCC East</line>
-         <line>Program arranged by the Division on Gay Studies in Language and Literature. <em>Presiding:</em> Martha Nell Smith, Univ. of Maryland, College Park</line>
-         <line>1. "Not-at-Home Movies: The Queer Films of Cyrus Pinkham," Christopher D. Castiglia, Penn State Univ., University Park; Christopher Reed, Penn State Univ., University Park</line>
-         <line>2. "Queer Preservation Methods: 'Herstory' Inventory and Archival Media Practices," Ann L. Cvetkovich, Univ. of Texas, Austin</line>
-         <line>3. "Archival Fantasy and Cinematic Form," Valerie Rohy, Univ. of Vermont</line>
-      </details>
-   </session>
-   <session id="S731">
-      <sequence>8</sequence>
-      <title>Pacific Northwest Literary Regionalism: Acts of Recovery</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
-      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>205</room>
-      <details>
-         <line role="calendar">12:00 noon–1:15 p.m., 205, VCC West</line>
-         <line>A special session. <em>Presiding:</em> Laura Laffrado, Western Washington Univ.</line>
-         <line>1. "Carol Ryrie Brink and Moving Memory: A Novel Family History, from <em>Caddie Woodlawn</em>'s Wisconsin to <em>Buffalo Coat</em>'s Idaho," Jana L. Argersinger, Washington State Univ., Pullman</line>
-         <line>2. "Batterman Lindsay's <em>Derelicts of Destiny</em> and Pacific Northwest Native American Culture," Donna M. Campbell, Washington State Univ., Pullman</line>
-         <line>3. "Besides the Bureau of American Ethnology: Recovering the Alaska Native Brotherhood/Sisterhood as a Community of Native Writers," Michael Taylor, Univ. of British Columbia, Vancouver</line>
-      </details>
-   </session>
-   <session id="S712">
-      <sequence>9</sequence>
-      <title>In Praise of Flatness</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
-      <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>219</room>
-      <details>
-         <line role="calendar">12:00 noon–1:15 p.m., 219, VCC West</line>
-         <line>A special session. <em>Presiding:</em> Megan Ward, Oregon State Univ.</line>
-         <line>
-            <em>Speakers:</em> Katherine Fusco, Univ. of Nevada, Reno; Rachel Greenwald Smith, Saint Louis Univ.; Andrew Hoberek, Univ. of Missouri, Columbia; Anna Kornbluh, Univ. of Illinois, Chicago; Lindsay Thomas, Clemson Univ.; Megan Ward</line>
-         <line>This roundtable focuses on the centrality of flat characters, flat affects, and flat forms to a range of fictional modes from 1850 to the present.</line>
       </details>
    </session>
    <session id="B012B">
@@ -1328,169 +1328,6 @@
          <line>This workshop provides an overview of various federal careers that utilize skills in languages and cultural expertise—translator, interpreter, instructor, intelligence analyst, language analyst, foreign language program manager, foreign service officer, and law enforcement officer. Recruiters and subject matter experts discuss career opportunities and the application process. A question-and-answer period concludes the session.</line>
       </details>
    </session>
-   <session id="D028A">
-      <sequence>100</sequence>
-      <title>Literary Science</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>224</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 224, VCC West</line>
-         <line>Program arranged by the Division on Late-Eighteenth-Century English Literature. <em>Presiding:</em> William Beatty Warner, Univ. of California, Santa Barbara</line>
-         <line>
-            <em>Speakers:</em> Peter L. de Bolla, Univ. of Cambridge, King's Coll.; Ian Duncan, Univ. of California, Berkeley; Sara Landreth, Univ. of Ottawa; Stephen Osadetz, Harvard Univ.; Clifford Haynes Siskin, New York Univ.; Robin Valenza, Univ. of Wisconsin, Madison</line>
-         <line>Instrumental defenses of the literary humanities in crisis will not make us central to the research agendas of the future. To clarify our contribution, we should return to the eighteenth century, when moral and natural philosophy were not as distant from each other as "humanities" and "science" are now. Then we can explore two key questions: How has literary science advanced knowledge? How should it?</line>
-      </details>
-   </session>
-   <session id="A094A">
-      <sequence>101</sequence>
-      <title>Memory as Resistance in Midwest Urban Spaces</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>223</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 223, VCC West</line>
-         <line>Program arranged by the Society for the Study of Midwestern Literature. <em>Presiding:</em> Marilyn Judith Atlas, Ohio Univ., Athens</line>
-         <line>1. "Scandinavian-American Voices from Chicago's Childhood," Julie K. Allen, Univ. of Wisconsin, Madison</line>
-         <line>2. "Memory and Ambivalence: Chicago in Mildred Walker's <em>Light from Arcturus</em>," Melody M. Zajdel, Montana State Univ., Bozeman</line>
-         <line>3. "'Stay Here till We Rot!': Temporal Resistance and Nostalgic Memory in <em>Meet Me in St. Louis</em>," Adam Ochonicky, Univ. of Wisconsin, Milwaukee</line>
-         <line>4. "Resisting Realism:  The Role of Memory and Place in Saul Bellow's Winter Novella, <em>The Actual</em>," Marilyn Judith Atlas</line>
-      </details>
-   </session>
-   <session id="A084A">
-      <sequence>102</sequence>
-      <title>Ezra Pound's Reception in Canada</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>222</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 222, VCC West</line>
-         <line>Program arranged by the Ezra Pound Society. <em>Presiding:</em> Ira Nadel, Univ. of British Columbia, Vancouver</line>
-         <line>1. "<em>CIV/n</em> and Ezra Pound: Toward a Canadian <em>Paideuma</em>," Anderson Araujo, Univ. of British Columbia, Okanagan</line>
-         <line>2. "Ezra Pound, Marshall McLuhan, and Educational Reform in Canada," Tony Tremblay, Saint Thomas Univ., NB</line>
-         <line>3. "From <em>A Light to Eleusis</em> to Twentieth-Century's Sixth Circle of Hell: Leon Surette's Pound," Demetres Tryphonopoulos, Univ. of New Brunswick, Fredericton</line>
-         <line>For abstracts, write to <a target="_blank" href="mailto:demetres@unb.ca">demetres@unb.ca</a> after 15 Dec.</line>
-      </details>
-   </session>
-   <session id="A116A">
-      <sequence>103</sequence>
-      <title>New Approaches to Dostoevsky's <em>Crime and Punishment</em>
-      </title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>7</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 7, VCC East</line>
-         <line>Program arranged by the International Dostoevsky Society. <em>Presiding:</em> Robin Feuer Miller, Brandeis Univ.</line>
-         <line>1. "Death and Its Reverberations in <em>Crime and Punishment</em>," Scarlet Jacquelyn Marquette, Harvard Univ.</line>
-         <line>2. "Evidence for Pedagogy: Sylvia Plath and Ted Hughes Annotating <em>Crime and Punishment</em>," Amanda Golden, Georgia Inst. of Tech.</line>
-         <line>3. "Sonya and Rodion: A Love Story Set to Music," Russell Scott Valentino, Indiana Univ., Bloomington</line>
-         <line>
-            <em>Respondent:</em> Susan McReynolds, Northwestern Univ.</line>
-      </details>
-   </session>
-   <session id="A068A">
-      <sequence>104</sequence>
-      <title>Universal and Particular in Lessing</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>3</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 3, VCC East</line>
-         <line>Program arranged by the G. E. Lessing Society. <em>Presiding:</em> Seth Berk, Univ. of Washington, Seattle</line>
-         <line>1. "<em>Laokoön</em> and Loss," Birger Vanwesenbeeck, State Univ. of New York, Fredonia</line>
-         <line>2. "G. E. Lessing and the Fabulist Genre: From Mundane Abstraction to Universal Thematic," Stephanie Chapman, Univ. of Oregon</line>
-         <line>3. "Emilia Galotti as a <em>Galeotto</em>: Whose Go-Between?" Saskia Ziolkowski, Duke Univ.</line>
-         <line>4. "Universal Nonuniversalizability in G. E. Lessing's <em>Nathan the Wise</em>," Friederike von Schwerin-High, Pomona Coll.</line>
-      </details>
-   </session>
-   <session id="A052A">
-      <sequence>105</sequence>
-      <title>Hawthorne and Class</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>210</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 210, VCC West</line>
-         <line>Program arranged by the Nathaniel Hawthorne Society. <em>Presiding:</em> David Greven, Univ. of South Carolina, Columbia</line>
-         <line>1. "Reproductive Futurism, Violence, and <em>The Blithedale Romance</em>," Dana Medoro, Univ. of Manitoba</line>
-         <line>2. "Alice Doesn't Live Here Anymore: Exorcising Hawthorne's Unregenerate Daughter," Carina Pasquesi, Baruch Coll., City Univ. of New York</line>
-         <line>3. "Cross-Class Intimacy in the Boarding-<em>House of the Seven Gables</em>," Erin Sweeney, Univ. of California, Irvine</line>
-         <line>4. "'This Unmelodious Contrivance': Music and Class in Hawthorne's Novels," Joshua Jensen, Claremont Graduate Univ.</line>
-      </details>
-   </session>
-   <session id="D042A">
-      <sequence>106</sequence>
-      <title>Expert Language and Ordinary Language</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>16</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 16, VCC East</line>
-         <line>Program arranged by the Division on Language and Society. <em>Presiding:</em> Ken Hirschkop, Univ. of Waterloo</line>
-         <line>1. "Making Space for the Vernacular in Academic Publishing," A. Suresh Canagarajah, Penn State Univ., University Park</line>
-         <line>2. "Knowledge in the Theater State: Ventriloquizing Expertise, Manipulating Opinion," Kurt Spellmeyer, Rutgers Univ., New Brunswick</line>
-         <line>3. "Expert and Ordinary Language Games in Bruce Duffy's <em>The World As I Found It</em>," Michael Donald Lackey, Univ. of Minnesota, Morris</line>
-         <line>For abstracts, visit <a href="http://commons.mla.org" target="_blank">commons.mla.org</a> after 1 Dec.</line>
-      </details>
-   </session>
-   <session id="D077B">
-      <sequence>107</sequence>
-      <title>Life in Occupied Palestine</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>13</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 13, VCC East</line>
-         <line>Program arranged by the Division on Autobiography, Biography, and Life Writing. <em>Presiding:</em> Steven Salaita, independent scholar</line>
-         <line>
-            <em>Speakers:</em> Darnell Moore, Columbia Univ.; Magid Shihade, Birzeit Univ.; Alexander Winder, New York Univ.; Adam Yaghi, Univ. of Victoria</line>
-         <line>Panelists will discuss Palestinian life narratives' importance to documenting the scope (generational, historical, geographic) of life under occupation and the power of life narratives to resist occupation.
-</line>
-      </details>
-   </session>
-   <session id="D079C">
-      <sequence>108</sequence>
-      <title>Memorializing Italy</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
-      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>15</room>
-      <details>
-         <line role="calendar">3:30–4:45 p.m., 15, VCC East</line>
-         <line>Program arranged by the Division on Twentieth-Century Italian Literature. <em>Presiding:</em> Allison A. Cooper, Bowdoin Coll.</line>
-         <line>1. "Disability, Illness, and the Memory of Fascism in Italian Film," Sarah Patricia Hill, Victoria Univ. of Wellington</line>
-         <line>2. "Digital Memories of the Unification: <em>Bronteinsieme.it</em>," Kathleen E. La Penta, Fordham Univ.</line>
-         <line>3. "The Memory of Fascism in Franco Fortini and Daniele Huillet and Jean-Marie Straub," Giuliana Minghelli, Harvard Univ.</line>
-         <line>4. "Piazza dei Cinquecento, a Site of Colonial Memory in Postcolonial Italy," Michele Monserrati, Bryn Mawr Coll.</line>
-      </details>
-   </session>
    <session id="S403">
       <sequence>73</sequence>
       <title>Comparative Media Studies in Latin America</title>
@@ -1978,6 +1815,169 @@
          <line>1. "Staging Ballad Publics: The Packs of Autolycus," Patricia Fumerton, Univ. of California, Santa Barbara</line>
          <line>2. "Looking for the 'Popular' in Cinematic Shakespeare," Gregory M. C. Semenza, Univ. of Connecticut, Storrs</line>
          <line>3. "'He Had Authentic Notice from the Play': Shakespeare and Richard III Tourism," Philip Schwyzer, Univ. of Exeter</line>
+      </details>
+   </session>
+   <session id="D028A">
+      <sequence>100</sequence>
+      <title>Literary Science</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>224</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 224, VCC West</line>
+         <line>Program arranged by the Division on Late-Eighteenth-Century English Literature. <em>Presiding:</em> William Beatty Warner, Univ. of California, Santa Barbara</line>
+         <line>
+            <em>Speakers:</em> Peter L. de Bolla, Univ. of Cambridge, King's Coll.; Ian Duncan, Univ. of California, Berkeley; Sara Landreth, Univ. of Ottawa; Stephen Osadetz, Harvard Univ.; Clifford Haynes Siskin, New York Univ.; Robin Valenza, Univ. of Wisconsin, Madison</line>
+         <line>Instrumental defenses of the literary humanities in crisis will not make us central to the research agendas of the future. To clarify our contribution, we should return to the eighteenth century, when moral and natural philosophy were not as distant from each other as "humanities" and "science" are now. Then we can explore two key questions: How has literary science advanced knowledge? How should it?</line>
+      </details>
+   </session>
+   <session id="A094A">
+      <sequence>101</sequence>
+      <title>Memory as Resistance in Midwest Urban Spaces</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>223</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 223, VCC West</line>
+         <line>Program arranged by the Society for the Study of Midwestern Literature. <em>Presiding:</em> Marilyn Judith Atlas, Ohio Univ., Athens</line>
+         <line>1. "Scandinavian-American Voices from Chicago's Childhood," Julie K. Allen, Univ. of Wisconsin, Madison</line>
+         <line>2. "Memory and Ambivalence: Chicago in Mildred Walker's <em>Light from Arcturus</em>," Melody M. Zajdel, Montana State Univ., Bozeman</line>
+         <line>3. "'Stay Here till We Rot!': Temporal Resistance and Nostalgic Memory in <em>Meet Me in St. Louis</em>," Adam Ochonicky, Univ. of Wisconsin, Milwaukee</line>
+         <line>4. "Resisting Realism:  The Role of Memory and Place in Saul Bellow's Winter Novella, <em>The Actual</em>," Marilyn Judith Atlas</line>
+      </details>
+   </session>
+   <session id="A084A">
+      <sequence>102</sequence>
+      <title>Ezra Pound's Reception in Canada</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>222</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 222, VCC West</line>
+         <line>Program arranged by the Ezra Pound Society. <em>Presiding:</em> Ira Nadel, Univ. of British Columbia, Vancouver</line>
+         <line>1. "<em>CIV/n</em> and Ezra Pound: Toward a Canadian <em>Paideuma</em>," Anderson Araujo, Univ. of British Columbia, Okanagan</line>
+         <line>2. "Ezra Pound, Marshall McLuhan, and Educational Reform in Canada," Tony Tremblay, Saint Thomas Univ., NB</line>
+         <line>3. "From <em>A Light to Eleusis</em> to Twentieth-Century's Sixth Circle of Hell: Leon Surette's Pound," Demetres Tryphonopoulos, Univ. of New Brunswick, Fredericton</line>
+         <line>For abstracts, write to <a target="_blank" href="mailto:demetres@unb.ca">demetres@unb.ca</a> after 15 Dec.</line>
+      </details>
+   </session>
+   <session id="A116A">
+      <sequence>103</sequence>
+      <title>New Approaches to Dostoevsky's <em>Crime and Punishment</em>
+      </title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>7</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 7, VCC East</line>
+         <line>Program arranged by the International Dostoevsky Society. <em>Presiding:</em> Robin Feuer Miller, Brandeis Univ.</line>
+         <line>1. "Death and Its Reverberations in <em>Crime and Punishment</em>," Scarlet Jacquelyn Marquette, Harvard Univ.</line>
+         <line>2. "Evidence for Pedagogy: Sylvia Plath and Ted Hughes Annotating <em>Crime and Punishment</em>," Amanda Golden, Georgia Inst. of Tech.</line>
+         <line>3. "Sonya and Rodion: A Love Story Set to Music," Russell Scott Valentino, Indiana Univ., Bloomington</line>
+         <line>
+            <em>Respondent:</em> Susan McReynolds, Northwestern Univ.</line>
+      </details>
+   </session>
+   <session id="A068A">
+      <sequence>104</sequence>
+      <title>Universal and Particular in Lessing</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>3</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 3, VCC East</line>
+         <line>Program arranged by the G. E. Lessing Society. <em>Presiding:</em> Seth Berk, Univ. of Washington, Seattle</line>
+         <line>1. "<em>Laokoön</em> and Loss," Birger Vanwesenbeeck, State Univ. of New York, Fredonia</line>
+         <line>2. "G. E. Lessing and the Fabulist Genre: From Mundane Abstraction to Universal Thematic," Stephanie Chapman, Univ. of Oregon</line>
+         <line>3. "Emilia Galotti as a <em>Galeotto</em>: Whose Go-Between?" Saskia Ziolkowski, Duke Univ.</line>
+         <line>4. "Universal Nonuniversalizability in G. E. Lessing's <em>Nathan the Wise</em>," Friederike von Schwerin-High, Pomona Coll.</line>
+      </details>
+   </session>
+   <session id="A052A">
+      <sequence>105</sequence>
+      <title>Hawthorne and Class</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>210</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 210, VCC West</line>
+         <line>Program arranged by the Nathaniel Hawthorne Society. <em>Presiding:</em> David Greven, Univ. of South Carolina, Columbia</line>
+         <line>1. "Reproductive Futurism, Violence, and <em>The Blithedale Romance</em>," Dana Medoro, Univ. of Manitoba</line>
+         <line>2. "Alice Doesn't Live Here Anymore: Exorcising Hawthorne's Unregenerate Daughter," Carina Pasquesi, Baruch Coll., City Univ. of New York</line>
+         <line>3. "Cross-Class Intimacy in the Boarding-<em>House of the Seven Gables</em>," Erin Sweeney, Univ. of California, Irvine</line>
+         <line>4. "'This Unmelodious Contrivance': Music and Class in Hawthorne's Novels," Joshua Jensen, Claremont Graduate Univ.</line>
+      </details>
+   </session>
+   <session id="D042A">
+      <sequence>106</sequence>
+      <title>Expert Language and Ordinary Language</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>16</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 16, VCC East</line>
+         <line>Program arranged by the Division on Language and Society. <em>Presiding:</em> Ken Hirschkop, Univ. of Waterloo</line>
+         <line>1. "Making Space for the Vernacular in Academic Publishing," A. Suresh Canagarajah, Penn State Univ., University Park</line>
+         <line>2. "Knowledge in the Theater State: Ventriloquizing Expertise, Manipulating Opinion," Kurt Spellmeyer, Rutgers Univ., New Brunswick</line>
+         <line>3. "Expert and Ordinary Language Games in Bruce Duffy's <em>The World As I Found It</em>," Michael Donald Lackey, Univ. of Minnesota, Morris</line>
+         <line>For abstracts, visit <a href="http://commons.mla.org" target="_blank">commons.mla.org</a> after 1 Dec.</line>
+      </details>
+   </session>
+   <session id="D077B">
+      <sequence>107</sequence>
+      <title>Life in Occupied Palestine</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>13</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 13, VCC East</line>
+         <line>Program arranged by the Division on Autobiography, Biography, and Life Writing. <em>Presiding:</em> Steven Salaita, independent scholar</line>
+         <line>
+            <em>Speakers:</em> Darnell Moore, Columbia Univ.; Magid Shihade, Birzeit Univ.; Alexander Winder, New York Univ.; Adam Yaghi, Univ. of Victoria</line>
+         <line>Panelists will discuss Palestinian life narratives' importance to documenting the scope (generational, historical, geographic) of life under occupation and the power of life narratives to resist occupation.
+</line>
+      </details>
+   </session>
+   <session id="D079C">
+      <sequence>108</sequence>
+      <title>Memorializing Italy</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>15</room>
+      <details>
+         <line role="calendar">3:30–4:45 p.m., 15, VCC East</line>
+         <line>Program arranged by the Division on Twentieth-Century Italian Literature. <em>Presiding:</em> Allison A. Cooper, Bowdoin Coll.</line>
+         <line>1. "Disability, Illness, and the Memory of Fascism in Italian Film," Sarah Patricia Hill, Victoria Univ. of Wellington</line>
+         <line>2. "Digital Memories of the Unification: <em>Bronteinsieme.it</em>," Kathleen E. La Penta, Fordham Univ.</line>
+         <line>3. "The Memory of Fascism in Franco Fortini and Daniele Huillet and Jean-Marie Straub," Giuliana Minghelli, Harvard Univ.</line>
+         <line>4. "Piazza dei Cinquecento, a Site of Colonial Memory in Postcolonial Italy," Michele Monserrati, Bryn Mawr Coll.</line>
       </details>
    </session>
    <session id="G015A">
@@ -7490,6 +7490,47 @@ During this open hearing, MLA members and delegates may discuss the regular reso
          <line>Reception immediately following.</line>
       </details>
    </session>
+   <session id="A036C">
+      <sequence>A036C</sequence>
+      <title>Cash Bar, Dinner, and Business Meeting Arranged by the Joseph Conrad Society of America</title>
+      <date>9 January</date>
+      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
+      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
+      <venue abbrev="off"/>
+      <type abbrev="soc">Social</type>
+      <details>
+         <line role="calendar">Cash bar at 7:00 p.m., dinner at 7:30 p.m., Ukrainian Village Restaurant, 815 Denman St. (near Robson St.)</line>
+         <line>Send a US$45 check (US$25 for graduate students), made payable to JCSA, or a request for a PayPal invoice to Mark Larabee (<a target="_blank" href="mailto:larabee@usna.edu">larabee@usna.edu</a>) by 24 Dec.</line>
+      </details>
+   </session>
+   <session id="C020">
+      <sequence>C020</sequence>
+      <title>Cash Bar Arranged by the Rutgers University Department of English</title>
+      <date>9 January</date>
+      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
+      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
+      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>119</room>
+      <type abbrev="soc">Social</type>
+      <details>
+         <line role="calendar">7:00–8:15 p.m., 119, VCC West</line>
+      </details>
+   </session>
+   <session id="C021">
+      <sequence>C021</sequence>
+      <title>Cash Bar Arranged by the Department of English, University of Michigan, Ann Arbor</title>
+      <date>9 January</date>
+      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
+      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
+      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>207</room>
+      <type abbrev="soc">Social</type>
+      <details>
+         <line role="calendar">7:00–8:15 p.m., 207, VCC West</line>
+      </details>
+   </session>
    <session id="E004">
       <sequence>407</sequence>
       <title>A Screening of <em>The Penelope Project</em>
@@ -7662,47 +7703,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <type abbrev="soc">Social</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 110, VCC West</line>
-      </details>
-   </session>
-   <session id="A036C">
-      <sequence>A036C</sequence>
-      <title>Cash Bar, Dinner, and Business Meeting Arranged by the Joseph Conrad Society of America</title>
-      <date>9 January</date>
-      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
-      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
-      <venue abbrev="off"/>
-      <type abbrev="soc">Social</type>
-      <details>
-         <line role="calendar">Cash bar at 7:00 p.m., dinner at 7:30 p.m., Ukrainian Village Restaurant, 815 Denman St. (near Robson St.)</line>
-         <line>Send a US$45 check (US$25 for graduate students), made payable to JCSA, or a request for a PayPal invoice to Mark Larabee (<a target="_blank" href="mailto:larabee@usna.edu">larabee@usna.edu</a>) by 24 Dec.</line>
-      </details>
-   </session>
-   <session id="C020">
-      <sequence>C020</sequence>
-      <title>Cash Bar Arranged by the Rutgers University Department of English</title>
-      <date>9 January</date>
-      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
-      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
-      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>119</room>
-      <type abbrev="soc">Social</type>
-      <details>
-         <line role="calendar">7:00–8:15 p.m., 119, VCC West</line>
-      </details>
-   </session>
-   <session id="C021">
-      <sequence>C021</sequence>
-      <title>Cash Bar Arranged by the Department of English, University of Michigan, Ann Arbor</title>
-      <date>9 January</date>
-      <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
-      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
-      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>207</room>
-      <type abbrev="soc">Social</type>
-      <details>
-         <line role="calendar">7:00–8:15 p.m., 207, VCC West</line>
       </details>
    </session>
    <session id="D009B">
@@ -9097,6 +9097,19 @@ During this open hearing, MLA members and delegates may discuss the regular reso
             <em>Respondent:</em> LeAnne Howe, Univ. of Georgia</line>
       </details>
    </session>
+   <session id="A060C">
+      <sequence>A060C</sequence>
+      <title>Luncheon Arranged by the International Spenser Society</title>
+      <date>10 January</date>
+      <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
+      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
+      <venue abbrev="off"/>
+      <type abbrev="soc">Social</type>
+      <details>
+         <line role="calendar">Luncheon at 12:00 noon, Simon Fraser Univ., Segal Bldg., 500 Granville St.</line>
+         <line>For reservations, call Rhonda Lemke Sanford (304 657-1530) by 31 Dec.</line>
+      </details>
+   </session>
    <session id="A062A">
       <sequence>493</sequence>
       <title>Nabokov and History</title>
@@ -9741,19 +9754,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
          <line>1. "Why Teach Literature from the Global South?" José David Saldívar, Stanford Univ.</line>
          <line>2. "Small Narratives and Significant Details," Françoise Lionnet, Univ. of California, Los Angeles</line>
          <line>3. "Poetry as the Soul of History," Cary Nelson, Univ. of Illinois, Urbana</line>
-      </details>
-   </session>
-   <session id="A060C">
-      <sequence>A060C</sequence>
-      <title>Luncheon Arranged by the International Spenser Society</title>
-      <date>10 January</date>
-      <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
-      <start-time abbrev="12" minutes="00" ambig="aft" header="12:00 noon">12:00 noon</start-time>
-      <venue abbrev="off"/>
-      <type abbrev="soc">Social</type>
-      <details>
-         <line role="calendar">Luncheon at 12:00 noon, Simon Fraser Univ., Segal Bldg., 500 Granville St.</line>
-         <line>For reservations, call Rhonda Lemke Sanford (304 657-1530) by 31 Dec.</line>
       </details>
    </session>
    <session id="M014A">
@@ -11781,6 +11781,19 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
          <line>Reception immediately following.</line>
       </details>
    </session>
+   <session id="C903">
+      <sequence>C903</sequence>
+      <title>Organizational Meeting for LLC Latina and Latino</title>
+      <date>10 January</date>
+      <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
+      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
+      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
+      <venue abbrev="ve">VCC East</venue>
+      <room>1</room>
+      <details>
+         <line role="calendar">7:00–8:15 p.m., 1, VCC East</line>
+      </details>
+   </session>
    <session id="E005">
       <sequence>642</sequence>
       <title>Kurt Schwitters's <em>Ursonate</em>
@@ -11942,19 +11955,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <type abbrev="soc">Social</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 206, VCC West</line>
-      </details>
-   </session>
-   <session id="C903">
-      <sequence>C903</sequence>
-      <title>Organizational Meeting for LLC Latina and Latino</title>
-      <date>10 January</date>
-      <day num="3" abbrev="sa" ambig="Sat.">Saturday</day>
-      <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
-      <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
-      <venue abbrev="ve">VCC East</venue>
-      <room>1</room>
-      <details>
-         <line role="calendar">7:00–8:15 p.m., 1, VCC East</line>
       </details>
    </session>
    <session id="A104E">
