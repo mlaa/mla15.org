@@ -15,7 +15,10 @@ module.exports = {
       {
         expand: true,
         cwd: 'app/',
-        src: ['data/*.json'],
+        src: [
+          'data/*.json',
+          'img/maps/mla/*.png'
+          ],
         filter: 'isFile',
         dest: ''
       },
