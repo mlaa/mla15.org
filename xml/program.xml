@@ -110,6 +110,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 2, VCC East</line>
          <line>Program arranged by the Division on Gay Studies in Language and Literature. <em>Presiding:</em> Martha Nell Smith, Univ. of Maryland, College Park</line>
@@ -127,6 +128,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 205, VCC West</line>
          <line>A special session. <em>Presiding:</em> Laura Laffrado, Western Washington Univ.</line>
@@ -161,6 +163,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 113, VCC West</line>
          <line>Program arranged by the Division on American Literature to 1800. <em>Presiding:</em> Kathleen Donegan, Univ. of California, Berkeley</line>
@@ -179,6 +182,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 202, VCC West</line>
          <line>A special session. <em>Presiding:</em> Thabiti Lewis, Washington State Univ., Vancouver</line>
@@ -218,6 +222,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>15</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 15, VCC East</line>
          <line>Program arranged by the Division on Comparative Studies in Medieval Literature. <em>Presiding:</em> Jill Ross, Univ. of Toronto</line>
@@ -252,6 +257,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Adeline Koh, Richard Stockton Coll. of New Jersey</line>
@@ -270,6 +276,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 3, VCC East</line>
          <line>A special session. <em>Presiding:</em> Shuchi Kapila, Grinnell Coll.</line>
@@ -287,6 +294,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 14, VCC East</line>
          <line>A special session. <em>Presiding:</em> Philip Holden, National Univ. of Singapore</line>
@@ -399,6 +407,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 215, VCC West</line>
          <line>Program arranged by the Samuel Beckett Society. <em>Presiding:</em> Geert Lernout, Univ. of Antwerp</line>
@@ -474,6 +483,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 210, VCC West</line>
          <line>Program arranged by the Division on Women's Studies in Language and Literature. <em>Presiding:</em> Pamela Allen Brown, Univ. of Connecticut, Stamford</line>
@@ -511,6 +521,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 9, VCC East</line>
          <line>Program arranged by the Division on Nineteenth- and Early-Twentieth-Century German Literature. <em>Presiding:</em> Jonathan S. Skolnik, Univ. of Massachusetts, Amherst</line>
@@ -564,6 +575,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 217, VCC West</line>
          <line>Program arranged by the Reception Study Society. <em>Presiding:</em> Yung-Hsing Wu, Univ. of Louisiana, Lafayette</line>
@@ -598,6 +610,7 @@
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 118, VCC West</line>
          <line>Program arranged by the Division on Anthropological Approaches to Literature. <em>Presiding:</em> Regenia Gagnier, Univ. of Exeter</line>
@@ -742,6 +755,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 7, VCC East</line>
          <line>Program arranged by the Division on Twentieth-Century Latin American Literature. <em>Presiding:</em> Jorge Coronado, Northwestern Univ.</line>
@@ -759,6 +773,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 202, VCC West</line>
          <line>A special session. <em>Presiding:</em> Daniel W. Worden, Univ. of New Mexico, Albuquerque</line>
@@ -778,6 +793,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Colin Martin, Univ. of Calgary</line>
@@ -795,7 +811,6 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 217, VCC West</line>
          <line>A special session. <em>Presiding:</em> Lance Newman, Westminster Coll., UT</line>
@@ -834,6 +849,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 120, VCC West</line>
          <line>A special session. <em>Presiding:</em> Eric Cheyfitz, Cornell Univ.</line>
@@ -871,6 +887,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>220</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 220, VCC West</line>
          <line>Program arranged by the MLA Delegate Assembly Organizing Committee. <em>Presiding:</em> Jennifer Wicke, Univ. of Virginia</line>
@@ -941,6 +958,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 222, VCC West</line>
          <line>A special session. <em>Presiding:</em> Kavita Daiya, George Washington Univ.</line>
@@ -958,6 +976,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 117, VCC West</line>
          <line>A special session. <em>Presiding:</em> Michael Hames-Garcia, Univ. of Oregon</line>
@@ -975,6 +994,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>5</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 5, VCC East</line>
          <line>A special session. <em>Presiding:</em> Arielle Saiber, Bowdoin Coll.</line>
@@ -992,6 +1012,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> Crystal Lake, Wright State Univ.</line>
@@ -1061,6 +1082,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>212</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 212, VCC West</line>
          <line>A special session. <em>Presiding:</em> Sarah Ruffing Robbins, Texas Christian Univ.</line>
@@ -1080,6 +1102,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>15</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 15, VCC East</line>
          <line>Program arranged by the George Sand Association. <em>Presiding:</em> Catherine M. J. Nesci, Univ. of California, Santa Barbara</line>
@@ -1171,6 +1194,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 205, VCC West</line>
          <line>Program arranged by the Discussion Group on Libraries and Research in Languages and Literatures. <em>Presiding:</em> David Oberhelman, Oklahoma State Univ. Library</line>
@@ -1191,6 +1215,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 210, VCC West</line>
          <line>Program arranged by the Division on Late-Nineteenth- and Early-Twentieth-Century American Literature. <em>Presiding:</em> Dale Marie Bauer, Univ. of Illinois, Urbana; Dana Seitler, Univ. of Toronto</line>
@@ -1265,7 +1290,6 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>121</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 121, VCC West</line>
          <line>Program arranged by the Society for the History of Authorship, Reading, and Publishing. <em>Presiding:</em> Lise Jaillant, Univ. of East Anglia</line>
@@ -1286,6 +1310,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>223</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 223, VCC West</line>
          <line>Program arranged by the Doris Lessing Society. <em>Presiding:</em> Cornelius Collins, Fordham Univ.</line>
@@ -1304,6 +1329,7 @@
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 113, VCC West</line>
          <line>Program arranged by the Discussion Group on Celtic Languages and Literatures. <em>Presiding:</em> Lahney Preston-Matto, Adelphi Univ.</line>
@@ -1427,6 +1453,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> Mary Hayes, Univ. of Mississippi</line>
@@ -1480,6 +1507,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 204, VCC West</line>
          <line>A special session. <em>Presiding:</em> Arlene R. Keizer, Univ. of California, Irvine</line>
@@ -1535,7 +1563,6 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 8, VCC East</line>
          <line>Program arranged by the MLA Executive Council. <em>Presiding:</em> Roland Greene, Stanford Univ.</line>
@@ -1553,6 +1580,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 112, VCC West</line>
          <line>A special session. <em>Presiding:</em> Emily Kugler, independent scholar; Nicole Wright, Univ. of Colorado, Boulder</line>
@@ -1590,6 +1618,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 12, VCC East</line>
          <line>A special session. <em>Presiding:</em> Peter Filkins, Bard Coll. at Simon's Rock</line>
@@ -1609,6 +1638,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 113, VCC West</line>
          <line>A special session. <em>Presiding:</em> Ruth Bradley-St-Cyr, Univ. of Ottawa</line>
@@ -1667,6 +1697,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 9, VCC East</line>
          <line>A special session. <em>Presiding:</em> Christopher Brian Conway, Univ. of Texas, Arlington</line>
@@ -1685,7 +1716,6 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 205, VCC West</line>
          <line>Program arranged by the Dickens Society. <em>Presiding:</em> John O. Jordan, Univ. of California, Santa Cruz</line>
@@ -1739,6 +1769,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 17, VCC East</line>
          <line>Program arranged by the American Association of Teachers of German. <em>Presiding:</em> Gisela Ruth Hoecherl-Alden, Boston Univ.</line>
@@ -1809,6 +1840,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 219, VCC West</line>
          <line>Program arranged by the Division on Shakespeare. <em>Presiding:</em> Garrett A. Sullivan, Penn State Univ., University Park</line>
@@ -1843,6 +1875,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>223</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 223, VCC West</line>
          <line>Program arranged by the Society for the Study of Midwestern Literature. <em>Presiding:</em> Marilyn Judith Atlas, Ohio Univ., Athens</line>
@@ -1971,6 +2004,7 @@
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>15</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 15, VCC East</line>
          <line>Program arranged by the Division on Twentieth-Century Italian Literature. <em>Presiding:</em> Allison A. Cooper, Bowdoin Coll.</line>
@@ -2045,6 +2079,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> John Steen, East Carolina Univ.</line>
@@ -2063,6 +2098,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>207</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 207, VCC West</line>
          <line>A special session. <em>Presiding:</em> Arthur F. Kinney, Univ. of Massachusetts, Amherst</line>
@@ -2115,6 +2151,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 114, VCC West</line>
          <line>A special session. <em>Presiding:</em> Alissa Bourbonnais, Univ. of Washington, Seattle</line>
@@ -2225,6 +2262,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 222, VCC West</line>
          <line>A special session. <em>Presiding:</em> Timothy J. Tomasik, Valparaiso Univ.</line>
@@ -2261,6 +2299,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 219, VCC West</line>
          <line>Program arranged by the Division on Cognitive Approaches to Literature. <em>Presiding:</em> Julien Jacques Simon, Indiana Univ. East</line>
@@ -2280,6 +2319,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 210, VCC West</line>
          <line>A special session. <em>Presiding:</em> Petra Dierkes-Thrun, Stanford Univ.; Gabriele Dillmann, Denison Univ.</line>
@@ -2337,6 +2377,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 16, VCC East</line>
          <line>A special session. <em>Presiding:</em> Adam Coon, Univ. of Texas, Austin</line>
@@ -2355,6 +2396,8 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>15</room>
+      <type abbrev="pre">Presidential Theme</type>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 15, VCC East</line>
          <line>Program arranged by the South Asian Literary Association. <em>Presiding:</em> Moumin Quazi, Tarleton State Univ.</line>
@@ -2391,7 +2434,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>122</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 122, VCC West</line>
          <line>Program arranged by the Division on Ethnic Studies in Language and Literature. <em>Presiding:</em> Penelope M. Kelsey, Univ. of Colorado, Boulder; Amritjit Singh, Ohio Univ., Athens</line>
@@ -2446,6 +2489,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 19, VCC East</line>
          <line>Program arranged by the Division on Twentieth-Century French Literature. <em>Presiding:</em> Scott P. Durham, Northwestern Univ.</line>
@@ -2500,6 +2544,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 117, VCC West</line>
          <line>Program arranged by the Harold Pinter Society. <em>Presiding:</em> Judith A. Roof, Rice Univ.</line>
@@ -2536,6 +2581,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 8, VCC East</line>
          <line>Program arranged by the Division on Children's Literature. <em>Presiding:</em> Karin E. Westman, Kansas State Univ.</line>
@@ -2590,6 +2636,7 @@
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 2, VCC East</line>
          <line>Program arranged by the College Language Association. <em>Presiding:</em> Clement Akassi, Howard Univ.</line>
@@ -2625,6 +2672,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 8, VCC East</line>
          <line>A special session. <em>Presiding:</em> Kyla Wazana Tompkins, Pomona Coll.</line>
@@ -2661,6 +2709,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 18, VCC East</line>
          <line>Program arranged by the Discussion Group on Hungarian Literature and the Division on Slavic and East European Literatures. <em>Presiding:</em> Julia Vaingurt, Univ. of Illinois, Chicago</line>
@@ -2680,6 +2729,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 219, VCC West</line>
          <line>Program arranged by the MLA Committee on the Literatures of People of Color in the United States and Canada and the Division on American Indian Literatures. <em>Presiding:</em> Cheryl L. Suzack, Univ. of Toronto</line>
@@ -2698,6 +2748,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>220</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 220, VCC West</line>
          <line>A special session. <em>Presiding:</em> Linda Kay Hughes, Texas Christian Univ.</line>
@@ -2716,7 +2767,6 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 120, VCC West</line>
          <line>A special session. <em>Presiding:</em> Kevin Ferguson, Queens Coll., City Univ. of New York</line>
@@ -2736,6 +2786,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 222, VCC West</line>
          <line>A special session. <em>Presiding:</em> Selamawit Terrefe, Univ. of California, Irvine</line>
@@ -2806,6 +2857,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 205, VCC West</line>
          <line>A special session. <em>Presiding:</em> Leeann Hunter, Washington State Univ., Pullman</line>
@@ -2862,6 +2914,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 210, VCC West</line>
          <line>Program arranged by the Society for the Study of Southern Literature. <em>Presiding:</em> Stephanie Rountree, Georgia State Univ.</line>
@@ -2880,6 +2933,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 14, VCC East</line>
          <line>Program arranged by the Division on Applied Linguistics. <em>Presiding:</em> Lee B. Abraham, Columbia Univ.</line>
@@ -2971,7 +3025,6 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 202, VCC West</line>
          <line>A special session. <em>Presiding:</em> Nancy Glazener, Univ. of Pittsburgh</line>
@@ -3043,6 +3096,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>13</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 13, VCC East</line>
          <line>A special session. <em>Presiding:</em> Eric Zakim, Univ. of Maryland, College Park</line>
@@ -3077,6 +3131,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 114, VCC West</line>
          <line>Program arranged by the Division on the English Romantic Period. <em>Presiding:</em> Marjorie Levinson, Univ. of Michigan, Ann Arbor</line>
@@ -3149,6 +3204,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 7, VCC East</line>
          <line>Program arranged by GEMELA: Grupo de Estudios sobre la Mujer en España y las Américas (pre-1800). <em>Presiding:</em> Emily C. Francomano, Georgetown Univ.</line>
@@ -3220,6 +3276,7 @@
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 112, VCC West</line>
          <line>Program arranged by the Discussion Group on Jewish American Literature. <em>Presiding:</em> Sandor Goodhart, Purdue Univ., West Lafayette</line>
@@ -3371,6 +3428,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 10, VCC East</line>
          <line>Program arranged by the Société Rencesvals, American-Canadian Branch. <em>Presiding:</em> Matthew J. Bailey, Washington and Lee Univ.</line>
@@ -3536,6 +3594,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 112, VCC West</line>
          <line>A special session. <em>Presiding:</em> Ann Baynes Coiro, Rutgers Univ., New Brunswick; Rachel J. Trubowitz, Univ. of New Hampshire, Durham</line>
@@ -3554,6 +3613,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>216</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 216, VCC West</line>
          <line>A special session. <em>Presiding:</em> Charles Julian Rzepka, Boston Univ.</line>
@@ -3607,6 +3667,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 114, VCC West</line>
          <line>A special session. <em>Presiding:</em> Gene Andrew Jarrett, Boston Univ.</line>
@@ -3676,6 +3737,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 12, VCC East</line>
          <line>Program arranged by the Discussion Group on General Linguistics. <em>Presiding:</em> Carolina Gonzalez, Florida State Univ.</line>
@@ -3712,6 +3774,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>214</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 214, VCC West</line>
          <line>A special session. <em>Presiding:</em> Ramón H. Rivera-Servera, Northwestern Univ.</line>
@@ -3729,6 +3792,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>11</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 11, VCC East</line>
          <line>A special session. <em>Presiding:</em> Brad Evans, Rutgers Univ., New Brunswick</line>
@@ -3852,6 +3916,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 8, VCC East</line>
          <line>A special session. <em>Presiding:</em> Vicky Unruh, Univ. of Kansas</line>
@@ -3939,6 +4004,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>1</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 1, VCC East</line>
          <line>Program arranged by the Division on Children's Literature. <em>Presiding:</em> Katharine Slater, Rowan Univ.; Gwen Tarbox, Western Michigan Univ.</line>
@@ -3957,6 +4023,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 3, VCC East</line>
          <line>Program arranged by the Discussion Group on Hungarian Literature. <em>Presiding:</em> Zoltán Márkus, Vassar Coll.</line>
@@ -3976,6 +4043,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 14, VCC East</line>
          <line>Program arranged by the Division on Twentieth-Century Italian Literature. <em>Presiding:</em> Francesca Cadel, Univ. of Calgary</line>
@@ -4011,6 +4079,7 @@
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 9, VCC East</line>
          <line>Program arranged by the Discussion Group on Yiddish Literature. <em>Presiding:</em> Jerold C. Frakes, Univ. at Buffalo, State Univ. of New York</line>
@@ -4081,6 +4150,8 @@
       <end-time abbrev="12" minutes="00" ambig="aft">12:00 noon</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>301</room>
+      <type abbrev="pre">Presidential Theme</type>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15 a.m.–12:00 noon, 301, VCC West</line>
          <line>
@@ -4102,6 +4173,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 111, VCC West</line>
          <line>Program arranged by the American Association of Australian Literary Studies. <em>Presiding:</em> Nicole Moore, Univ. of New South Wales</line>
@@ -4120,6 +4192,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>212</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 212, VCC West</line>
          <line>Program arranged by the American Psychoanalytic Association. <em>Presiding:</em> Peter L. Rudnytsky, Univ. of Florida</line>
@@ -4136,6 +4209,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>15</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 15, VCC East</line>
          <line>Program arranged by the Paul Claudel Society. <em>Presiding:</em> Glenn W. Fetzer, New Mexico State Univ., Las Cruces</line>
@@ -4154,6 +4228,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 8, VCC East</line>
          <line>Program arranged by the Dante Society of America. <em>Presiding:</em> Albert Russell Ascoli, Univ. of California, Berkeley</line>
@@ -4275,7 +4350,6 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 222, VCC West</line>
          <line>A special session. <em>Presiding:</em> Bruce E. Levy, Southern Methodist Univ.</line>
@@ -4293,6 +4367,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>11</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 11, VCC East</line>
          <line>Program arranged by the Division on Postcolonial Studies in Literature and Culture. <em>Presiding:</em> Bishnupriya Ghosh, Univ. of California, Santa Barbara</line>
@@ -4477,7 +4552,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 113, VCC West</line>
          <line>Program arranged by the Discussion Group on Italian American Literature. <em>Presiding:</em> Jim Cocola, Worcester Polytechnic Inst.</line>
@@ -4495,6 +4570,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>1</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 1, VCC East</line>
          <line>Program arranged by the MLA Office of Scholarly Communication. <em>Presiding:</em> Kathleen Fitzpatrick, MLA</line>
@@ -4548,6 +4624,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 10, VCC East</line>
          <line>Program arranged by the Division on Slavic and East European Literatures. <em>Presiding:</em> Benjamin Paloff, Univ. of Michigan, Ann Arbor</line>
@@ -4607,6 +4684,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 217, VCC West</line>
          <line>Program arranged by the Association for the Study of American Indian Literatures. <em>Presiding:</em> Joanna Hearne, Univ. of Missouri, Columbia</line>
@@ -4643,6 +4721,7 @@
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>203</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 203, VCC West</line>
          <line>Program arranged by the Division on Philosophical Approaches to Literature. <em>Presiding:</em> Gerhard Richter, Brown Univ.</line>
@@ -4766,6 +4845,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 210, VCC West</line>
          <line>Program arranged by the Community College Humanities Association. <em>Presiding:</em> Stacey Lee Donohue, Central Oregon Community Coll.</line>
@@ -4785,7 +4865,6 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 219, VCC West</line>
          <line>Program arranged by the William Faulkner Society. <em>Presiding:</em> Deborah L. Clarke, Arizona State Univ.</line>
@@ -4821,6 +4900,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 219, VCC West</line>
          <line>Program arranged by the Discussion Group on Libraries and Research in Languages and Literatures and the Discussion Group on Bibliography and Textual Studies. <em>Presiding:</em> Dawn Childress, Penn State Univ. Libraries; Matt Cohen, Univ. of Texas, Austin</line>
@@ -4857,6 +4937,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 222, VCC West</line>
          <line>Program arranged by the Division on Gay Studies in Language and Literature. <em>Presiding:</em> Christopher Looby, Univ. of California, Los Angeles</line>
@@ -4874,6 +4955,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 18, VCC East</line>
          <line>Program arranged by the Discussion Group on South Asian Languages and Literatures. <em>Presiding:</em> Chandrima Chakraborty, McMaster Univ.</line>
@@ -4892,6 +4974,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>115</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 115, VCC West</line>
          <line>A special session. <em>Presiding:</em> Elizabeth Anker, Cornell Univ.</line>
@@ -4909,6 +4992,7 @@ During this open hearing, MLA members and delegates may discuss all items on the
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 111, VCC West</line>
          <line>Program arranged by the Association for the Study of Literature and the Environment and the Association for the Study of American Indian Literatures. <em>Presiding:</em> Clare Echterling, Univ. of Kansas; Janis A. Johnson, Univ. of Idaho</line>
@@ -5035,6 +5119,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 12, VCC East</line>
          <line>A special session. <em>Presiding:</em> Henry Schwarz, Georgetown Univ.</line>
@@ -5052,6 +5137,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 16, VCC East</line>
          <line>A special session. <em>Presiding:</em> Regine Criser, Univ. of North Carolina, Asheville</line>
@@ -5106,6 +5192,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 204, VCC West</line>
          <line>Program arranged by the Discussion Group on Jewish Cultural Studies and the Discussion Group on Jewish American Literature. <em>Presiding:</em> Benjamin Schreier, Penn State Univ., University Park</line>
@@ -5196,6 +5283,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 210, VCC West</line>
          <line>Program arranged by the MLA Committee on the Status of Women in the Profession. <em>Presiding:</em> Janice A. Radway, Northwestern Univ.</line>
@@ -5267,6 +5355,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>121</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 121, VCC West</line>
          <line>Program arranged by the Discussion Group on Anglo-Irish Literature. <em>Presiding:</em> Gregory J. Dobbins, Univ. of California, Davis</line>
@@ -5340,6 +5429,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 3, VCC East</line>
          <line>Program arranged by the Division on Medieval Hispanic Languages, Literatures, and Cultures. <em>Presiding:</em> Benjamin M. Liu, Univ. of California, Riverside</line>
@@ -5409,6 +5499,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>212</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 212, VCC West</line>
          <line>Program arranged by the Association for Computers and the Humanities. <em>Presiding:</em> Lisa Marie Rhody, George Mason Univ.</line>
@@ -5445,6 +5536,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 2, VCC East</line>
          <line>Program arranged by the Division on Ethnic Studies in Language and Literature. <em>Presiding:</em> Cheryl A. Higashida, Univ. of Colorado, Boulder</line>
@@ -5464,7 +5556,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>223</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 223, VCC West</line>
          <line>A special session. <em>Presiding:</em> Beth Widmaier Capo, Illinois Coll.</line>
@@ -5535,7 +5627,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Margery Fee, Univ. of British Columbia, Vancouver</line>
@@ -5555,6 +5646,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>212</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 212, VCC West</line>
          <line>A special session. <em>Presiding:</em> Anthony D. Dawahare, California State Univ., Northridge</line>
@@ -5716,7 +5808,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 118, VCC West</line>
          <line>A special session. <em>Presiding:</em> Enrico Minardi, Arizona State Univ.</line>
@@ -5753,6 +5844,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 2, VCC East</line>
          <line>A special session. <em>Presiding:</em> Amber Foster, Texas A&amp;M Univ., College Station</line>
@@ -5771,7 +5863,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 3, VCC East</line>
          <line>A special session. <em>Presiding:</em> Julian Daniel Gutierrez-Albilla, Univ. of Southern California</line>
@@ -5826,6 +5917,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 224, VCC West</line>
          <line>A special session. <em>Presiding:</em> Sayan Bhattacharyya, Univ. of Illinois, Urbana; Jeremy York, HathiTrust Digital Library</line>
@@ -5842,6 +5934,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>109</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 109, VCC West</line>
          <line>A linked session arranged in conjunction with <a href="#219">The Presidential Forum: Negotiating Sites of Memory</a>. <em>Presiding:</em> Margaret W. Ferguson, Univ. of California, Davis; Peter Kulchyski, Univ. of Manitoba</line>
@@ -5879,6 +5972,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>207</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 207, VCC West</line>
          <line>Program arranged by the Discussion Group on Age Studies. <em>Presiding:</em> Julia Henderson, Univ. of British Columbia</line>
@@ -5952,6 +6046,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 114, VCC West</line>
          <line>Program arranged by the Discussion Group on Canadian Literature in English. <em>Presiding:</em> Jennifer Blair, Univ. of Ottawa</line>
@@ -5971,7 +6066,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>115</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 115, VCC West</line>
          <line>Program arranged by the Discussion Group on Scottish Literature. <em>Presiding:</em> Susan Oliver, Univ. of Essex</line>
@@ -5990,6 +6085,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 120, VCC West</line>
          <line>Program arranged by the Division on Asian American Literature. <em>Presiding:</em> Crystal Parikh, New York Univ.</line>
@@ -6046,6 +6142,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>121</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 121, VCC West</line>
          <line>Program arranged by the Division on Methods of Literary Research. <em>Presiding:</em> Andrew M. Stauffer, Univ. of Virginia</line>
@@ -6186,6 +6283,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="17" minutes="15" ambig="aft">5:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>211</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–5:15 p.m., 211, VCC West</line>
          <line>A forum. <em>Presiding:</em> Steven J. Meyer, Washington Univ. in St. Louis</line>
@@ -6258,6 +6356,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 117, VCC West</line>
          <line>A special session</line>
@@ -6296,6 +6395,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 120, VCC West</line>
          <line>A special session. <em>Presiding:</em> Rebecca N. Mitchell, Univ. of Texas–Pan American</line>
@@ -6330,6 +6430,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>207</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 207, VCC West</line>
          <line>A special session. <em>Presiding:</em> Aniruddha Mukhopadhyay, Univ. of Florida</line>
@@ -6366,6 +6467,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 2, VCC East</line>
          <line>A special session. <em>Presiding:</em> Moacir P. de Sá Pereira, Vilnius Gediminas Technical Univ.</line>
@@ -6407,7 +6509,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 9, VCC East</line>
          <line>A special session. <em>Presiding:</em> Julia A. Kushigian, Connecticut Coll.</line>
@@ -6426,7 +6528,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 204, VCC West</line>
          <line>Program arranged by the Society for the History of Authorship, Reading, and Publishing and the Milton Society of America. <em>Presiding:</em> Sharon Achinstein, Johns Hopkins Univ., MD</line>
@@ -6500,6 +6601,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 202, VCC West</line>
          <line>Program arranged by the Division on Chicana and Chicano Literature. <em>Presiding:</em> Yolanda Padilla, Univ. of Washington, Bothell</line>
@@ -6517,6 +6619,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 10, VCC East</line>
          <line>Program arranged by the Division on East Asian Languages and Literatures after 1900</line>
@@ -6659,6 +6762,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 222, VCC West</line>
          <line>Program arranged by the Division on Prose Fiction. <em>Presiding:</em> Hester Blum, Penn State Univ., University Park</line>
@@ -6710,6 +6814,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>119</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 119, VCC West</line>
          <line>Program arranged by the Division on Late-Nineteenth- and Early-Twentieth-Century American Literature. <em>Presiding:</em> Brad Evans, Rutgers Univ., New Brunswick</line>
@@ -6728,6 +6833,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 14, VCC East</line>
          <line>Program arranged by the International Courtly Literature Society. <em>Presiding:</em> Catherine M. Jones, Univ. of Georgia</line>
@@ -6820,6 +6926,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>109</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 109, VCC West</line>
          <line>Program arranged by the GL/Q Caucus for the Modern Languages. <em>Presiding:</em> Melissa Gonzalez, Davidson Coll.</line>
@@ -6874,7 +6981,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 12, VCC East</line>
          <line>Program arranged by the Division on Seventeenth-Century French Literature. <em>Presiding:</em> Hélène Bilis, Wellesley Coll.</line>
@@ -6909,6 +7015,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 215, VCC West</line>
          <line>A special session</line>
@@ -6926,6 +7033,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 112, VCC West</line>
          <line>A special session. <em>Presiding:</em> Nicholas Frederick Radel, Furman Univ.</line>
@@ -6944,6 +7052,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 118, VCC West</line>
          <line>
@@ -6995,6 +7104,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 217, VCC West</line>
          <line>A special session. <em>Presiding:</em> Yue Zhuo, Yale Univ.</line>
@@ -7030,6 +7140,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 16, VCC East</line>
          <line>A special session. <em>Presiding:</em> Christopher M. Lupke, Washington State Univ., Pullman</line>
@@ -7157,6 +7268,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 120, VCC West</line>
          <line>Program arranged by the William Morris Society. <em>Presiding:</em> Elizabeth Carolyn Miller, Univ. of California, Davis</line>
@@ -7269,6 +7381,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 117, VCC West</line>
          <line>Program arranged by the MLA Committee on the Literatures of People of Color in the United States and Canada. <em>Presiding:</em> Keith Feldman, Univ. of California, Berkeley</line>
@@ -7356,6 +7469,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 204, VCC West</line>
          <line>Program arranged by the Division on Women's Studies in Language and Literature. <em>Presiding:</em> Madelyn Detloff, Miami Univ., Oxford</line>
@@ -7409,6 +7523,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 17, VCC East</line>
          <line>Program arranged by the Discussion Group on Arthurian Literature. <em>Presiding:</em> Alex Mueller, Univ. of Massachusetts, Boston</line>
@@ -7480,6 +7595,8 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <start-time abbrev="18" minutes="45" ambig="eve" header="6:45 p.m.">6:45 p.m.</start-time>
       <venue abbrev="vw">VCC West</venue>
       <room>301</room>
+      <type abbrev="pre">Presidential Theme</type>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">6:45 p.m., 301, VCC West</line>
          <line>
@@ -7541,6 +7658,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>208</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 208, VCC West</line>
          <line>
@@ -7769,7 +7887,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 118, VCC West</line>
          <line>Program arranged by the Division on Twentieth-Century English Literature. <em>Presiding:</em> Priya Joshi, Temple Univ., Philadelphia</line>
@@ -7787,7 +7904,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 112, VCC West</line>
          <line>Program arranged by the Society for Critical Exchange. <em>Presiding:</em> Nicole J. Simek, Whitman Coll.</line>
@@ -7824,6 +7940,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 202, VCC West</line>
          <line>Program arranged by the William Carlos Williams Society. <em>Presiding:</em> Margaret Konkol, Georgia Inst. of Tech.</line>
@@ -7842,6 +7959,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>6</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 6, VCC East</line>
          <line>Program arranged by the North American Heine Society. <em>Presiding:</em> Jonathan S. Skolnik, Univ. of Massachusetts, Amherst</line>
@@ -7859,6 +7977,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 120, VCC West</line>
          <line>Program arranged by the Alliance for the Study of Adoption and Culture. <em>Presiding:</em> Marina Fedosik, New York Univ.</line>
@@ -7934,6 +8053,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 7, VCC East</line>
          <line>Program arranged by the Division on Luso-Brazilian Language and Literature. <em>Presiding:</em> Luiz Fernando Valente, Brown Univ.</line>
@@ -8003,6 +8123,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 18, VCC East</line>
          <line>Program arranged by the Discussion Group on Provençal Language and Literature. <em>Presiding:</em> Courtney Wells, Hobart and William Smith Colls.</line>
@@ -8021,6 +8142,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 204, VCC West</line>
          <line>Program arranged by the Discussion Group on Law as Literature. <em>Presiding:</em> Imani Perry, Princeton Univ.</line>
@@ -8037,6 +8159,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 10, VCC East</line>
          <line>Program arranged by the Division on Language Change. <em>Presiding:</em> T. Craig Christy, Univ. of North Alabama</line>
@@ -8112,6 +8235,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 113, VCC West</line>
          <line>A special session. <em>Presiding:</em> Susan Stanford Friedman, Univ. of Wisconsin, Madison</line>
@@ -8170,6 +8294,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 8, VCC East</line>
          <line>A special session. <em>Presiding:</em> David C. Lloyd, Univ. of California, Riverside</line>
@@ -8189,6 +8314,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>13</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 13, VCC East</line>
          <line>A special session. <em>Presiding:</em> Rachel Linville, State Univ. of New York, Brockport</line>
@@ -8207,6 +8333,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 217, VCC West</line>
          <line>Program arranged by the Melville Society. <em>Presiding:</em> Coleman Hutchison, Univ. of Texas, Austin</line>
@@ -8243,6 +8370,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 222, VCC West</line>
          <line>Program arranged by the Henry James Society. <em>Presiding:</em> Greg W. Zacharias, Creighton Univ.</line>
@@ -8318,6 +8446,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 219, VCC West</line>
          <line>Program arranged by the Division on Ethnic Studies in Language and Literature. <em>Presiding:</em> Ruby Tapia, Univ. of Michigan, Ann Arbor</line>
@@ -8336,6 +8465,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>116</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 116, VCC West</line>
          <line>Program arranged by the Division on Late-Nineteenth- and Early-Twentieth-Century American Literature. <em>Presiding:</em> Russ Castronovo, Univ. of Wisconsin, Madison</line>
@@ -8354,6 +8484,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 224, VCC West</line>
          <line>A special session. <em>Presiding:</em> Joanna Picciotto, Univ. of California, Berkeley</line>
@@ -8479,6 +8610,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 3, VCC East</line>
          <line>A special session. <em>Presiding:</em> Jacqueline D. Wernimont, Scripps Coll.</line>
@@ -8496,6 +8628,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 113, VCC West</line>
          <line>Program arranged by the Discussion Group on Canadian Literature in English and the Division on Children's Literature. <em>Presiding:</em> Jennifer Blair, Univ. of Ottawa; Catherine Tosenberger, Univ. of Winnipeg</line>
@@ -8533,6 +8666,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>1</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 1, VCC East</line>
          <line>Program arranged by the Division on Chicana and Chicano Literature. <em>Presiding:</em> Olga Herrera, Univ. of Saint Thomas</line>
@@ -8568,6 +8702,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>122</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 122, VCC West</line>
          <line>A special session. <em>Presiding:</em> Sandra M. Gustafson, Univ. of Notre Dame</line>
@@ -8604,6 +8739,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 114, VCC West</line>
          <line>A special session. <em>Presiding:</em> James Gifford, Fairleigh Dickinson Univ., Vancouver</line>
@@ -8622,6 +8758,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 18, VCC East</line>
          <line>Program arranged by the Society for Textual Scholarship. <em>Presiding:</em> Andrew Reynolds, West Texas A&amp;M Univ.</line>
@@ -8659,6 +8796,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 17, VCC East</line>
          <line>Program arranged by the Division on Nineteenth- and Early-Twentieth-Century German Literature. <em>Presiding:</em> Anna C. Guillemin, Univ. of Illinois, Chicago</line>
@@ -8769,7 +8907,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 215, VCC West</line>
          <line>Program arranged by the Discussion Group on Present-Day English Language. <em>Presiding:</em> Lynn Houston, State Univ. of New York, Orange County</line>
@@ -8805,7 +8942,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 210, VCC West</line>
          <line>A special session. <em>Presiding:</em> Peter L. de Bolla, Univ. of Cambridge, King's Coll.</line>
@@ -8877,6 +9013,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 217, VCC West</line>
          <line>Program arranged by the Association for Business Communication. <em>Presiding:</em> Katherine V. Wills, Indiana Univ.–Purdue Univ., Columbus</line>
@@ -8894,6 +9031,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 204, VCC West</line>
          <line>A special session. <em>Presiding:</em> Marisa Galvez, Stanford Univ.</line>
@@ -8913,6 +9051,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 118, VCC West</line>
          <line>Program arranged by the International Virginia Woolf Society. <em>Presiding:</em> Leslie Kathleen Hankins, Cornell Coll.</line>
@@ -9001,6 +9140,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>216</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 216, VCC West</line>
          <line>Program arranged by the Association for the Study of Literature and the Environment. <em>Presiding:</em> Clare Echterling, Univ. of Kansas</line>
@@ -9087,6 +9227,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 224, VCC West</line>
          <line>A special session. <em>Presiding:</em> Shirley Samuels, Cornell Univ.</line>
@@ -9119,6 +9260,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 222, VCC West</line>
          <line>Program arranged by the International Vladimir Nabokov Society. <em>Presiding:</em> Zoran Kuzmanovich, Davidson Coll.</line>
@@ -9155,6 +9297,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> Jennifer Denise Ryan, State Univ. of New York, Buffalo State Coll.</line>
@@ -9191,6 +9334,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>2</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 2, VCC East</line>
          <line>A special session. <em>Presiding:</em> Sada Niang, Univ. of Victoria</line>
@@ -9264,6 +9408,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 19, VCC East</line>
          <line>A special session. <em>Presiding:</em> Anna Maria Caballe, Universitat de Barcelona; Randolph D. Pope, Univ. of Virginia</line>
@@ -9299,6 +9444,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 16, VCC East</line>
          <line>Program arranged by the Division on Arabic Literature and Culture. <em>Presiding:</em> Stephen Sheehi, Coll. of William and Mary</line>
@@ -9319,7 +9465,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 210, VCC West</line>
          <line>Program arranged by the Division on Old English Language and Literature and the Discussion Group on Translation. <em>Presiding:</em> Roy M. Liuzza, Univ. of Tennessee, Knoxville</line>
@@ -9374,6 +9519,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 113, VCC West</line>
          <line>A special session. <em>Presiding:</em> Caroline McCracken-Flesher, Univ. of Wyoming</line>
@@ -9413,6 +9559,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>218</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 218, VCC West</line>
          <line>A special session</line>
@@ -9433,6 +9580,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 3, VCC East</line>
          <line>A special session</line>
@@ -9505,6 +9653,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 7, VCC East</line>
          <line>Program arranged by the Division on Latin American Literature from Independence to 1900. <em>Presiding:</em> Gabriela Nouzeilles, Princeton Univ.</line>
@@ -9573,7 +9722,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>216</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 216, VCC West</line>
          <line>Program arranged by the Eugene O'Neill Society. <em>Presiding:</em> Jeffery Kennedy, Arizona State Univ.</line>
@@ -9645,6 +9794,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 17, VCC East</line>
          <line>Program arranged by the Society for German Renaissance and Baroque Literature. <em>Presiding:</em> Ann Marie Rasmussen, Duke Univ.</line>
@@ -9662,7 +9812,6 @@ During this open hearing, MLA members and delegates may discuss the regular reso
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>119</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 119, VCC West</line>
          <line>Program arranged by the American Association of University Professors. <em>Presiding:</em> Gwendolyn Bradley, American Assn. of University Professors; Donna L. Potts, Washington State Univ., Pullman</line>
@@ -9812,6 +9961,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 12, VCC East</line>
          <line>Program arranged by the Division on African Literatures. <em>Presiding:</em> Taiwo Adetunji Osinubi, Univ. of Western Ontario</line>
@@ -9903,6 +10053,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 118, VCC West</line>
          <line>
@@ -9938,6 +10089,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 120, VCC West</line>
          <line>A special session. <em>Presiding:</em> Heidi Kaufman, Univ. of Oregon</line>
@@ -9955,6 +10107,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 112, VCC West</line>
          <line>A special session. <em>Presiding:</em> Carmen Faye Mathes, Univ. of British Columbia, Vancouver; Brian Rejack, Illinois State Univ.</line>
@@ -9974,6 +10127,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 17, VCC East</line>
          <line>Program arranged by the Discussion Group on Catalan Language and Literature. <em>Presiding:</em> María Luisa Guardiola, Swarthmore Coll.</line>
@@ -10081,7 +10235,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 202, VCC West</line>
          <line>A special session. <em>Presiding:</em> Shawna Lipton, Univ. of Wisconsin, Milwaukee</line>
@@ -10099,6 +10252,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>220</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 220, VCC West</line>
          <line>A special session. <em>Presiding:</em> Kevis Goodman, Univ. of California, Berkeley</line>
@@ -10116,6 +10270,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> Rosalia Victoria Cornejo-Parriego, Univ. of Ottawa</line>
@@ -10312,6 +10467,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>121</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 121, VCC West</line>
          <line>Program arranged by the American Literature Section. <em>Presiding:</em> Lloyd P. Pratt, Univ. of Oxford</line>
@@ -10382,6 +10538,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 224, VCC West</line>
          <line>Program arranged by the Division on Children's Literature. <em>Presiding:</em> Lissa Paul, Brock Univ.</line>
@@ -10401,6 +10558,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 222, VCC West</line>
          <line>Program arranged by the Ezra Pound Society. <em>Presiding:</em> Demetres Tryphonopoulos, Univ. of New Brunswick, Fredericton</line>
@@ -10419,6 +10577,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 204, VCC West</line>
          <line>A special session. <em>Presiding:</em> Derek Miller, Harvard Univ.; Robin Wharton, Georgia State Univ.</line>
@@ -10454,6 +10613,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 17, VCC East</line>
          <line>A special session. <em>Presiding:</em> Sevinc Turkkan, State Univ. of New York, Brockport</line>
@@ -10471,6 +10631,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 117, VCC West</line>
          <line>A special session</line>
@@ -10489,6 +10650,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>220</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 220, VCC West</line>
          <line>A linked session arranged in conjunction with <a href="#219">The Presidential Forum: Negotiating Sites of Memory</a>. <em>Presiding:</em> Valerie J. Traub, Univ. of Michigan, Ann Arbor</line>
@@ -10524,6 +10686,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 9, VCC East</line>
          <line>Program arranged by the Society for Medieval Feminist Scholarship. <em>Presiding:</em> Angela Bennett Segler, New York Univ.</line>
@@ -10690,6 +10853,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 7, VCC East</line>
          <line>Program arranged by the Discussion Group on Netherlandic Language and Literature. <em>Presiding:</em> Jolanda Vanderwal Taylor, Univ. of Wisconsin, Madison</line>
@@ -10707,7 +10871,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 14, VCC East</line>
          <line>Program arranged by the American Society for Eighteenth-Century Studies. <em>Presiding:</em> Anahid Nersessian, Univ. of California, Los Angeles; Abigail S. Zitin, Rutgers Univ., New Brunswick</line>
@@ -10726,6 +10889,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 222, VCC West</line>
          <line>Program arranged by the American Humor Studies Association. <em>Presiding:</em> Janice E. McIntire-Strasburg, Saint Louis Univ.</line>
@@ -10744,6 +10908,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 19, VCC East</line>
          <line>Program arranged by the Discussion Group on Old Norse Language and Literature. <em>Presiding:</em> Eric Bryan, Missouri Univ. of Science and Tech.</line>
@@ -10813,6 +10978,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>13</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 13, VCC East</line>
          <line>A special session. <em>Presiding:</em> James Hiester Najarian, Boston Coll.</line>
@@ -10830,6 +10996,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 215, VCC West</line>
          <line>A special session</line>
@@ -10886,7 +11053,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 113, VCC West</line>
          <line>Program arranged by the MLA Committee on the Status of Graduate Students in the Profession. <em>Presiding:</em> Stacey Amo, Louisiana State Univ., Baton Rouge</line>
@@ -10924,6 +11090,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>112</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 112, VCC West</line>
          <line>Program arranged by the Division on American Literature to 1800. <em>Presiding:</em> Sarah Rivett, Princeton Univ.</line>
@@ -10960,6 +11127,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 120, VCC West</line>
          <line>Program arranged by the Association of Departments and Programs of Comparative Literature. <em>Presiding:</em> Adam E. Miyashiro, Richard Stockton Coll. of New Jersey</line>
@@ -10978,7 +11146,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>208</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 208, VCC West</line>
          <line>Program arranged by the Renaissance English Text Society. <em>Presiding:</em> Paul Marquis, Saint Francis Xavier Univ.</line>
@@ -10997,7 +11164,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 3, VCC East</line>
          <line>Program arranged by the Division on Sixteenth- and Seventeenth-Century Spanish Drama. <em>Presiding:</em> María M. Carrión, Emory Univ.</line>
@@ -11034,6 +11200,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>210</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">3:30–4:45 p.m., 210, VCC West</line>
          <line>Program arranged by the Women's Caucus for the Modern Languages. <em>Presiding:</em> Teresa Mangum, Univ. of Iowa</line>
@@ -11119,6 +11286,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 217, VCC West</line>
          <line>Program arranged by the Discussion Group on Bibliography and Textual Studies. <em>Presiding:</em> Sigrid Anderson Cordell, Univ. of Michigan, Ann Arbor</line>
@@ -11137,7 +11305,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>12</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 12, VCC East</line>
          <line>Program arranged by the Division on Postcolonial Studies in Literature and Culture. <em>Presiding:</em> Nouri Gana, Univ. of California, Los Angeles</line>
@@ -11155,6 +11323,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>8</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 8, VCC East</line>
          <line>Program arranged by the Association for the Study of Dada and Surrealism. <em>Presiding:</em> Nicola Behrmann, Rutgers Univ., New Brunswick</line>
@@ -11226,6 +11395,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 3, VCC East</line>
          <line>Program arranged by the Association for Documentary Editing. <em>Presiding:</em> Carol DeBoer-Langworthy, Brown Univ.</line>
@@ -11245,6 +11415,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 114, VCC West</line>
          <line>Program arranged by the Association of Teachers of Technical Writing. <em>Presiding:</em> William Klein, Univ. of Missouri, St. Louis</line>
@@ -11263,6 +11434,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>115</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 115, VCC West</line>
          <line>Program arranged by the Thoreau Society. <em>Presiding:</em> Kristen Case, Univ. of Maine, Farmington; Rochelle Johnson, Coll. of Idaho</line>
@@ -11352,6 +11524,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>6</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 6, VCC East</line>
          <line>A special session. <em>Presiding:</em> Martin Moraw, Ludwig-Maximilians-Universität München</line>
@@ -11371,6 +11544,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 17, VCC East</line>
          <line>Program arranged by the Romanian Studies Association of America. <em>Presiding:</em> Letitia Ileana Guran, Fayetteville State Univ.</line>
@@ -11424,6 +11598,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 120, VCC West</line>
          <line>Program arranged by the Division on Nineteenth-Century American Literature. <em>Presiding:</em> Augusta Rohrbach, independent scholar</line>
@@ -11442,6 +11617,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 16, VCC East</line>
          <line>Program arranged by the Discussion Group on Comics and Graphic Narratives and the Division on European Literary Relations. <em>Presiding:</em> Sandra L. Bermann, Princeton Univ.; Nhora Lucia Serrano, Harvard Univ.</line>
@@ -11461,6 +11637,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 14, VCC East</line>
          <line>Program arranged by the Division on Twentieth-Century Italian Literature and the American Association for Italian Studies. <em>Presiding:</em> Dana E. Renga, Ohio State Univ., Columbus</line>
@@ -11479,6 +11656,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 10, VCC East</line>
          <line>Program arranged by the Division on Slavic and East European Literatures. <em>Presiding:</em> Kevin M. F. Platt, Univ. of Pennsylvania</line>
@@ -11499,7 +11677,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>119</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 119, VCC West</line>
          <line>A special session. <em>Presiding:</em> Samuel Cohen, Univ. of Missouri, Columbia</line>
@@ -11539,6 +11716,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Felipe Rojas, Chicago State Univ.</line>
@@ -11557,7 +11735,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>109</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 109, VCC West</line>
          <line>A special session. <em>Presiding:</em> Leila Mansouri, Univ. of California, Berkeley</line>
@@ -11575,6 +11752,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 219, VCC West</line>
          <line>A special session. <em>Presiding:</em> David Pratt, Coll. of William and Mary</line>
@@ -11627,6 +11805,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 18, VCC East</line>
          <line>Program arranged by the Division on Nineteenth-Century French Literature. <em>Presiding:</em> Susan McCready, Univ. of South Alabama</line>
@@ -11644,7 +11823,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 224, VCC West</line>
          <line>Program arranged by the Division on Gay Studies in Language and Literature. <em>Presiding:</em> Scott Herring, Indiana Univ., Bloomington</line>
@@ -11662,6 +11840,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 19, VCC East</line>
          <line>Program arranged by the Discussion Group on Puerto Rican Literature and Culture. <em>Presiding:</em> Margarita Pintado, Ouachita Baptist Univ.</line>
@@ -11680,6 +11859,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 202, VCC West</line>
          <line>Program arranged by the Discussion Group on Age Studies. <em>Presiding:</em> Cynthia R. Port, Coastal Carolina Univ.</line>
@@ -11735,6 +11915,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="18" minutes="30" ambig="eve">6:30 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>113</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">5:15–6:30 p.m., 113, VCC West</line>
          <line>A special session. <em>Presiding:</em> Sarah Juliet Lauro, Clemson Univ.; Kya Mangrum, Univ. of Michigan, Ann Arbor</line>
@@ -11764,6 +11945,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <start-time abbrev="18" minutes="45" ambig="eve" header="6:45 p.m.">6:45 p.m.</start-time>
       <venue abbrev="vw">VCC West</venue>
       <room>301</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">6:45 p.m., 301, VCC West</line>
          <line>
@@ -11804,6 +11986,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>5</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 5, VCC East</line>
          <line>
@@ -11820,6 +12003,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="20" minutes="15" ambig="[Unknown]">8:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>118</room>
+      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">7:00–8:15 p.m., 118, VCC West</line>
          <line>
@@ -12016,6 +12200,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 16, VCC East</line>
          <line>A special session</line>
@@ -12034,6 +12219,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 7, VCC East</line>
          <line>A special session. <em>Presiding:</em> Sarah Quesada, Stanford Univ.; José David Saldívar, Stanford Univ.</line>
@@ -12087,7 +12273,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 111, VCC West</line>
          <line>Program arranged by the Discussion Group on Jewish American Literature. <em>Presiding:</em> Jennifer Glaser, Univ. of Cincinnati</line>
@@ -12106,7 +12291,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 224, VCC West</line>
          <line>Program arranged by the American Literature Section. <em>Presiding:</em> Ryan Cordell, Northeastern Univ.</line>
@@ -12127,6 +12311,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 204, VCC West</line>
          <line>A special session. <em>Presiding:</em> Maria Olaussen, Linnaeus Univ.</line>
@@ -12267,6 +12452,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>116</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 116, VCC West</line>
          <line>A special session. <em>Presiding:</em> Andrea Kaston Tange, Eastern Michigan Univ.</line>
@@ -12303,6 +12489,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>17</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 17, VCC East</line>
          <line>Program arranged by the Romanian Studies Association of America. <em>Presiding:</em> Anca Luca Holden, Mount Holyoke Coll.; Domnica Radulescu, Washington and Lee Univ.</line>
@@ -12321,6 +12508,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 120, VCC West</line>
          <line>Program arranged by the Wordsworth-Coleridge Association. <em>Presiding:</em> Jonathan Farina, Seton Hall Univ.</line>
@@ -12356,6 +12544,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 205, VCC West</line>
          <line>Program arranged by the Division on Asian American Literature. <em>Presiding:</em> Timothy Yu, Univ. of Wisconsin, Madison</line>
@@ -12479,7 +12668,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
-      <type abbrev="pub">Open to the Public</type>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 19, VCC East</line>
          <line>A special session. <em>Presiding:</em> Naomi Howell, Univ. of Exeter</line>
@@ -12517,6 +12706,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="9" minutes="45" ambig="mor">9:45 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>216</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">8:30–9:45 a.m., 216, VCC West</line>
          <line>A special session. <em>Presiding:</em> Stephanie DeGooyer, Willamette Univ.</line>
@@ -12645,7 +12835,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>14</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 14, VCC East</line>
          <line>Program arranged by the South Asian Literary Association and the Division on African Literatures. <em>Presiding:</em> Madhurima Chakraborty, Columbia Coll., IL</line>
@@ -12666,6 +12855,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>224</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 224, VCC West</line>
          <line>A special session. <em>Presiding:</em> Jo Sullivan, Duquesne Univ.</line>
@@ -12739,6 +12929,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 10, VCC East</line>
          <line>A special session. <em>Presiding:</em> Enrique Álvarez, Florida State Univ.</line>
@@ -12758,6 +12949,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>117</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 117, VCC West</line>
          <line>A special session. <em>Presiding:</em> Kimberley R. D. McLean-Fiander, Univ. of Victoria</line>
@@ -12816,6 +13008,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>121</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 121, VCC West</line>
          <line>Program arranged by the Marxist Literary Group. <em>Presiding:</em> Clint Burnham, Simon Fraser Univ.</line>
@@ -12833,6 +13026,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 217, VCC West</line>
          <line>A special session. <em>Presiding:</em> Jillian Spivey Caddell, Cornell Univ.</line>
@@ -12850,6 +13044,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>214</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 214, VCC West</line>
          <line>Program arranged by the Division on Prose Fiction. <em>Presiding:</em> Wai Chee Dimock, Yale Univ.</line>
@@ -12936,7 +13131,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>120</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 120, VCC West</line>
          <line>Program arranged by the Division on Poetry. <em>Presiding:</em> Alan Golding, Univ. of Louisville</line>
@@ -12955,6 +13149,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>202</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 202, VCC West</line>
          <line>Program arranged by the Division on Chicana and Chicano Literature. <em>Presiding:</em> Ralph Edward Rodriguez, Brown Univ.</line>
@@ -12989,7 +13184,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 215, VCC West</line>
          <line>Program arranged by the MLA Publications Committee. <em>Presiding:</em> Kathleen P. Long, Cornell Univ.</line>
@@ -13081,6 +13275,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>13</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 13, VCC East</line>
          <line>A special session. <em>Presiding:</em> Jacques Lezra, New York Univ.</line>
@@ -13100,6 +13295,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>3</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 3, VCC East</line>
          <line>A special session. <em>Presiding:</em> Gillian L. Whitlock, Univ. of Queensland</line>
@@ -13118,6 +13314,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="11" minutes="30" ambig="mor">11:30 a.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>205</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">10:15–11:30 a.m., 205, VCC West</line>
          <line>A special session. <em>Presiding:</em> Astrid Henry, Grinnell Coll.</line>
@@ -13208,6 +13405,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>217</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 217, VCC West</line>
          <line>A special session. <em>Presiding:</em> Susan Zieger, Univ. of California, Riverside</line>
@@ -13226,6 +13424,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>219</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 219, VCC West</line>
          <line>A special session. <em>Presiding:</em> Cynthia Barounis, Washington Univ. in St. Louis</line>
@@ -13333,6 +13532,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>216</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 216, VCC West</line>
          <line>A special session. <em>Presiding:</em> Nigel S. Smith, Princeton Univ.</line>
@@ -13352,6 +13552,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>215</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 215, VCC West</line>
          <line>A special session. <em>Presiding:</em> Lara Langer Cohen, Swarthmore Coll.</line>
@@ -13446,6 +13647,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>223</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 223, VCC West</line>
          <line>A special session. <em>Presiding:</em> Heather Brown, Kent State Univ., Kent</line>
@@ -13463,6 +13665,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>222</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 222, VCC West</line>
          <line>Program arranged by the Division on Sociological Approaches to Literature</line>
@@ -13535,6 +13738,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>16</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 16, VCC East</line>
          <line>Program arranged by the Division on Colonial Latin American Literatures. <em>Presiding:</em> Cristian Roa, Univ. of Illinois, Chicago</line>
@@ -13571,6 +13775,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>19</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 19, VCC East</line>
          <line>Program arranged by the Division on Slavic and East European Literatures. <em>Presiding:</em> Serguei Alex Oushakine, Princeton Univ.</line>
@@ -13657,6 +13862,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>18</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 18, VCC East</line>
          <line>Program arranged by the Discussion Group on Jewish Cultural Studies. <em>Presiding:</em> Benjamin Schreier, Penn State Univ., University Park</line>
@@ -13674,6 +13880,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>208</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 208, VCC West</line>
          <line>A special session. <em>Presiding:</em> Michael Nicholson, Univ. of California, Los Angeles; Amy R. Wong, Univ. of California, Los Angeles</line>
@@ -13694,6 +13901,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Nicola Behrmann, Rutgers Univ., New Brunswick</line>
@@ -13751,6 +13959,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="13" minutes="15" ambig="aft">1:15 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>9</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">12:00 noon–1:15 p.m., 9, VCC East</line>
          <line>A special session. <em>Presiding:</em> Eva B. Revesz, Denison Univ.</line>
@@ -13824,6 +14033,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>7</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 7, VCC East</line>
          <line>A special session</line>
@@ -13880,6 +14090,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>10</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 10, VCC East</line>
          <line>Program arranged by the Division on Medieval Hispanic Languages, Literatures, and Cultures. <em>Presiding:</em> Cristina Maria Guardiola, Univ. of Delaware, Newark</line>
@@ -13990,6 +14201,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>204</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 204, VCC West</line>
          <line>A special session. <em>Presiding:</em> Sarah Senk, Univ. of Hartford</line>
@@ -14048,6 +14260,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>111</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 111, VCC West</line>
          <line>A special session. <em>Presiding:</em> Desiree Henderson, Univ. of Texas, Arlington</line>
@@ -14102,6 +14315,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>208</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 208, VCC West</line>
          <line>A special session. <em>Presiding:</em> Richard Allen Kaye, Graduate Center, City Univ. of New York</line>
@@ -14228,7 +14442,6 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="vw">VCC West</venue>
       <room>114</room>
-      <type abbrev="pub">Open to the Public</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 114, VCC West</line>
          <line>Program arranged by the Division on Nineteenth-Century American Literature. <em>Presiding:</em> Dana Luciano, Georgetown Univ.</line>
@@ -14284,6 +14497,7 @@ For agenda information, visit <a href="http://www.mla.org/dameeting_agenda" targ
       <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
       <venue abbrev="ve">VCC East</venue>
       <room>6</room>
+      <type abbrev="pre">Presidential Theme</type>
       <details>
          <line role="calendar">1:45–3:00 p.m., 6, VCC East</line>
          <line>A special session. <em>Presiding:</em> Nicole Moore, Univ. of New South Wales</line>
