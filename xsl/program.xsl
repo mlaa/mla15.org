@@ -281,17 +281,17 @@
                                             <xsl:matching-substring><a href="{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
                                             <xsl:non-matching-substring>
 
-                                                    <xsl:analyze-string select="." regex="([^@ ]{{4,}}\.(com|org|net|uk|gov|edu))([ \.,;\(])">
-                                                        <xsl:matching-substring><a href="http://{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a><xsl:value-of select="regex-group(3)"/></xsl:matching-substring>
-                                                        <xsl:non-matching-substring>
+                                                <xsl:analyze-string select="." regex="([0-9A-Za-z][^&lt;&gt; ]*@[0-9A-Za-z][^&lt;&gt; ]*\.[A-Za-z]{{2,9}})">
+                                                    <xsl:matching-substring><a target="_blank"><xsl:attribute name="href">mailto:<xsl:value-of select="regex-group(1)"/></xsl:attribute><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
+                                                    <xsl:non-matching-substring>
 
-                                                            <xsl:analyze-string select="." regex="([0-9A-Za-z][^&lt;&gt; ]*@[0-9A-Za-z][^&lt;&gt; ]*\.[A-Za-z]{{2,9}})">
-                                                                <xsl:matching-substring><a target="_blank"><xsl:attribute name="href">mailto:<xsl:value-of select="regex-group(1)"/></xsl:attribute><xsl:value-of select="regex-group(1)"/></a></xsl:matching-substring>
-                                                                <xsl:non-matching-substring>
+                                                          <xsl:analyze-string select="." regex="([^@ ]{{4,}}\.(com|org|net|uk|gov|edu))([ \.,;\(])">
+                                                            <xsl:matching-substring><a href="http://{regex-group(1)}" target="_blank"><xsl:value-of select="regex-group(1)"/></a><xsl:value-of select="regex-group(3)"/></xsl:matching-substring>
+                                                            <xsl:non-matching-substring>
 
-                                                                    <xsl:analyze-string select="." regex="see (meetings|sessions) ([0-9]+) and ([0-9]+) and ([0-9]+)">
-                                                                        <xsl:matching-substring>see <xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><a href="#{regex-group(2)}"><xsl:value-of select="regex-group(2)"/></a>, <a href="#{regex-group(3)}"><xsl:value-of select="regex-group(3)"/></a>, and <a href="#{regex-group(4)}"><xsl:value-of select="regex-group(4)"/></a></xsl:matching-substring>
-                                                                        <xsl:non-matching-substring>
+                                                                  <xsl:analyze-string select="." regex="see (meetings|sessions) ([0-9]+) and ([0-9]+) and ([0-9]+)">
+                                                                    <xsl:matching-substring>see <xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><a href="#{regex-group(2)}"><xsl:value-of select="regex-group(2)"/></a>, <a href="#{regex-group(3)}"><xsl:value-of select="regex-group(3)"/></a>, and <a href="#{regex-group(4)}"><xsl:value-of select="regex-group(4)"/></a></xsl:matching-substring>
+                                                                    <xsl:non-matching-substring>
 
                                                                         <xsl:analyze-string select="." regex="see (meetings|sessions) ([0-9]+) and ([0-9]+)">
                                                                             <xsl:matching-substring>see <xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><a href="#{regex-group(2)}"><xsl:value-of select="regex-group(2)"/></a> and <a href="#{regex-group(3)}"><xsl:value-of select="regex-group(3)"/></a></xsl:matching-substring>
