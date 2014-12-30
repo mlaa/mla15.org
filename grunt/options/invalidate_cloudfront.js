@@ -18,7 +18,7 @@ module.exports = {
         src: [
           'data/*.json',
           'img/maps/mla/*.png'
-          ],
+        ],
         filter: 'isFile',
         dest: ''
       },
