@@ -1358,14 +1358,6 @@
          <session>180</session>
       </sessions>
    </person>
-   <person id="184649" sort="B">
-      <first>Carol</first>
-      <last>Bardenstein</last>
-      <sessions>
-         <count>1</count>
-         <session>120</session>
-      </sessions>
-   </person>
    <person id="175313" sort="B">
       <first>Deborah</first>
       <last>Barker</last>
@@ -3531,14 +3523,6 @@
          <session>270</session>
       </sessions>
    </person>
-   <person id="20085339" sort="C">
-      <first>Emanuele</first>
-      <last>Castano</last>
-      <sessions>
-         <count>1</count>
-         <session>441</session>
-      </sessions>
-   </person>
    <person id="115991" sort="C">
       <first>Sarah P.</first>
       <last>Casteel</last>
@@ -3731,9 +3715,8 @@
       <first>Alison</first>
       <last>Chapman</last>
       <sessions>
-         <count>2</count>
+         <count>1</count>
          <session>58</session>
-         <session>576</session>
       </sessions>
    </person>
    <person id="67481" sort="C">
@@ -10115,6 +10098,14 @@
          <session>474</session>
       </sessions>
    </person>
+   <person id="96096" sort="H">
+      <first>Natalie M.</first>
+      <last>Houston</last>
+      <sessions>
+         <count>1</count>
+         <session>576</session>
+      </sessions>
+   </person>
    <person id="174002" sort="H">
       <first>Caroline</first>
       <last>Hovanec</last>
@@ -14056,14 +14047,6 @@
       <sessions>
          <count>1</count>
          <session>148</session>
-      </sessions>
-   </person>
-   <person id="173350" sort="M">
-      <first>Roxana</first>
-      <last>Martínez de Candia</last>
-      <sessions>
-         <count>1</count>
-         <session>57</session>
       </sessions>
    </person>
    <person id="78597" sort="M">
@@ -22810,14 +22793,6 @@
       <sessions>
          <count>1</count>
          <session>664</session>
-      </sessions>
-   </person>
-   <person id="181013" sort="V">
-      <first>Bill</first>
-      <last>VanPatten</last>
-      <sessions>
-         <count>1</count>
-         <session>555</session>
       </sessions>
    </person>
    <person id="152920" sort="V">
