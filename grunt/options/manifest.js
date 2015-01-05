@@ -13,7 +13,8 @@ module.exports = {
     },
     src: [
       'data/*.json',
-      'img/maps/mla/*.png'
+      'img/maps/mla/*.png',
+      'img/maps/vcc/*.png'
     ],
     dest: 'app/build/cache.manifest'
   }
