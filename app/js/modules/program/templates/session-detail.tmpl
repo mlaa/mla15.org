@@ -5,4 +5,9 @@
   <% _.each(text, function(para) { %>
     <p><%= para %></p>
   <% }); %>
+  <% if (room) { %>
+    <div class="panzoom-parent">
+      <img class="panzoom" src="/img/maps/vcc/<%= room %>.png" width="100%">
+    </div>
+  <% }; %>
 </div>
