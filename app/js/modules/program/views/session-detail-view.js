@@ -25,6 +25,14 @@ module.exports = function (Module, App, Backbone) {
       'click .text-head': 'loadParentMenu'
     },
 
+    onShow: function () {
+      $('.panzoom').panzoom();
+    },
+
+    onBeforeDestroy: function () {
+      $('.panzoom').panzoom('destroy');
+    },
+
     loadParentMenu: function (e) {
       e.preventDefault();
       App.vent.trigger('menu:showParent', '');
