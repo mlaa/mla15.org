@@ -12,10 +12,12 @@ module.exports = function (Module, App, Backbone) {
 
       var sequence = this.get('id');
       var isRegular = /^\d+A?$/.test(sequence);
+      var room = this.get('room');
 
       return {
         header: (isRegular) ? 'Session ' + sequence : '',
-        hashtag: (isRegular) ? 's' + sequence : ''
+        hashtag: (isRegular) ? 's' + sequence : '',
+        room: (room && Module.Data.VCCMaps[room]) ? room : false
       };
 
     }
