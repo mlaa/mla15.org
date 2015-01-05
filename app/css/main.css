@@ -364,6 +364,11 @@ fieldset {
   padding: 1em 1em 1em 0.75em;
 }
 
+.text h3 {
+  margin: 0.25em 0 1em 0;
+  padding: 0;
+}
+
 .text h4 {
   margin: 1em 0 0.5em 0;
   padding: 0;
