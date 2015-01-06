@@ -15739,14 +15739,6 @@
          <session>509</session>
       </sessions>
    </person>
-   <person id="156397" sort="N">
-      <first>Barbara Natalie</first>
-      <last>Nagel</last>
-      <sessions>
-         <count>1</count>
-         <session>28</session>
-      </sessions>
-   </person>
    <person id="78939" sort="N">
       <first>Supriya M.</first>
       <last>Nair</last>
@@ -17099,14 +17091,6 @@
       <sessions>
          <count>1</count>
          <session>576</session>
-      </sessions>
-   </person>
-   <person id="152787" sort="P">
-      <first>Garrett</first>
-      <last>Peck</last>
-      <sessions>
-         <count>1</count>
-         <session>704</session>
       </sessions>
    </person>
    <person id="137948" sort="P">
@@ -19209,15 +19193,6 @@
       <sessions>
          <count>1</count>
          <session>241</session>
-      </sessions>
-   </person>
-   <person id="101302" sort="R">
-      <first>Colleen M.</first>
-      <last>Ryan</last>
-      <sessions>
-         <count>2</count>
-         <session>488</session>
-         <session>556</session>
       </sessions>
    </person>
    <person id="120898" sort="R">

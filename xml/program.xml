@@ -948,24 +948,6 @@
          <line>By considering keywords as part of the conceptual drama and performative complexity of queer studies, this roundtable explores the historical and critical density of some of the most prominent terms that today’s practitioners are widely assumed to know, including <em>normativity</em>, <em>identity</em>, <em>queer of color</em>, and <em>posthuman</em>.</line>
       </details>
    </session>
-   <session id="S004">
-      <sequence>51</sequence>
-      <title>Remembering <em>The Location of Culture</em>: Circulations, Interventions, and Futurity</title>
-      <date>8 January</date>
-      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-      <start-time abbrev="13" minutes="45" ambig="aft" header="1:45 p.m.">1:45 p.m.</start-time>
-      <end-time abbrev="15" minutes="00" ambig="aft">3:00 p.m.</end-time>
-      <venue abbrev="vw">VCC West</venue>
-      <room>222</room>
-      <type abbrev="pre">Presidential Theme</type>
-      <details>
-         <line role="calendar">1:45–3:00 p.m., 222, VCC West</line>
-         <line>A special session. <em>Presiding:</em> Kavita Daiya, George Washington Univ.</line>
-         <line>
-            <em>Speakers:</em> Deepika Bahri, Emory Univ.; Homi Bhabha, Harvard Univ.; Kavita Daiya; Keith Feldman, Univ. of California, Berkeley; Ranjana Khanna, Duke Univ.; Gautam Premnath, Univ. of Nevada, Reno; Henry Schwarz, Georgetown Univ.</line>
-         <line>This panel offers a retrospective on Homi Bhabha’s <em>The Location of Culture</em>, published in 1994 and subsequently reprinted globally in over fifteen languages and twenty-two countries. This panel instigates a capacious conversation about the influential and controversial <em>The Location of Culture</em> that looks back and forward.</line>
-      </details>
-   </session>
    <session id="S117">
       <sequence>52</sequence>
       <title>A Contested <em>Wunderkammer</em> of Memory: Chicana/o Literary Adaptation and Readaptation</title>
@@ -1350,6 +1332,24 @@
          <line role="calendar">1:45–3:45 p.m., 1, VCC East</line>
          <line>Program arranged by the MLA Office of Programs. <em>Presiding:</em> Richard Donovan, Defense Language Inst. Foreign Language Center</line>
          <line>This workshop provides an overview of various federal careers that utilize skills in languages and cultural expertise—translator, interpreter, instructor, intelligence analyst, language analyst, foreign language program manager, foreign service officer, and law enforcement officer. Recruiters and subject matter experts discuss career opportunities and the application process. A question-and-answer period concludes the session.</line>
+      </details>
+   </session>
+   <session id="S004">
+      <sequence>51</sequence>
+      <title>Remembering <em>The Location of Culture</em>: Circulations, Interventions, and Futurity [new time and location]</title>
+      <date>8 January</date>
+      <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
+      <start-time abbrev="15" minutes="30" ambig="aft" header="3:30 p.m.">3:30 p.m.</start-time>
+      <end-time abbrev="16" minutes="45" ambig="aft">4:45 p.m.</end-time>
+      <venue abbrev="vw">VCC West</venue>
+      <room>212</room>
+      <type abbrev="pre">Presidential Theme</type>
+      <details>
+         <line role="calendar">1:45–3:00 p.m., 222, VCC West</line>
+         <line>A special session. <em>Presiding:</em> Kavita Daiya, George Washington Univ.</line>
+         <line>
+            <em>Speakers:</em> Deepika Bahri, Emory Univ.; Homi Bhabha, Harvard Univ.; Kavita Daiya; Keith Feldman, Univ. of California, Berkeley; Ranjana Khanna, Duke Univ.; Gautam Premnath, Univ. of Nevada, Reno; Henry Schwarz, Georgetown Univ.</line>
+         <line>This panel offers a retrospective on Homi Bhabha’s <em>The Location of Culture</em>, published in 1994 and subsequently reprinted globally in over fifteen languages and twenty-two countries. This panel instigates a capacious conversation about the influential and controversial <em>The Location of Culture</em> that looks back and forward.</line>
       </details>
    </session>
    <session id="S403">
@@ -4500,7 +4500,7 @@
    </session>
    <session id="G047A">
       <sequence>239</sequence>
-      <title>Transforming American Studies through Local Knowledge in West Asia</title>
+      <title>Transforming American Studies through Local Knowledge in West Asia [canceled]</title>
       <date>9 January</date>
       <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
       <start-time abbrev="10" minutes="15" ambig="mor" header="10:15 a.m.">10:15 a.m.</start-time>
@@ -7686,7 +7686,7 @@ During this open hearing, MLA members and delegates may discuss the regular reso
    </session>
    <session id="C016">
       <sequence>409</sequence>
-      <title>Cash Bar Arranged by the Mayapple Center for the Arts and Humanities</title>
+      <title>Cash Bar Arranged by the Mayapple Center for the Arts and Humanities [canceled]</title>
       <date>9 January</date>
       <day num="2" abbrev="fr" ambig="Fri.">Friday</day>
       <start-time abbrev="19" minutes="00" ambig="eve" header="7:00 p.m.">7:00 p.m.</start-time>
