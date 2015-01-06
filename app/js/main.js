@@ -31,6 +31,7 @@ App.addRegions({
 });
 
 // Load modules.
+App.module('Appcache', require('./modules/appcache/main.js'));
 App.module('Data', require('./modules/data/main.js'));
 App.module('Error', require('./modules/error/main.js'));
 App.module('Filter', require('./modules/filter/main.js'));
