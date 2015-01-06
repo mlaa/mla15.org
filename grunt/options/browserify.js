@@ -5,7 +5,7 @@
 module.exports = {
   dist: {
     files: {
-      'app/build/src/app.bundle.js': [
+      'app/build/app.bundle.js': [
         'app/js/main.js'
       ]
     }

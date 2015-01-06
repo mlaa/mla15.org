@@ -8,7 +8,7 @@ module.exports = {
       banner: '<%= pkg.banner %>'
     },
     files: {
-      'app/build/src/main.min.css': [
+      'app/build/app.min.css': [
         'app/css/*.css'
       ]
     }

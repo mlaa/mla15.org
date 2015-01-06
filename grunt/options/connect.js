@@ -6,8 +6,7 @@ module.exports = {
   server: {
     options: {
       base: [
-        'app/',
-        'app/build/'
+        'app/'
       ],
       hostname: '*',
       livereload: true,

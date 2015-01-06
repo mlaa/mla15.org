@@ -4,6 +4,7 @@
 
 module.exports = {
   app: [
-    'app/build/src/compiled-templates.js'
+    'app/build/app.bundle.js',
+    'app/build/compiled-templates.js'
   ]
 };

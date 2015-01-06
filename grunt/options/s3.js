@@ -14,8 +14,17 @@ module.exports = {
     },
     files: [
       {
+        cwd: 'app/',
+        src: 'index.html'
+      },
+      {
+        cwd: 'app/',
+        src: 'cache.manifest'
+      },
+      {
         cwd: 'app/build/',
-        src: '**/*'
+        src: '**/*',
+        dest: 'build/'
       },
       {
         cwd: 'app/html/',
@@ -44,8 +53,17 @@ module.exports = {
     },
     files: [
       {
+        cwd: 'app/',
+        src: 'index.html'
+      },
+      {
+        cwd: 'app/',
+        src: 'cache.manifest'
+      },
+      {
         cwd: 'app/build/',
-        src: '**/*'
+        src: '**/*',
+        dest: 'build/'
       },
       {
         cwd: 'app/data/',

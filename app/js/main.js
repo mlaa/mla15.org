@@ -3,7 +3,7 @@
 var jQuery = require('jquery');
 var underscore = require('underscore');
 var Backbone = require('backbone');
-var Templates = require('../build/src/compiled-templates.js');
+var Templates = require('../build/compiled-templates.js');
 var attachFastClick = require('fastclick');
 
 // Side-shim jQuery and Underscore before requiring Marionette.

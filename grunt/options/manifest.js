@@ -12,10 +12,12 @@ module.exports = {
       timestamp: true
     },
     src: [
+      'index.html',
+      'build/app.min.*',
       'data/*.json',
-      'img/maps/mla/*.png',
-      'img/maps/vcc/*.png'
+      'img/ui/**/*.png',
+      'img/maps/**/*.png'
     ],
-    dest: 'app/build/cache.manifest'
+    dest: 'app/cache.manifest'
   }
 };

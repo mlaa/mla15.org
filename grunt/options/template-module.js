@@ -9,7 +9,7 @@ module.exports = {
       provider: 'underscore'
     },
     files: {
-      'app/build/src/compiled-templates.js': [
+      'app/build/compiled-templates.js': [
         'app/js/**/*.tmpl'
       ]
     }

@@ -22,7 +22,7 @@ module.exports = {
       basepath: 'app/build/'
     },
     files: {
-      'app/build/index.html': 'app/html/index.html'
+      'app/index.html': 'app/html/index.html'
     }
   }
 };

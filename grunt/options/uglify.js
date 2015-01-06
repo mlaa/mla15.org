@@ -9,8 +9,8 @@ module.exports = {
       wrap: true
     },
     files: {
-      'app/build/src/app.min.js': [
-        'app/build/src/app.bundle.js'
+      'app/build/app.min.js': [
+        'app/build/app.bundle.js'
       ]
     }
   }
