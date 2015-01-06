@@ -144,6 +144,14 @@ module.exports = function (Module) {
     maps: [
       {
         type: 'menu-head',
+        title: 'Area Maps'
+      },
+      {
+        title: 'MLA Convention Google Map',
+        href: 'https://www.google.com/maps/d/viewer?mid=zxKWBfmu02v4.kXVK9xfJ3Qhk'
+      },
+      {
+        type: 'menu-head',
         title: 'Vancouver Convention Centre East'
       },
       {
