@@ -10,7 +10,10 @@ module.exports = {
   },
   staging: {
     options: {
-      bucket: 'staging.mla15.org'
+      bucket: 'staging.mla15.org',
+      headers: {
+        CacheControl: 'public, max-age=300, must-revalidate'
+      }
     },
     files: [
       {
@@ -21,7 +24,10 @@ module.exports = {
   },
   live: {
     options: {
-      bucket: 'mla15.org'
+      bucket: 'mla15.org',
+      headers: {
+        CacheControl: 'public, max-age=300, must-revalidate'
+      }
     },
     files: [
       {
