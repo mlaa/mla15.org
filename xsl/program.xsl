@@ -580,6 +580,7 @@
         <xsl:text>"oid":"</xsl:text><xsl:value-of select="@id"/><xsl:text>",</xsl:text>
         <xsl:text>"cat":</xsl:text><xsl:value-of select="$session-categories"/><xsl:text>,</xsl:text>
         <xsl:text>"title":"</xsl:text><xsl:apply-templates select="title/node()"/><xsl:text>",</xsl:text>
+        <xsl:text>"venue":"</xsl:text><xsl:value-of select="venue"/><xsl:text>",</xsl:text>
         <xsl:text>"room":"</xsl:text><xsl:value-of select="room"/><xsl:text>",</xsl:text>
         <xsl:text>"loc":"</xsl:text><xsl:call-template name="parse-calendar"><xsl:with-param name="str" select="details/line[@role = 'calendar'][1]/node()"/></xsl:call-template><xsl:text>",</xsl:text>
         <xsl:text>"cal":"</xsl:text><xsl:value-of select="day"/>, <xsl:apply-templates select="details/line[@role = 'calendar'][1]/node()"/><xsl:text>",</xsl:text>
