@@ -6204,14 +6204,6 @@
          <session>126</session>
       </sessions>
    </person>
-   <person id="168204" sort="E">
-      <first>Nancy</first>
-      <last>El Gendy</last>
-      <sessions>
-         <count>1</count>
-         <session>503</session>
-      </sessions>
-   </person>
    <person id="177369" sort="E">
       <first>Névine</first>
       <last>El Nossery</last>
@@ -22651,8 +22643,7 @@
       <first>Julia</first>
       <last>Vaingurt</last>
       <sessions>
-         <count>2</count>
-         <session>146</session>
+         <count>1</count>
          <session>626</session>
       </sessions>
    </person>
