@@ -29,7 +29,13 @@ module.exports = function (Module, App, Backbone) {
     className: 'error list',
 
     events: {
+      'click .head': 'loadParentMenu',
       'click .filter-head': 'editFilters'
+    },
+
+    loadParentMenu: function (e) {
+      e.preventDefault();
+      App.vent.trigger('menu:showParent', '');
     },
 
     editFilters: function (e) {
