@@ -18,22 +18,22 @@ module.exports = function (Module, App, Backbone) {
     {
       type: 'day',
       href: 'th',
-      title: 'Thursday, 9 January'
+      title: 'Thursday, 8 January'
     },
     {
       type: 'day',
       href: 'fr',
-      title: 'Friday, 10 January'
+      title: 'Friday, 9 January'
     },
     {
       type: 'day',
       href: 'sa',
-      title: 'Saturday, 11 January'
+      title: 'Saturday, 10 January'
     },
     {
       type: 'day',
       href: 'su',
-      title: 'Sunday, 12 January'
+      title: 'Sunday, 11 January'
     },
     {
       style: 'filter-subhead',
