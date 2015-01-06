@@ -15,35 +15,7 @@ module.exports = {
     files: [
       {
         cwd: 'app/',
-        src: 'index.html'
-      },
-      {
-        cwd: 'app/',
-        src: 'cache.manifest'
-      },
-      {
-        cwd: 'app/build/',
-        src: '**/*',
-        dest: 'build/'
-      },
-      {
-        cwd: 'app/html/',
-        src: 'robots.txt'
-      },
-      {
-        cwd: 'app/data/',
-        src: '*',
-        dest: 'data/'
-      },
-      {
-        cwd: 'app/img/',
-        src: '**/*',
-        dest: 'img/'
-      },
-      {
-        cwd: 'app/js/',
-        src: '**/*.js',
-        dest: 'js/'
+        src: '**/*'
       }
     ]
   },
@@ -54,31 +26,7 @@ module.exports = {
     files: [
       {
         cwd: 'app/',
-        src: 'index.html'
-      },
-      {
-        cwd: 'app/',
-        src: 'cache.manifest'
-      },
-      {
-        cwd: 'app/build/',
-        src: '**/*',
-        dest: 'build/'
-      },
-      {
-        cwd: 'app/data/',
-        src: '*',
-        dest: 'data/'
-      },
-      {
-        cwd: 'app/img/',
-        src: '**/*',
-        dest: 'img/'
-      },
-      {
-        cwd: 'app/js/',
-        src: '**/*.js',
-        dest: 'js/'
+        src: '**/*'
       }
     ]
   }

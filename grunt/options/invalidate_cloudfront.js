@@ -16,19 +16,11 @@ module.exports = {
         expand: true,
         cwd: 'app/',
         src: [
-          'data/*.json'
-        ],
-        filter: 'isFile',
-        dest: ''
-      },
-      {
-        expand: true,
-        cwd: 'app/build/',
-        src: [
           'index.html',
           'cache.manifest',
-          'src/main.min.css',
-          'src/app.min.js'
+          'build/app.min.css',
+          'build/app.min.js',
+          'data/*.json'
         ],
         filter: 'isFile',
         dest: ''
@@ -44,19 +36,11 @@ module.exports = {
         expand: true,
         cwd: 'app/',
         src: [
-          'data/*.json'
-        ],
-        filter: 'isFile',
-        dest: ''
-      },
-      {
-        expand: true,
-        cwd: 'app/build/',
-        src: [
           'index.html',
           'cache.manifest',
-          'src/main.min.css',
-          'src/app.min.js'
+          'build/app.min.css',
+          'build/app.min.js',
+          'data/*.json'
         ],
         filter: 'isFile',
         dest: ''
