@@ -9,6 +9,7 @@ module.exports = function (Module, App, Backbone) {
   // Element cache
   var $els = {
     body: $('body'),
+    top: $('#top'),
     content: $('#content'),
     actions: $('#home-actions'),
     tabs: {
@@ -84,6 +85,11 @@ module.exports = function (Module, App, Backbone) {
 
   };
 
+  // Scroll to top.
+  var _scrollToTop = function () {
+    $els.body.animate({scrollTop: 0}, 'slow');
+  };
+
   // Menu state cache
   Module.stateCache = [];
 
@@ -97,6 +103,9 @@ module.exports = function (Module, App, Backbone) {
   App.vent.bind('menu:tab', _activateTab);
   App.vent.bind('menu:showParent', _showParent);
   App.vent.bind('menu:saveMenuState', _saveMenuState);
+
+  // Bind to site header.
+  $els.top.on('click', _scrollToTop);
 
   return Backbone.Marionette.Controller.extend({
     showMenu: _showMenu
