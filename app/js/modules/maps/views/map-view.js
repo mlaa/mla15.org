@@ -19,7 +19,10 @@ module.exports = function (Module, App, Backbone) {
     },
 
     onShow: function () {
-      $('.panzoom').panzoom();
+      $('.panzoom').panzoom({
+        contain: 'invert',
+        minScale: 1
+      });
     },
 
     onBeforeDestroy: function () {
