@@ -3,4 +3,5 @@ app/bower_components
 app/build
 app/index.html
 app/cache.manifest
+app/img/maps/vcc
 xml/archive
