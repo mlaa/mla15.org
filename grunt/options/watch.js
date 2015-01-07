@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-  html: {
+  app: {
     options: {
       livereload: true
     },
@@ -12,29 +12,8 @@ module.exports = {
     ],
     files: [
       'app/html/**/*.html',
-      'app/data/*.html'
-    ]
-  },
-  javascript: {
-    options: {
-      livereload: true
-    },
-    tasks: [
-      'default'
-    ],
-    files: [
+      'app/css/*.css',
       'app/js/**/*.js'
-    ]
-  },
-  css: {
-    options: {
-      livereload: true
-    },
-    tasks: [
-      'default'
-    ],
-    files: [
-      'app/css/*.css'
     ]
   }
 };
