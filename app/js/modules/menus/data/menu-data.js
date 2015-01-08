@@ -277,10 +277,6 @@ module.exports = function (Module) {
         title: 'Membership Desk'
       },
       {
-        id: 'info/print-program',
-        title: 'Print Copies of the Program'
-      },
-      {
         id: 'info/austin',
         title: 'Austin Information'
       },
