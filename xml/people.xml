@@ -7047,14 +7047,6 @@
          <session>298</session>
       </sessions>
    </person>
-   <person id="113867" sort="F">
-      <first>Jerold C.</first>
-      <last>Frakes</last>
-      <sessions>
-         <count>1</count>
-         <session>216</session>
-      </sessions>
-   </person>
    <person id="184443" sort="F">
       <first>David</first>
       <last>Francis</last>
@@ -17398,7 +17390,8 @@
       <first>Noam</first>
       <last>Pines</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
+         <session>216</session>
          <session>321</session>
       </sessions>
    </person>
@@ -19626,8 +19619,7 @@
       <first>Larry</first>
       <last>Scanlon</last>
       <sessions>
-         <count>2</count>
-         <session>224</session>
+         <count>1</count>
          <session>333</session>
       </sessions>
    </person>
